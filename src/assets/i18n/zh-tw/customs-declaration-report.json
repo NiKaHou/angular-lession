@@ -1,0 +1,17 @@
+{
+  "CustomsDeclarationReport": {
+    "Header": "報關點貨報表",
+    "Form": {
+      "Forwarder": "貨代",
+      "OrgName": "公司",
+      "WarehousingDate": "入倉日期",
+      "CreatedBy": "建立者"
+    },
+    "Button": {
+      "DownLoadExcel": "下載Excel"
+    },
+    "Toast": {
+      "NoData": "資料為空"
+    }
+  }
+}

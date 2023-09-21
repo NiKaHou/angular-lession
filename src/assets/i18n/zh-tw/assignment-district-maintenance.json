@@ -1,0 +1,63 @@
+{
+  "AssignmentDistrictMaintenance": {
+    "Header": "小區維護",
+
+    "Form": {
+      "AssignmentDistrictId": "小區Id",
+      "DistrictName": "小區名字",
+      "Country": "國家",
+      "City": "城市",
+      "Priority": "優先度",
+      "PriorityNote": "*優先度只能為正整數"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "還原"
+      },
+
+      "ColumnHeader": {
+        "AssignmentDistrictId": "小區Id",
+        "Facility": "倉別",
+        "Country": "國家",
+        "City": "城市",
+        "DistrictName": "小區名字",
+        "Priority": "優先度",
+        "CreateUser": "建立者",
+        "CreateDt": "建立時間",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新時間"
+      },
+
+      "FieldWarning": {
+        "AssignmentDistrictIdIsRequired": "請填寫小區Id",
+        "PriorityMustBePositiveNumber": "優先度只能是正整數"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACountry": "請選擇一個國家",
+        "ChooseColumns": "請選擇欄位"
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+
+    "Toast": {
+      "EmptyDataError": "請填寫所有所需的資料",
+      "DeleteSuccess": "已完成刪除",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "获取失敗, 錯誤代碼: ",
+      "WrongPriorityFormat": "標籤Key填寫錯誤, 只能是正整數"
+    }
+  }
+}

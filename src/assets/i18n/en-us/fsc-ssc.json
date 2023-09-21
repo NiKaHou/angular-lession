@@ -1,0 +1,104 @@
+{
+  "FSCSSCSetting": {
+    "Search": {
+      "Forwarder": "Forwarder",
+      "CostType": "Cost Type",
+      "SerialNum": "Serial Number",
+      "DepartureCountry": "Departure Country",
+      "DestinationIATA": "Destination IATA area",
+      "Status": "Status",
+      "Effective": "Effective",
+      "EffectiveDate": "Effective Date"
+    },
+    "Button": {
+      "New": "New",
+      "Import": "Import",
+      "Export": "Export",
+      "Apply": "Apply",
+      "Withdraw": "Withdraw",
+      "Delete": "Delete",
+      "Approved": "Approved",
+      "Void": "Void"
+    },
+    "MainTable": {
+      "SerialNum": "Serial Number",
+      "Forwarder": "Forwarder",
+      "Status": "Status",
+      "CostType": "Cost Type",
+      "Currency": "Currency",
+      "Amount": "Amount",
+      "DocumentType": "Document Type",
+      "DepartureCountry": "Departure Country",
+      "DestinationIATA": "Destination IATA area",
+      "Remarks": "Remarks",
+      "Effective": "Effective",
+      "EffectiveStart": "Effective Start Date",
+      "EffectiveEnd": "Effective End Date",
+      "Creator": "Creator",
+      "CreationTime": "Creation Time",
+      "UpdateBy": "Update By",
+      "UpdateTime": "Update time"
+    }
+  },
+  "FSCSSCSettingNew": {
+    "New": "New",
+    "SerialNum": "Serial Number",
+    "Forwarder": "Forwarder",
+    "CostType": "Cost Type",
+    "Currency": "Currency",
+    "Status": "Status",
+    "DocumentType": "Document Type",
+    "DepartureCountry": "Departure Country",
+    "DestinationIATA": "Destination IATA area",
+    "Amount": "Amount",
+    "IsValid": "Is It Valid?",
+    "EffectiveStart": "Effective Start Date",
+    "EffectiveEnd": "Effective End Date",
+    "Remarks": "Remarks"
+  },
+  "FSCSSCImport": {
+    "Header": "Import FSC & SSC Setting",
+    "Search": {
+      "Forwarder": "Forwarder",
+      "File": "File"
+    },
+    "Button": {
+      "Select": "Select",
+      "Import": "Import",
+      "Cancel": "Cancel",
+      "TemplateDownload": "Template Download",
+      "Upload": "Upload"
+    },
+    "MainTable": {
+      "CostType": "Cost Type",
+      "Currency": "Currency",
+      "Amount": "Amount",
+      "DocumentType": "Document Type",
+      "DepartureCountry": "Departure Country",
+      "DestinationIATA": "Destination IATA area",
+      "Remarks": "Remarks",
+      "EffectiveStart": "Effective Start Date",
+      "EffectiveEnd": "Effective End Date"
+    }
+  },
+  "FSCSSCSettingDetail": {
+    "SerialNum": "Serial Number",
+    "Forwarder": "Forwarder",
+    "CostType": "Cost Type",
+    "Currency": "Currency",
+    "Status": "Status",
+    "DocumentType": "Document Type",
+    "DepartureCountry": "Departure Country",
+    "DestinationIATA": "Destination IATA area",
+    "Amount": "Amount",
+    "IsValid": "Is It Valid?",
+    "EffectiveStart": "Effective Start Date",
+    "EffectiveEnd": "Effective End Date",
+    "Remarks": "Remarks",
+    "Creator": "Creator",
+    "CreationTime": "Creation Time",
+    "UpdateBy": "Update By",
+    "UpdateTime": "Update Time",
+    "Back": "Back"
+  }
+}

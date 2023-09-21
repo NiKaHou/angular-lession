@@ -1,0 +1,46 @@
+{
+  "DHLCityMaintenance": {
+    "Header": "DHL城市維護",
+    "Form": {
+      "AwbNumber": "提單號"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "還原"
+      },
+      "ColumnHeader": {
+        "AwbNumber": "提單號",
+        "ConsigneeCountryCode": "來源國家",
+        "ConsigneeCity": "來源城市",
+        "ConsigneeCityMappingLaaSCity": "來源城市名字(LaaS)",
+        "ShipperCountryCode": "目的國家",
+        "ShipperCity": "目的城市",
+        "ShipperCityMappingLaaSCity": "目的城市名字(LaaS)",
+        "ErrorMsg": "錯誤訊息"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACity": "請選擇一個城市",
+        "ChooseColumns": "請選擇欄位"
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+
+    "Toast": {
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "獲取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: "
+    }
+  }
+}

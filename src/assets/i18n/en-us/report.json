@@ -1,0 +1,231 @@
+{
+  "ConsignmentLog": {
+    "Header": "Consignment Log Report",
+    "Search": {
+      "ConsignmentDate": "Consignment Date",
+      "Forwarder": "Forwarder",
+      "BookingNum": "Booking Number",
+      "CarTripNum": "Car Trip Number"
+    }
+  },
+  "MESReport": {
+    "Header": "MES Report",
+    "Date": "Date",
+    "BookingStatus": "Booking Status"
+  },
+  "AssignDate": {
+    "Header": "BOL Invoice List",
+    "AssignDate": "Assign Date",
+    "BOLCreationDate": "BOL Creation Date",
+    "BookingNum": "Booking Number",
+    "BookingStatus": "Booking Status",
+    "Forwarder": "Forwarder",
+    "CarTripNum": "Car Trip Number",
+    "DeliverTo": "Deliver To",
+    "DisplayReasonForMulti": "Display Only Reason For Multiple Delivery",
+    "PODReport": "POD Report Checking Format",
+    "ConsignmentLog": "Consignment Log Report Format Display",
+    "ShowFloorExBkId": "Show FloorExBkId"
+  },
+  "PackOut": {
+    "Header": "Pack Out Query",
+    "Search": {
+      "Forwarder": "Forwarder",
+      "BookingNum": "Booking Number",
+      "DONum": "DO Number",
+      "AWBNum": "AWB Number"
+    },
+    "MainTable":{
+      "Forwarder": "Forwarder",
+      "BookingNum": "Booking Number",
+      "BookingStatus": "Booking Status",
+      "DONum": "DO Number",
+      "DONumStatus": "DO Number Status",
+      "OffloadPalletNum": "Offload Pallet Number",
+      "DeliveryCntExcludeDrop": "Delivery Carton Count (Exclude Drop Ship)",
+      "NormalDOCnt": "Normal DO Carton Count",
+      "InternalDropShipCnt": "Internal Drop Ship Carton Count"
+    },
+    "Button": "File Download"
+  },
+  "BOLPalletNumQuery": {
+    "Header": "BOL Pallet Number Query",
+    "Search": {
+      "BookingNum": "Booking Number",
+      "DONum": "DO Number",
+      "OffloadPalletNum": "Offload Pallet Number",
+      "LoadToPallet": "Load To Car Pallet",
+      "DisplaySKU": "Display SKU"
+    }
+  },
+  "ShipImportConfirmReport": {
+    "Header": "Import Confirm Accounting Report",
+    "Search": {
+      "ReportType": "Report Type",
+      "SourceNo": "GUI Id",
+      "Forwarder": "Forwarder",
+      "Date": "Create Date(BookingNo,WhNo)"
+    }
+  },
+  "FreightAnalysisReport" : {
+    "Header": "Freight Analysis Report",
+    "Search": {
+      "CertificateNum": "Certificate Number",
+      "Forwarder" : "Forwarder"
+    }
+  },
+  "ViewRequestExpenseReport": {
+    "Header": "Forwarder Payment Application",
+    "Search": {
+      "Forwarder": "Forwarder",
+      "CreateTime": "Create Date",
+      "AirTime": "Flight Date",
+      "PayTime": "Apply Date",
+      "BillingStatus": "Status"
+    },
+    "Alert": {
+      "AtLeastTimeBlank": "Create time, flight date, payment date, at least one of the three must be entered",
+      "CreateDayOver": "Create time range ERROR, range must be less than 7 days",
+      "AirDayOver": "Flight Date range ERROR, range must be less than 7 days",
+      "PayDayOver": "Payment Date range ERROR, range must be less than 7 days"
+    }
+  },
+  "PaymentReport": {
+    "Header": "Payment Report",
+    "Search": {
+      "ReportType": "Delivery Type",
+      "CreateDt": "Creation Date",
+      "OrgId": "Org ID",
+      "Status": "Status",
+      "Forwarder": "Forwarder"
+    }
+  },
+  "ImportDeclarationFeeReport": {
+    "Header": "Import Declaration Fee Report",
+    "Search": {
+      "CreateDt": "Creation Date",
+      "ImportDt": "Import Date",
+      "Forwarder": "Forwarder",
+      "BillCorp": "Org ID",
+      "SourceType": "Source Type",
+      "Status": "Status",
+      "ImportDeclarationNo": "Import No",
+      "CreateUser": "Created By",
+      "UpdateUser": "Updated By"
+    }
+  },
+  "ImportDeclarationFeeAccountingReport": {
+    "Header": "Import Declaration Fee Accounting Report",
+    "Search": {
+      "ImportDt": "Import Date",
+      "CreateDt": "AP Creation Date",
+      "Vendor": "Vendor",
+      "DocType": "Import Doc Type",
+      "ImportType": "Import Type",
+      "Forwarder": "Forwarder",
+      "Status": "Status",
+      "TrxNumber": "Trx No.",
+      "ApInvoiceId": "AP InvoiceId",
+      "ApNo": "Ap No.",
+      "ImportDeclarationNo": "ImportDeclaration No.",
+      "GuiNo": "Gui No.",
+      "DocNo": "Doc No.",
+      "SourceType": "Doc Type",
+      "OrgId": "Org ID",
+      "ShowDetail": "Show AD Detail",
+      "Facility": "Facility"
+    },
+    "MainTable": {
+      "Column": {
+        "ImportDt": "Import Date",
+        "DocNo": "Doc No",
+        "ImportTypeDesc": "Import Type",
+        "IncoTerm": "IncoTerm",
+        "ExpressBill": "Awb No.",
+        "GuiNo": "GUI No.",
+        "ImportDeclarationNo": "ImportDeclaration No.",
+        "OrgId": "Org ID",
+        "GvAcctdExpCAmount": "GV Import Tariffs Amount",
+        "GvAcctdExpBAmount": "GV Trade Promotion Service Fee",
+        "GvAcctdAmount": "GV Import Business Tax Base",
+        "GvAcctdAmountTax": "GV Acctd Amount Tax",
+        "Forwarder": "Forwarder",
+        "ForwarderName": "ForwarderName",
+        "Vendor": "Vendor",
+        "VendorName": "Vendor",
+        "Currency": "Currency",
+        "ImportRate": "Import Rate",
+        "AcctdExpCAmount": "Import Tariffs Amount",
+        "AcctdExpBAmount": "Trade Promotion Service Fee",
+        "AcctdAmountTax": "Acctd Amount Tax",
+        "ImportAmount": "Import Business Tax Base",
+        "ImportAcctdAmount": "Import Acctd Amount",
+        "ImportAcctdAmountTax": "CIF (Cost, Insurance, and Freight) Value",
+        "SourceType": "Source Type",
+        "TrxNumber": "Trx No.",
+        "ApGuiNo": "Ap Gui No.",
+        "ApInvoiceId": "AP INV NO.",
+        "ApCurrency": "Ap Currency",
+        "ApInvoiceAmount": "Ap Invoice Amount",
+        "ApConfirmAmount": "Ap Confirm Amount",
+        "ApRate": "Ap Rate",
+        "ApDeffRate": "Ap Deff Rate",
+        "ApNo": "Ap No.",
+        "BillingStatus": "Billing Status",
+        "ApCpNo": "Ap Cp No.",
+        "BillType": "Bill Type"
+      }
+    }
+  },
+  "PaymentForDHLReport": {
+    "Header": "DHL Payment Report",
+    "Search": {
+      "InvoiceNo": "InvoiceNo",
+      "Forwarder" : "Forwarder"
+    }
+  },
+  "UploadDocReport": {
+    "Header": "UPLOAD DOC REPORT",
+    "Search": {
+      "CreateDt": "Creation Date",
+      "BookingStatus":"Booking Statue",
+      "Forwarder":"Forwarder",
+      "Type":"Upload Type",
+      "HawbNo":"HAWB",
+      "UploadSnDoc":"Upload Sn Doc",
+      "UploadDoc":"Upload Doc",
+      "CreateUser":"Create User"
+    },
+    "Alert":{
+      "EitherSnDocOrUploadDoc": "Either Upload Sn Doc or Upload Doc is Required"
+    }
+  },
+  "PaymentErrorReport": {
+    "Header": "Payment Error Report",
+    "Search": {
+      "CreateDt": "Creation Date",
+      "ErpApKey":"ERPApKey",
+      "GuiNo":"GUI No.",
+      "BillingNo":"Billing No.",
+      "InoutNo":"Ad No./Do No.",
+      "Forwarder": "Forwarder"
+    }
+  },
+  "ChinaImportDeclarationFeeReport": {
+    "Header": "China Import Declaration Fee Report",
+    "Search": {
+      "Facility": "Facility",
+      "LetterOrgId": "Org Id",
+      "BookingNo": "Booking No",
+      "DoNo": "DO No",
+      "CreateDate": "Creation Time",
+      "Forwarder": "Forwarder",
+      "Customer": "Customer",
+      "ReceiptFormNum": "Receipt Form Number"
+    },
+    "MainTable": {
+      "Column": {
+      }
+    }
+  }
+}

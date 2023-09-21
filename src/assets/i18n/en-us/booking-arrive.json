@@ -1,0 +1,68 @@
+{
+  "BookingArrive": {
+    "PageTitle": "Booking Arrive",
+
+    "TabTitle": {
+      "BookingArriveTab": "Booking Arrive",
+      "DOArriveTab": "DO Arrive"
+    },
+
+    "InputLabel": {
+      "BookingNo": "Booking No"
+    },
+
+    "Button": {
+      "ScanningInput": "Scanning Input",
+      "ArriveConfirm": "Arrive Confirm",
+      "Camera": "Camera",
+      "PhotoUpload": "Photo Upload",
+      "RemovePhoto": "Remove Photo"
+    },
+
+    "PODTable": {
+      "DoNo": "DoNo",
+      "PhotoUploadButton": "Photo Upload Button",
+      "Photo": "Photo"
+    },
+
+    "ScannerDialog": {
+      "Title": "Scanner",
+      "ScanningTitle": "Scanning"
+    },
+
+    "CameraDialog": {
+      "Title": "Camera",
+      "Button": {
+        "Snapshot": "Snapshot",
+        "SwitchCamera": "Switch Camera"
+      }
+    },
+
+    "ConfirmDialog": {
+      "KeepUploadPOD": "This booking is arrived, keep upload POD?"
+    },
+
+    "Success": {
+      "PODUploadSuccess": "POD upload success",
+      "BookingArriveConfirmSuccess": "Booking status is changed to arrive"
+    },
+
+    "Warning": {
+      "BookingNoIsEmpty": "BookingNo is empty",
+      "AllDOMustHavePOD": "All DOs must get its POD, can't just upload to part of them"
+    },
+
+    "CameraError": {
+      "CameraUnableToUse": "Camera unable to open/use\n",
+      "Reason": "Reason: ",
+      "CameraNotFound": "Camera not found",
+      "PermissionDenied": "Permission Denied"
+    },
+
+    "Error": {
+      "NotFoundAnyDoNo": "Not found any doNo",
+      "PODUploadFail": "POD upload fail",
+      "MakeBookingArriveFail": "Making booking arrive is fail"
+    }
+  }
+}

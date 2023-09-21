@@ -1,0 +1,59 @@
+{
+  "MergeKey":{
+    "Search":{
+      "Title":"合併序號查詢頁",
+      "MergeKey":"合併序號",
+      "DoNo":"出貨單號",
+      "ConsigneeKey":"客戶代碼",
+      "CreateUser":"建立者",
+      "CreateDt":"建立時間",
+      "OrderType":"查詢訂單",
+      "PersonalOrder":"個人訂單",
+      "All":"全部",
+      "ConfirmStatus":"確認狀態"
+    },
+    "MainTable":{
+      "MergeKey":"合併序號",
+      "ConfirmStatus": "確認狀態",
+      "BookingNo": "Booking號碼",
+      "CreateUser": "建立者",
+      "CreateDt": "建立時間",
+      "BookingType": "BookingType",
+      "ConfirmDt": "確認時間",
+      "ConfirmUser": "確認人員",
+      "DOQty":"DO筆數"
+    },
+    "Dialog":{
+      "Header":"併單Do查詢",
+      "DoMergePreview":"合併預覽"
+    },
+    "DetailTable":{
+      "Header":"合併序號",
+      "Delete":"刪除",
+      "DoNo":"出貨單號",
+      "ConsigneeKey":"客戶代碼",
+      "ConsigneeCompany":"客戶名稱",
+      "CartonCnt":"配貨箱數",
+      "DoStatus":"狀態",
+      "MergeStatus":"併單明細狀態"
+    },
+    "Confirm":{
+      "DeleteConfirmMessage":"確定要刪除該筆資料嗎?",
+      "InstantBooking":"併單序號 {0} 中最晚ETD為今日，車次碼為 {1}",
+      "InstantBookingConfirm":"請確認是否直接建立Booking? "
+    },
+    "Button":{
+      "RemoveMergeKey":"移除併單序號",
+      "Merge":"合併",
+      "ConfirmWithdraw":"撤回",
+      "ConfirmCancel":"取消出貨",
+      "Confirm":"確認出貨"
+    },
+    "Info":{
+      "Success":"更新成功",
+      "MergeRuleMsg":"併單序號不符合出貨規則:",
+      "BookingCreateSuccess":"Booking建立成功:",
+      "MergeKeyFailed":"以下併單序號 Booking建立失敗:"
+    }
+  }
+}

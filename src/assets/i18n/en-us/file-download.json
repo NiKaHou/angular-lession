@@ -1,0 +1,10 @@
+{
+  "FileDownload": {
+    "Header": "Download",
+    "FileCategory": "File Category",
+    "Button": {
+      "PDF": "Download PDF",
+      "ZIP": "Download ZIP"
+    }
+  }
+}

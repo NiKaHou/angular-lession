@@ -1,0 +1,104 @@
+{
+  "FSCSSCSetting": {
+    "Search": {
+      "Forwarder": "貨代",
+      "CostType": "費用別",
+      "SerialNum": "流水號",
+      "DepartureCountry": "出發國家",
+      "DestinationIATA": "目的 IATA 區域",
+      "Status": "狀態",
+      "Effective": "有效",
+      "EffectiveDate": "生效日"
+    },
+    "Button": {
+      "New": "新增",
+      "Import": "匯入",
+      "Export": "匯出",
+      "Apply": "申請",
+      "Withdraw": "撤回",
+      "Delete": "刪除",
+      "Approved": "核准",
+      "Void": "作廢"
+    },
+    "MainTable": {
+      "SerialNum": "流水號",
+      "Forwarder": "貨代",
+      "Status": "狀態",
+      "CostType": "費用別",
+      "Currency": "幣別",
+      "Amount": "金額(每公斤)",
+      "DocumentType": "單據類型",
+      "DepartureCountry": "出發國家",
+      "DestinationIATA": "目的 IATA 區域",
+      "Remarks": "備註",
+      "Effective": "有效",
+      "EffectiveStart": "生效日起",
+      "EffectiveEnd": "生效日迄",
+      "Creator": "建立者",
+      "CreationTime": "建立時間",
+      "UpdateBy": "更新者",
+      "UpdateTime": "更新時間"
+    }
+  },
+  "FSCSSCSettingNew": {
+    "New": "新增",
+    "SerialNum": "流水號",
+    "Forwarder": "貨代",
+    "CostType": "費用別",
+    "Currency": "幣別",
+    "Status": "狀態",
+    "DocumentType": "單據類型",
+    "DepartureCountry": "出發國家",
+    "DestinationIATA": "目的 IATA 區域",
+    "Amount": "金額(每公斤)",
+    "IsValid": "是否有效",
+    "EffectiveStart": "生效日起",
+    "EffectiveEnd": "生效日迄",
+    "Remarks": "備註"
+  },
+  "FSCSSCImport": {
+    "Header": "空運燃油費、安檢費設定匯入",
+    "Search": {
+      "Forwarder": "貨代",
+      "File": "檔案"
+    },
+    "Button": {
+      "Select": "選擇",
+      "Import": "匯入",
+      "Cancel": "取消",
+      "TemplateDownload": "範本下載",
+      "Upload": "上傳"
+    },
+    "MainTable": {
+      "CostType": "費用別",
+      "Currency": "幣別",
+      "Amount": "金額(每公斤)",
+      "DocumentType": "單據類型",
+      "DepartureCountry": "出發國家",
+      "DestinationIATA": "目的 IATA 區域",
+      "Remarks": "備註",
+      "EffectiveStart": "生效日起",
+      "EffectiveEnd": "生效日迄"
+    }
+  },
+  "FSCSSCSettingDetail": {
+    "SerialNum": "流水號",
+    "Forwarder": "貨代",
+    "CostType": "費用別",
+    "Currency": "幣別",
+    "Status": "狀態",
+    "DocumentType": "單據類型",
+    "DepartureCountry": "出發國家",
+    "DestinationIATA": "目的 IATA 區域",
+    "Amount": "金額(每公斤)",
+    "IsValid": "是否有效",
+    "EffectiveStart": "生效日起",
+    "EffectiveEnd": "生效日迄",
+    "Remarks": "備註",
+    "Creator": "建立者",
+    "CreationTime": "建立時間",
+    "UpdateBy": "更新者",
+    "UpdateTime": "更新時間",
+    "Back": "返回"
+  }
+}

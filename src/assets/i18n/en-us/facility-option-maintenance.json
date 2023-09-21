@@ -1,0 +1,90 @@
+{
+  "FacilityOptionMaintenance": {
+    "Header": "Facility Option Maintenance",
+    "Form": {
+      "FacilityCode": "Facility Code",
+      "OptionType": "Option Type",
+      "OptionCode": "Option Code",
+      "IsActivated": "Is Activated?"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "Restore"
+      },
+      "ColumnHeader": {
+        "SeqNo": "SeqNo",
+        "FacilityCode": "Facility Code",
+        "OptionType": "Option Type",
+        "OptionCode": "Option Code",
+        "OptionDesc": "Option Desc",
+        "CommonAttr01": "Common Attr 01",
+        "CommonAttr02": "Common Attr 02",
+        "CommonAttr03": "Common Attr 03",
+        "CommonAttr04": "Common Attr 04",
+        "CommonAttr05": "Common Attr 05",
+        "CommonAttr06": "Common Attr 06",
+        "CommonAttr07": "Common Attr 07",
+        "CommonAttr08": "Common Attr 08",
+        "CommonAttr09": "Common Attr 09",
+        "CommonAttr10": "Common Attr 10",
+        "CommonAttr11": "Common Attr 11",
+        "CommonAttr12": "Common Attr 12",
+        "CommonAttr13": "Common Attr 13",
+        "CommonAttr14": "Common Attr 14",
+        "CommonAttr15": "Common Attr 15",
+        "CommonAttr16": "Common Attr 16",
+        "CommonAttr17": "Common Attr 17",
+        "CommonAttr18": "Common Attr 18",
+        "CommonAttr19": "Common Attr 19",
+        "CommonAttr20": "Common Attr 20",
+        "CommonAttr21": "Common Attr 21",
+        "CommonAttr22": "Common Attr 22",
+        "CommonAttr23": "Common Attr 23",
+        "Notes": "Notes",
+        "IsActivated": "Is Activated",
+        "CreateUser": "Create User",
+        "CreateDt": "CreateDt",
+        "UpdateUser": "Update User",
+        "UpdateDt": "UpdateDt",
+        "IsDefaultAwbAddress": "Is Default Awb Address"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectIsActivatedOrNot": "Select is activated or not",
+        "SelectIsDefaultAwbAddressOrNot": "Select is default awb address or not",
+        "ChooseColumns": "Choose columns"
+      }
+    },
+
+    "Option": {
+      "IsActivated": {
+        "Activated": "Activated",
+        "Deactivated": "Deactivated"
+      },
+      "IsDefaultAwbAddress": {
+        "Yes": "Yes",
+        "No": "No"
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+
+    "Toast": {
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: "
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "AutoPrintSetting":{
+    "Header": "Auto Print Setting Maintenance",
+
+    "HeaderTable": {
+      "Header": "Auto Print Setting ( Print Order Of Documents )",
+      "SearchForm": {
+        "Header": "Query From - Auto Print Setting ( Print Order Of Documents )",
+        "Column": {
+          "Facility": "Facility",
+          "DeliveryType": "Delivery Type",
+          "DocType": "Doc Type",
+          "OrgId": "OrgId",
+          "ConsigneeKey": "Consignee Key"
+        }
+      },
+      "Column": {
+        "Facility": "Facility",
+        "DeliveryType": "Delivery Type",
+        "DocType": "Doc Type",
+        "NumberOfCopies": "Number Of Copies",
+        "PrintOrder": "Print Order",
+        "IsLoopGroup": "IsLoopGroup",
+        "CreateUser": "Create User",
+        "CreateDt": "Create Date",
+        "UpdateUser": "Update User",
+        "UpdateDt": "Update Date",
+        "IsDelete": "IsActived",
+        "ConsigneeKey": "Consignee Key"
+      }
+    },
+    "DetailTable": {
+      "Header": "Auto Print Setting ( Print Number Of Documents )",
+      "SearchForm": {
+        "Header": "Query From - Auto Print Setting ( Print Number Of Documents )",
+        "Column": {
+          "Facility": "Facility",
+          "DeliveryType": "Delivery Type",
+          "DocType": "Doc Type",
+          "OrgId": "OrgId",
+          "ConsigneeKey": "Consignee Key"
+        }
+      },
+      "Column": {
+        "Facility": "Facility",
+        "DeliveryType": "DeliveryType",
+        "DocType": "DocType",
+        "OrgId": "OrgId",
+        "ConsigneeKey": "ConsigneeKey",
+        "NumberOfPrint": "Number Of Print",
+        "Action": "Action"
+      }
+    }
+  },
+  "FacilityPrinter":{
+    "SearchForm": {
+      "Header": "Query From - Printer Setting",
+      "Column": {
+        "FacilityCode": "Facility",
+        "PrinterType": "Printer Type",
+        "DeliveryType": "Delivery Type",
+        "LetterHeadOrgId": "LetterHead OrgId",
+        "ConsigneeKey": "Consignee Key"
+      }
+    },
+    "MainTable": {
+      "Header": "Printer Setting Table",
+      "Column": {
+        "FacilityCode": "Facility",
+        "PrinterCode": "Printer Code",
+        "PrinterType": "Printer Type",
+        "DeliveryType": "Delivery Type",
+        "ForwarderCode": "Forwarder Code",
+        "LetterHeadOrgId": "LetterHead OrgId",
+        "ConsigneeKey": "Consignee Key",
+        "CreateUser": "Create User",
+        "CreateDt": "Create Date",
+        "UpdateUser": "UpdateU ser",
+        "UpdateDt": "Update Date",
+        "Enable": "Enable"
+      }
+    }
+  }
+}

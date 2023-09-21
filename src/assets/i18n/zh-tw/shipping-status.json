@@ -1,0 +1,77 @@
+{
+  "ShippingStatus": {
+    "Header": "出貨進度查詢",
+    "Search": {
+     "Urgent":"急件",
+     "OverOrder":"逾期訂單",
+     "PersonOrder":"個人訂單",
+     "All":"全部",
+     "StatusQuery":"查詢狀態",
+     "LeaveWare":"已出倉",
+     "HasnotLeave":"未出倉",
+     "Customer":"客戶",
+     "DONum":"出貨單號",
+     "CustomerPO":"客戶訂單號碼",
+     "EstimateLeave":"預計出倉日",
+     "InvoiceNo":"發票號碼",
+     "InvoiceDt":"發票日期",
+     "ShipDt": "出貨日期",
+     "Sales":"業務員",
+     "CreateUser":"建立人員",
+     "IncludeDept":"包含部門訂單",
+     "OrgId":"公司別",
+     "MergeKey":"併單序號"
+    },
+    "Button": {
+      "Today":"今日",
+      "ThreeDaysBefore":"前三日",
+      "OneWeekBefore":"前一周",
+      "TwoWeeksBefore":"前兩周",
+      "OneMonthBefore":"前一個月",
+      "DOUrgent": "DO急單"
+    },
+    "MianTable":{
+      "Facility": "倉別",
+      "DONum": "出貨單號",
+      "Customer": "客戶",
+      "NumCartons": "配貨箱數",
+      "Status": "狀態",
+      "EstimateLeave": "預估出倉時間",
+      "ReEsitmate": "重新預估出倉時間",
+      "ActualLeave": "實際出倉時間",
+      "Remarks": "備註",
+      "FileDownload": "檔案下載",
+      "MergeKey": "併單序號"
+    },
+    "DetailTable":{
+      "Facility": "倉別",
+      "DONum": "出貨單號",
+      "MONum": "移轉工單",
+      "Status": "狀態",
+      "Customer": "客戶",
+      "Remarks": "備註",
+      "MODetail": "移轉工單明細",
+      "CartonCnt": "配貨箱數",
+      "Priority": "優先權"
+    },
+    "MODetailTable":{
+      "Facility": "公司別",
+      "DeliveryType": "訂單類型(出口/國內)",
+      "MONum": "移轉工單",
+      "ERPSku": "ERP料號",
+      "CustomerSku": "客戶料號",
+      "Qty": "數量"
+    },
+    "Event":{
+      "Allocated": "派工",
+      "PickedUp": "揀貨",
+      "PackedOut": "箱到齊",
+      "LeftWarehouse": "出倉",
+      "Deliveried": "到貨",
+      "Estimate": "預估",
+      "Actual": "實際",
+      "CheckDeliveryStatus": "查看運送狀況"
+    }
+  }
+}
+

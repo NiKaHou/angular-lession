@@ -1,0 +1,100 @@
+{
+  "ContainerManagement": {
+    "Header": "Container Management",
+    "Transfer": "Change",
+    "Search": {
+      "Facility": "Facility",
+      "ContainerNumber": "Container Number",
+      "AssignDate": "Assign Date",
+      "Period": "Period",
+      "DONumber": "DO Number",
+      "EditContainer": "Edit Container",
+      "BookingNo": "Booking No.",
+      "LockStatus": "Lock Status"
+    },
+    "Button": {
+      "ReviewUnallocated": "Review Unallocated Container Information",
+      "Export": "Export",
+      "Lock": "Lock",
+      "Unlock": "Unlock",
+      "Return": "Return Data"
+    },
+    "MainTable": {
+      "LockStatus": "Lock Status",
+      "Forwarder": "Forwarder",
+      "PickUp": "Pick Up Location",
+      "Customer": "Customer",
+      "TotalAnt": "Total Amount",
+      "TotalCarton": "Total Carton Count",
+      "TotalDim": "Total Dimension",
+      "Facility": "Facility",
+      "ContainerNumber": "Container Number",
+      "AssignDate": "Assign Date",
+      "Period": "Period",
+      "DOQty": "DO Qty",
+      "TotalWeight": "Total Weight",
+      "TotalCbm":"Total CBM"
+    },
+    "SubTable": {
+      "CarNumber": "Car Trip Number",
+      "BookingNo": "Booking No.",
+      "DONumber": "DO Number",
+      "DOInvoiceNumber": "DO Invoice Number",
+      "CustomerCode": "Customer Code",
+      "CustomerName": "Customer Name",
+      "LoadOrderCompany": "Load Order Company",
+      "ShipOutCompany": "Ship Out Company",
+      "LetterHeadCompany": "Letter Head Company",
+      "DOStatus": "DO Status",
+      "CartonCount": "Carton Count",
+      "GrossWeight": "Gross Weight",
+      "NetWeight": "Net Weight",
+      "Volume": "Volume",
+      "DefaultCarType": "Default Car Type",
+      "CarType":"Car Type",
+      "PlateNo":"Plate No."
+    }
+  },
+  "UnallocatedContainer": {
+    "Header": "Unallocated Container Information",
+    "DONumber": "DO Number",
+    "MainTable": {
+      "Facility": "Facility",
+      "AssignDate": "Assign Date",
+      "PickUp": "Pick Up Location",
+      "ContainerPeriod": "Container Condition Period",
+      "ContainerShippingType": "Container Condition Shipping Type",
+      "ContainerForwarder": "Container Condition Forwarder",
+      "ContainerCustomer": "Container Condition Customer",
+      "CreationTime": "Creation Time",
+      "Creator": "Creator"
+    },
+    "SubTable": {
+      "UnallocatedDetails": "Unallocated Container Details",
+      "CarNumber": "Car Trip Number",
+      "BookingNo": "Booking No.",
+      "DO": "DO#",
+      "DOInvoice": "DO Invoice#",
+      "CustomerCode": "Customer Code",
+      "CustomerName": "Customer Name",
+      "LoadOrderComp": "Load Order Company",
+      "ShipOutComp": "Ship Out Company",
+      "LetterHeadComp": "Letter Head Company",
+      "DOStatus": "DO Status",
+      "CartonCount": "Carton Count",
+      "GrossWeight": "Gross Weight",
+      "NetWeight": "Net Weight",
+      "Volume": "Volume"
+    }
+  },
+  "EditContainer":{
+    "CartonCount": "Carton Count",
+    "NetWeight": "Net Weight",
+    "Volume": "Volume",
+    "Value": "Value",
+    "ContainerNumber": "Container Number",
+    "TotalCarton": "Total Carton Count",
+    "TotalWeight": "Total Weight",
+    "TotalValue": "Total Value"
+  }
+}

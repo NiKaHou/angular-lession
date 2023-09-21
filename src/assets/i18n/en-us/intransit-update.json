@@ -1,0 +1,81 @@
+{
+  "IntransitUpdate":{
+    "Header":"In-Transit Update",
+    "Search":{
+      "hawb":"HAWB"
+    },
+    "MainTable": {
+      "deliveryWarehouse": "Delivery Warehouse",
+      "forwarderName": "ForwarderName",
+      "awbNumber": "AWB",
+      "shipperName": "Shipper Name",
+      "shipperCity": "Shipper City",
+      "shipperCountry": "Shipper Country",
+      "consigneeName": "Consignee Name",
+      "consigneeCity": "Consignee City",
+      "consigneeCountry":"Consignee Country",
+      "pieces": "Pieces",
+      "actWgt": "Act_Wgt",
+      "bookingDate": "Booking Date",
+      "pickUpDate": "PU Date",
+      "completeDeliveryTime": "OK Date",
+      "brandName": "BrandName",
+      "reference": "Reference",
+      "etd": "ETD",
+      "eta": "ETA",
+      "edc": "EDC",
+      "atd": "ATD",
+      "ata": "ATA",
+      "estimatedPortClearanceTime": "Estimated Port Clearance Time",
+      "actualPortClearanceTime": "Actual Port Clearance Time",
+      "others": "Others",
+      "mawbNumber": "MAWB",
+      "route": "Route",
+      "createDt": "Create Date",
+      "createUser": "Create User",
+      "updateDt": "Update Date",
+      "updateUser": "Update User"
+    }
+  },
+  "IntransitImport": {
+    "Header": "Import Intransit",
+    "MainTable": {
+      "deliveryWarehouse": "Delivery Warehouse",
+      "forwarderName": "ForwarderName",
+      "awbNumber": "AWB",
+      "shipperName": "Shipper Name",
+      "shipperCity": "Shipper City",
+      "shipperCountry": "Shipper Country",
+      "consigneeName": "Consignee Name",
+      "consigneeCity": "Consignee City",
+      "consigneeCountry":"Consignee Country",
+      "pieces": "Pieces",
+      "actWgt": "Act_Wgt",
+      "bookingDate": "Booking Date",
+      "pickUpDate": "PU Date",
+      "completeDeliveryTime": "OK Date",
+      "brandName": "BrandName",
+      "reference": "Reference",
+      "etd": "ETD",
+      "eta": "ETA",
+      "edc": "EDC",
+      "atd": "ATD",
+      "ata": "ATA",
+      "estimatedPortClearanceTime": "Estimated Port Clearance Time",
+      "actualPortClearanceTime": "Actual Port Clearance Time",
+      "others": "Others",
+      "mawbNumber": "MAWB",
+      "route": "Route",
+      "createDt": "Create Date",
+      "createUser": "Create User",
+      "updateDt": "Update Date",
+      "updateUser": "Update User"
+    },
+    "Message": {
+      "SelectFile": "Please select file."
+    },
+    "Button":{
+      "Download":"Download Templete"
+    }
+  }
+}

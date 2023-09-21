@@ -1,0 +1,24 @@
+{
+  "BellNotifications": {
+    "Header": "Bell Notifications",
+    "Form": {
+      "TitleOrContentText": "Title / Content Text",
+      "NotifyDate": "Notify Date"
+    },
+    "Button": {
+      "MarkRead": "Mark Read",
+      "MarkReadAll": "All Read"
+    },
+    "Table": {
+      "Columns": {
+        "Title": "Title",
+        "NotifyDt": "Notify Date",
+        "IsReadStatus": "Status"
+      }
+    },
+    "ReadStatus": {
+      "Read": "Read",
+      "Unread": "Unread"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "HubLabelSetup": {
+    "Header": "Hub標籤設置",
+    "Form": {
+      "ORGId": "公司",
+      "HubVendorCode": "Hub供應商代碼",
+      "CustSku": "客戶Sku",
+      "LabelKey": "標籤Key",
+      "LabelKeyNote": "*標籤Key只能是正整數"
+    },
+    "Button": {
+      "Restore": "還原"
+    },
+    "Dropdown": {
+      "ChooseColumns": "請選擇欄位"
+    },
+    "ColumnHeaders": {
+      "CreatedBy": "建立者",
+      "CreationDate": "建立日期",
+      "LastUpdatedBy": "更新者",
+      "LastUpdateDate": "更新日期",
+      "HubLabelSetupId": "Hub標籤設置流水碼",
+      "ORGId": "公司",
+      "HubVendorCode": "Hub供應商代碼",
+      "CustSku": "客戶Sku",
+      "LabelKey": "標籤Key"
+    },
+    "Confirm": {
+      "Header": "系統資訊",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+    "Toast": {
+      "EmptyDataError": "請填寫所有所需的資料",
+      "DeleteSuccess": "已完成刪除",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "获取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: ",
+      "WrongLabelKeyFormat": "標籤Key填寫錯誤, 只能是正整數"
+    },
+    "Warning": {
+      "OrgIdRequired": "請填寫公司",
+      "HubVendorCodeRequired": "請填寫Hub供應商代碼",
+      "CustSkuRequired": "請填寫客戶Sku",
+      "LabelKeyRequired": "請填寫標籤Key",
+      "LabelKeyMustOnlyHavePositiveInteger": "標籤Key只能是正整數"
+    }
+  }
+}

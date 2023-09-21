@@ -1,0 +1,84 @@
+{
+  "AutoPrintSetting":{
+    "Header": "自動列印設定維護",
+
+    "HeaderTable": {
+      "Header": "自動列印設定檔(文件列印順序)",
+      "SearchForm": {
+        "Header": "查詢表單-自動列印設定檔(文件列印順序)",
+        "Column": {
+          "Facility": "倉別",
+          "DeliveryType": "訂單類型",
+          "DocType": "文件類別",
+          "OrgId": "公司別",
+          "ConsigneeKey": "客戶碼"
+        }
+      },
+      "Column": {
+        "Facility": "倉別",
+        "DeliveryType": "訂單類型",
+        "DocType": "文件類別",
+        "NumberOfCopies": "列印份數",
+        "PrintOrder": "列印順序",
+        "IsLoopGroup": "IsLoopGroup",
+        "CreateUser": "建立者",
+        "CreateDt": "建立日期",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新日期",
+        "IsDelete": "IsActived",
+        "ConsigneeKey": "客戶碼"
+      }
+    },
+    "DetailTable": {
+      "Header": "自動列印設定檔(文件列印份數)",
+      "SearchForm": {
+        "Header": "查詢表單-自動列印設定檔(文件列印份數)",
+        "Column": {
+          "Facility": "倉別",
+          "DeliveryType": "訂單類型",
+          "DocType": "文件類別",
+          "OrgId": "公司別",
+          "ConsigneeKey": "客戶碼"
+        }
+      },
+      "Column": {
+        "Facility": "倉別",
+        "DeliveryType": "訂單類型",
+        "DocType": "文件類別",
+        "OrgId": "公司別",
+        "ConsigneeKey": "客戶碼",
+        "NumberOfPrint": "列印份數",
+        "Action": "動作"
+      }
+    }
+  },
+  "FacilityPrinter":{
+    "SearchForm": {
+      "Header": "查詢表單-列印機設定檔",
+      "Column": {
+        "FacilityCode": "倉別",
+        "PrinterType": "列印機類型",
+        "DeliveryType": "訂單類型",
+        "LetterHeadOrgId": "LetterHead公司別",
+        "ConsigneeKey": "客戶碼"
+      }
+    },
+    "MainTable": {
+      "Header": "列印機設定檔",
+      "Column": {
+        "FacilityCode": "倉別",
+        "PrinterCode": "列印機編碼",
+        "PrinterType": "列印機類型",
+        "DeliveryType": "訂單類型",
+        "ForwarderCode": "貨代碼",
+        "LetterHeadOrgId": "LetterHead公司別",
+        "ConsigneeKey": "客戶碼",
+        "CreateUser": "建立者",
+        "CreateDt": "建立日期",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新日期",
+        "Enable": "Enable"
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "AreaMappingRFQMaintenance": {
+    "Header": "Area Mapping RFQ",
+    "Form": {
+      "Country": "Country",
+      "City": "City",
+      "AssignmentDistrict": "Assignment District",
+      "RFQCountry": "RFQ Country",
+      "RFQCity": "RFQ City",
+      "RFQAreaCode": "RFQ Area Code",
+      "RFQAreaName": "RFQ Area Name"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "Restore"
+      },
+      "ColumnHeader": {
+        "SeqNo": "SeqNo",
+        "Facility": "Facility",
+        "Country": "Country",
+        "RFQCountry": "RFQ Country",
+        "City": "City",
+        "CitySeqNo": "CitySeqNo",
+        "RFQCity": "RFQ City",
+        "AssignmentDistrict": "Assignment District",
+        "RFQAreaCode": "RFQ Area Code",
+        "RFQAreaName": "RFQ Area Name",
+        "CreateUser": "Create User",
+        "CreateDt": "CreateDt",
+        "UpdateUser": "Update User",
+        "UpdateDt": "UpdateDt"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACountry": "Select a Country",
+        "SelectOneOrMoreCity": "Select one or more city",
+        "SelectACity": "Select a city",
+        "SelectOneOrMoreAssignmentDistrict": "Select one or more assignment district",
+        "SelectAAssignmentDistrict": "Select a assignment district",
+        "ChooseColumns": "Choose columns"
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+
+    "Toast": {
+      "EmptyDataError": "Please fill the required data",
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: "
+    }
+  }
+}

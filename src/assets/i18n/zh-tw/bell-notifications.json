@@ -1,0 +1,24 @@
+{
+  "BellNotifications": {
+    "Header": "鈴鐺通知",
+    "Form": {
+      "TitleOrContentText": "主旨/內容文字",
+      "NotifyDate": "通知時間"
+    },
+    "Button": {
+      "MarkRead": "標示已讀",
+      "MarkReadAll": "全部已讀"
+    },
+    "Table": {
+      "Columns": {
+        "Title": "主旨",
+        "NotifyDt": "通知時間",
+        "IsReadStatus": "狀態"
+      }
+    },
+    "ReadStatus": {
+      "Read": "已讀",
+      "Unread": "未讀"
+    }
+  }
+}

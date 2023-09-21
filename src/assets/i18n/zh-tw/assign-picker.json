@@ -1,0 +1,48 @@
+{
+  "AssignPicker": {
+    "Header": "揀貨指派",
+    "Search": {
+      "CustomerCode": "客戶碼",
+      "BookingNum": "Booking單號",
+      "DONum": "交貨單號",
+      "Forwarder": "貨代",
+      "CarTripNum": "車次碼",
+      "AssignDate": "指派日期",
+      "DepartureTime": "出車時段",
+      "IssuanceDate": "開立日期"
+    },
+    "MainTable": {
+      "Button": {
+        "Assign": "指派"
+      },
+      "Form":{
+        "CarTripNum": "車次碼",
+        "AssignDate": "指派日期",
+        "DepartureTime": "出車時段",
+        "Forwarder": "貨代",
+        "VehicleNumRemarks": "車號備註",
+        "BookingQty": "Booking數量",
+        "TotalCartonCnt": "總箱數",
+        "DropShipCartonCnt": "空飛箱數",
+        "LoadCarCartonCnt": "已上車箱數",
+        "LeaveWare": "已出倉箱數",
+        "NoPicker": "揀貨人數",
+        "Issuer": "開立人員",
+        "IssuanceDate": "開立日期"
+      }
+    },
+    "SubTable": {
+      "BookingNum": "BookingNo",
+      "DONum": "交貨單號",
+      "CustomerCode": "客戶碼",
+      "CustomerName": "客戶名稱",
+      "TotalCartonCnt": "總箱數",
+      "LoadCarCartonCnt": "已上車箱數",
+      "LeaveWare": "已出倉箱數",
+      "TotalDropCartonCnt": "總空飛箱數",
+      "DropShipLoadCount": "空飛單已上車箱數",
+      "DropShipLeaveCount": "空飛單已出倉箱數",
+      "Status": "狀態"
+    }
+  }
+}

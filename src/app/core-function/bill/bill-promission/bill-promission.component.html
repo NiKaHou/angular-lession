@@ -1,1 +1,38 @@
-<p>bill-promission works!</p>
+<p-table [value]="sales">
+  <ng-template pTemplate="header">
+      <tr>
+          <th rowspan="3"><div class="p-text-center">Product</div></th>
+          <th colspan="4" class="p-text-center">Sale Rate</th>
+      </tr>
+      <tr>
+          <th colspan="2" class="p-text-center">Sales</th>
+          <th colspan="2" class="p-text-center">Profits</th>
+      </tr>
+      <tr>
+          <th>Last Year</th>
+          <th>This Year</th>
+          <th>Last Year</th>
+          <th>This Year</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-sale>
+      <tr>
+          <td>{{sale.product}}</td>
+          <td [ngClass]="{
+            'row-red': sale.lastYearSale > 20 || sale.lastYearSale < -20,
+            'row-yellow': (sale.lastYearSale > 10 && sale.lastYearSale <= 20) || (sale.lastYearSale < -10 && sale.lastYearSale >= -20),
+            'row-blue': (sale.lastYearSale > 5 && sale.lastYearSale <= 10) || (sale.lastYearSale < -5 && sale.lastYearSale >= -10)
+          }">{{sale.lastYearSale}}%</td>
+          <td><i [ngClass]="getIconClass(sale.thisYearSale)"></i>{{sale.thisYearSale}}%</td>
+          <td>{{sale.lastYearProfit | currency: 'USD'}}</td>
+          <td>{{sale.thisYearProfit | currency: 'USD'}}</td>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="footer">
+      <tr>
+          <td colspan="3" class="p-text-right">Totals</td>
+          <td>{{lastYearTotal | currency: 'USD'}}</td>
+          <td>{{thisYearTotal | currency: 'USD'}}</td>
+      </tr>
+  </ng-template>
+</p-table>

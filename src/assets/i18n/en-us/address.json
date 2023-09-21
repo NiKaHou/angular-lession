@@ -1,0 +1,28 @@
+{
+  "Address": {
+    "Confirmation": "Address Confirmation",
+    "Radio": {
+      "Similar": "Choose From Similar Address",
+      "NewAddress": "Create New Address",
+      "NormalizationAddress": "Normalized Address"
+    },
+    "Header": {
+      "Option": "Option",
+      "CustomerName": "Customer Name",
+      "Country": "Country",
+      "ReferenAddress": "DO Address",
+      "City": "City",
+      "DeliveryType": "DeliveryType:",
+      "DeliveryCompany": "DeliveryCompany:",
+      "NormalizationLocal": "Normalized Address (Local)",
+      "NormalizationEng": "Normalized Address (International)",
+      "AssignmentDistricId": "Normalized Dist.",
+      "Description1": "The address",
+      "Description2": "is simlar to the following options.",
+      "Description3": "Information",
+      "DeliveryToLocal": "Delivery To (Local)",
+      "DeliveryToEng": "Delivery To (International)",
+      "Airport": "Airport"
+    }
+  }
+}

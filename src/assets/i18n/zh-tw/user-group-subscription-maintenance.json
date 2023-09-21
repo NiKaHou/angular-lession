@@ -1,0 +1,49 @@
+{
+  "UserGroupSubscriptionMaintenance": {
+    "Header": "訂閱群組通知設定",
+    "Form": {
+      "NotifyEvent": "通知類型",
+      "Tenant": "Tenant",
+      "Group": "群組",
+      "WorkType": "作業類型",
+      "Brand": "品牌",
+      "Dept": "部門",
+      "CreateUser": "建立人員",
+      "UpdateUser": "更新人員"
+    },
+    "Table": {
+        "HeaderColumns": {
+            "NotifyEvent": "通知類型",
+            "GroupCode": "群組代碼",
+            "GroupName": "群組名稱",
+            "Tenant": "Tenant",
+            "OrgId": "公司",
+            "WorkType": "作業類型",
+            "Brand": "品牌",
+            "VendorCategory": "CTG1",
+            "Dept": "部門",
+            "Consignee": "客戶",
+            "Sales": "業務員",
+            "IsActivated": "啟用狀態",
+            "UpdateActivatedUser": "更新啟用狀態人員",
+            "UpdateActivatedDt": "更新啟用狀態日期",
+            "CreateUser": "建立人員",
+            "CreateDt": "建立日期",
+            "UpdateUser": "更新人員",
+            "UpdateDt": "更新日期"
+        },
+        "DetailColumns": {
+            "Email": "Email",
+            "IsActivated": "啟用狀態"
+        }
+    },
+    "TenantMappingUserGrouupDetailDialog": {
+      "Title": "LaaS 群組",
+      "Table": {
+        "Columns": {
+          "Email": "Email"
+        }
+      }
+    }
+  }
+}

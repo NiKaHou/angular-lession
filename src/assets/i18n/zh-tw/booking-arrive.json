@@ -1,0 +1,68 @@
+{
+  "BookingArrive": {
+    "PageTitle": "Booking 到貨",
+
+    "TabTitle": {
+      "BookingArriveTab": "Booking 到貨",
+      "DOArriveTab": "DO 到貨"
+    },
+
+    "InputLabel": {
+      "BookingNo": "Booking No"
+    },
+
+    "Button": {
+      "ScanningInput": "掃描輸入",
+      "ArriveConfirm": "到貨確認",
+      "Camera": "相機拍照",
+      "PhotoUpload": "照片上傳",
+      "RemovePhoto": "移除圖片"
+    },
+
+    "PODTable": {
+      "DoNo": "DoNo",
+      "PhotoUploadButton": "圖片上傳按鈕",
+      "Photo": "圖片"
+    },
+
+    "ScannerDialog": {
+      "Title": "條碼掃描",
+      "ScanningTitle": "掃描中"
+    },
+
+    "CameraDialog": {
+      "Title": "相機",
+      "Button": {
+        "Snapshot": "拍照",
+        "SwitchCamera": "切換相機"
+      }
+    },
+
+    "ConfirmDialog": {
+      "KeepUploadPOD": "此Booking已到貨，是否需繼續上傳簽收單?"
+    },
+
+    "Success": {
+      "PODUploadSuccess": "POD上傳成功",
+      "BookingArriveConfirmSuccess": "Booking到貨成功"
+    },
+
+    "Warning": {
+      "BookingNoIsEmpty": "BookingNo不可爲空",
+      "AllDOMustHavePOD": "所有的 DO 必須有 POD, 不能只上傳其中一部分"
+    },
+
+    "CameraError": {
+      "CameraUnableToUse": "相機無法打開/使用\n",
+      "Reason": "原因: ",
+      "CameraNotFound": "找不到相機",
+      "PermissionDenied": "無法獲取權限"
+    },
+
+    "Error": {
+      "NotFoundAnyDoNo": "找不到任何 DoNo",
+      "PODUploadFail": "POD上傳失敗",
+      "MakeBookingArriveFail": "Booking到貨失敗"
+    }
+  }
+}

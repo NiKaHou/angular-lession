@@ -1,0 +1,67 @@
+{
+  "ForwarderCooperation":{
+    "ForwarderHeader": "Forwarder List and Cooperation",
+    "SearchForm" : {
+      "FromCountry": "From Country",
+      "FromCity": "From City",
+      "ToCountry": "To Country",
+      "ToCity": "To City",
+      "ShippingType": "Shipping Type",
+      "ShipTerm": "Ship Term"
+    },
+    "TableColumn": {
+      "FromCountry": "From Country",
+      "FromCity": "From City",
+      "ToCountry": "To Country",
+      "ToCity": "To City",
+      "Forwarder": "Forwarder",
+      "IncoTerm": "Ship Term",
+      "Remark": "Cooperation",
+      "ShippingType": "Shipping Type",
+      "RFQCategory": "RFQCategory",
+      "Facility": "Facility"
+    },
+    "QuotationLinkButton": "Quotation Link",
+    "SearchValueInvalid":{
+      "InvalidSearchValueFromCountryToCountry": "Please fill the required data."
+    },
+    "SearchAll": "Search All Condition",
+    "button": {
+      "ShipTerm": "ShipTerm Instruction"
+    }
+  },
+  "ForwarderDesc": {
+    "Buyer": "Buyer",
+    "Seller": "Seller",
+    "Deal": "Dealable",
+    "RowName": {
+      "PickUpLoad": "PickUpLoading",
+      "DeliverToPortOrPoint": "Delivery to port or specific location",
+      "ExportDeclaration": "ExportDeclaration",
+      "ExportPort": "ExportPort",
+      "PortAirport": "AirPortLoading",
+      "Freight": "Freight",
+      "Insurance": "Insurance",
+      "DestinationPortAirport": "Destination Airport",
+      "DeliveryToDestination": "Delivery to destination",
+      "DestinationUnloading": "Destination Unload",
+      "ImportDutiesAndClearance": "Import Tax and Pass"
+    },
+    "IncoTermsTable": {
+      "Header": "Incoterms®2022",
+      "Rule": {
+        "Title": "Apply To ShipTerm",
+        "Any": "Apply to any or variety ShipTerm",
+        "Ship": "Applt to Shipping"
+      },
+      "Term": "TradeTerms",
+      "Content": "Rules Content"
+    },
+    "IncoTermsCost": {
+      "Header": "Incoterms Cost Belong",
+      "TableHeader": "INCOTERMS",
+      "TermTitle": "Cost Terms"
+    }
+  }
+}
+

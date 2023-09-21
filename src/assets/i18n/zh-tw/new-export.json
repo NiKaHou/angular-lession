@@ -1,0 +1,32 @@
+{
+  "NewExport": {
+    "Header": "新增出口報關單",
+    "Form": {
+      "Forwarder": "貨代",
+      "PayeeType": "付款對象類型",
+      "IdenNum": "證件號碼",
+      "Payee": "付款對象",
+      "DeliveryMode": "運送方式",
+      "BillComp": "付款公司",
+      "CustomerCode": "客戶代碼",
+      "DeclarDate": "報關日期",
+      "DeclarType": "報關類別",
+      "CalculationMethod": "統計方式",
+      "Currency": "幣別",
+      "ExchangeRate": "匯率",
+      "DomesticForeign": "國洋貨",
+      "ExportMethod": "外銷方式",
+      "OriginCurrenAnt": "原幣金額",
+      "AccountCurrenAnt": "作帳金額",
+      "FCAFOBPrice": "離岸價格",
+      "FCAFOBPriceAccount": "離岸價格(作帳幣)",
+      "PromotionFeeAccount": "推貿費(作帳幣)",
+      "MAWB": "大提單號碼",
+      "HAWB": "小提單號碼",
+      "FlightNum": "班機班次",
+      "FlightDate": "班機日期",
+      "Remarks": "備註",
+      "ChargeParty": "變更報關對象"
+    }
+  }
+}

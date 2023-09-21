@@ -1,0 +1,8 @@
+{
+    "apiKey": "54375e5d503b4dfd80a8107e21ff6d36",
+    "logisticsApiUrl": "https://api-uat.laasholdings.com/logistics/v1/logistics",
+    "notificationUrl": "https://api-uat.laasholdings.com/notifications/v1/notifications",
+    "whOutboundApiUrl": "https://api-uat.laasholdings.com/wh-outbound/v1/wh-outbound",
+    "dmUrl": "https://api-uat.laasholdings.com/dm/v1/dm",
+    "authUrl": "https://api-uat.laasholdings.com/auth/v1/auth"
+}

@@ -1,0 +1,40 @@
+{
+  "Purchase":{
+    "Header":"進貨進度",
+    "Search":{
+      "Vendor":"供應商",
+      "Facility":"倉別",
+      "AdNo":"進貨單號",
+      "ExpressBill":"提單號",
+      "Forwarder":"貨代名稱",
+      "ImportDeclarationNo":"報關單號",
+      "Priority":"訂單類別",
+      "Normal":"一般單",
+      "Urgent":"急單",
+      "InvoiceNo":"發票名稱",
+      "Status":"進貨狀態",
+      "CreateDt":"建立日期",
+      "PersonOrder":"個人訂單",
+      "All":"全部",
+      "ADSearch": "AD查詢",
+      "Creater": "申請人"
+    },
+    "MainTable":{
+      "Facility":"倉別",
+      "AdNo":"進貨單號",
+      "BillOfLading":"提貨單號",
+      "SalesName":"業務員",
+      "PcsrName":"建立人員",
+      "Priority":"優先度",
+      "Vendor":"供應商",
+      "DocStatus":"進貨狀態",
+      "CreateDt": "建立日期"
+    },
+    "Option":{
+      "Priority":{
+        "Urgent":"急單",
+        "Normal":"一般單"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "CustomerSignatureSampleStamp":{
+    "Header": "客戶簽收章樣章",
+    "Form":  {
+      "Facility": "倉別",
+      "OrgId": "公司別",
+      "ConsigneeKey":"客戶",
+      "ConsigneeCompany":"客戶名稱",
+      "OnlyNullChopSign":"只顯示無簽收章"
+    },
+    "Table":{
+      "Column":{
+        "OU":"OU",
+        "ConsigneeKey":"客戶",
+        "ConsigneeCompany":"客戶名稱",
+        "Type": "地址類型",
+        "ShipAddress":"地址",
+        "ChopSignSample": "簽收章樣本",
+        "EffectiveStartDate": "有效日期-起",
+        "EffectiveEndDate": "有效日期-迄",
+        "UpdateUser":"上傳人員",
+        "UpdateDt":"上傳日期"
+      }
+    }
+  }
+}

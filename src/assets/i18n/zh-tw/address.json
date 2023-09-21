@@ -1,0 +1,28 @@
+{
+  "Address": {
+    "Confirmation": "地址確認",
+    "Radio": {
+      "Similar": "相似地址",
+      "NewAddress": "新增地址",
+      "NormalizationAddress": "正規化地址"
+    },
+    "Header": {
+      "Option": "選擇",
+      "CustomerName": "客戶名稱",
+      "Country": "國家",
+      "ReferenAddress": "參考地址",
+      "City": "城市",
+      "DeliveryType": "運送地點:",
+      "DeliveryCompany": "收件公司:",
+      "NormalizationLocal": "正規化地址(Local)",
+      "NormalizationEng": "正規化地址(英文)",
+      "AssignmentDistricId": "小區",
+      "Description1": "該地址",
+      "Description2": "與以下的地址可能相似",
+      "Description3": "新增資訊",
+      "DeliveryToLocal": "收件公司(Local)",
+      "DeliveryToEng": "收件公司(英文)",
+      "Airport": "機場"
+    }
+  }
+}

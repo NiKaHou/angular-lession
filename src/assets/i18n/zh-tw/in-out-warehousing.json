@@ -1,0 +1,31 @@
+{
+  "Form": {
+    "Header": {
+      "InOutNo": "進出倉單號",
+      "SourceReferenceKey": "來源單號",
+      "DoNo": "DO單號",
+      "Forwarder": "貨代",
+      "AssignDate": "出貨日期起迄"
+    },
+    "MainTable": {
+      "SeqNo": "流水號",
+      "InOutNo": "進出倉單號",
+      "Facility": "倉別",
+      "Forwarder": "貨代",
+      "BillCorp": "付款公司",
+	    "InOutFeeType": "來源單據類型",
+      "TotalCartonCnt": "總箱數",
+      "TotalGrossWeight": "總毛重",
+	    "TotalVolumeWeight": "總材積",
+	    "CreateDt": "資料建立時間",
+      "LetterOrgId": "公司別(發票公司別)"
+    },
+    "DetailTable": {
+      "SeqNo": "流水號",
+      "DoNo": "DO單號",
+      "SourceReferenceKey": "來源單號",
+      "SourceReferenceType": "來源單據類型",
+      "CreateDt": "資料建立時間"
+    }
+  }
+}

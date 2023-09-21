@@ -1,0 +1,11 @@
+{
+    "Error": {
+        "UnAuthorize": {
+            "Title": "您沒有使用此系統功能的權限",
+            "Detail": "您可能需要IT管理員的許可才能使用此系統功能。"
+        },
+        "BookingPreview":{
+          "GroupIdDiff":"您選擇的送貨地址可能與客戶指定地點不同！"
+        }
+    }
+}

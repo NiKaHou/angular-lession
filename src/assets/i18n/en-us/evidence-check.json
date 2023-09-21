@@ -1,0 +1,107 @@
+{
+  "EvidenceCheck": {
+    "Header": "Invoice Apply",
+    "Count": "Count：",
+    "Total": "Total：",
+    "Confirm": {
+      "Header": "System Info",
+      "Save": "Are you sure to save?",
+      "SaveOrNot": "Your change is not saved. Do you want to save?"
+    },
+    "Form": {
+      "InvoiceNum": "REFNo",
+      "GUINo": "InvoiceNo",
+      "GUIDt": "InvoiceDate",
+      "VendorName": "VendorName",
+      "OrgId": "OrgId",
+      "CreateDt": "CreateDate",
+      "Status": "Status",
+      "InOutType": "FlowInvoiceType",
+      "SourceModel": "SourceModel",
+      "ERPApKey": "EERPApKey",
+      "InvoiceId": "InvoiceId",
+      "FlowNo": "Flow No."
+    },
+    "Toast": {
+      "SaveSuccess": "Save success"
+    },
+    "Button": {
+      "EditOrView": "View/Edit"
+    },
+    "MainTable": {
+      "Column": {
+        "ERPAPKey": "ERP AP Key",
+        "GUIId": "REF No",
+        "AccountName": "AccountName",
+        "OrgId": "ORG ID",
+        "VendorName": "Set Of Books",
+        "Status": "Status",
+        "RejectedReason": "Status Reason",
+        "FlowNo": "Flow NO.",
+        "ShippingDescription": "Shipping Description",
+        "AmountDifferenceDescription": "Allowed Difference Remark",
+        "GUINo": "Invoice No",
+        "GUIDt": "Invoice Date",
+        "GUICurrency": "Invoice Currency",
+        "GUIAmount": "Invoice Amount",
+        "Description": "Description",
+        "SetOfBooksId": "LedgerId",
+        "VendorSiteId": "Vendor Site ID",
+        "TermsId": "Terms ID",
+        "TermsName": "Terms Name",
+        "PaymentMethod": "Payment Method",
+        "DueDt": "Due Date",
+        "GLDt": "GL Date",
+        "ApplyAmount": "Apply Amount",
+        "CRDDt": "Apply Date",
+        "CheckNo": "Invoice ID",
+        "SourceModel": "Source Model",
+        "AmountDifferenceColorFlag": "Color Flag",
+        "ConfirmedUser": "Confirm By",
+        "ApplyDt": "Confirm Date",
+        "TransERPErrorMsg": "Trans ERP ERR MSG",
+        "CreateUser": "Create User",
+        "CreateDt": "Creation Date",
+        "UpdateUser": "Updated User",
+        "UpdateDt": "Update Date"
+      }
+    },
+    "DetailTable": {
+      "Column": {
+        "SeqNo": "Line Number",
+        "InvoiceType": "Invoice Type",
+        "AccountCode": "Account Code",
+        "AccountName": "Line Account Type",
+        "SalerNo": "Saler No",
+        "SalerName": "Saler Name",
+        "FormatType": "Format Type",
+        "TaxCode": "Line Tax Code",
+        "VatCode": "Vat Code",
+        "Amount": "Amount",
+        "GUITaxAmount": "Tax Amount",
+        "GUIAmountWithoutTax": "Invoice Amount",
+        "OriginalGUINo": "Invoice NO",
+        "GUIDt": "Invoice GV Date",
+        "GUIAmount": "Line Aamount",
+        "LineBaseCurrency": "Invoice Line Currency",
+        "LinePayCurrency": "Line Pay Currency",
+        "LinePayAmount": "Line Pat Amount",
+        "EstimatedAmount": "Line Pre Amount",
+        "LinePayRate": "Line Pay Rate",
+        "ExpressBill": "Express Bill",
+        "ImportDeclarationNo": "Import Declaration No",
+        "Description": "Description",
+        "CutCode": "Cut Code",
+        "LinePayRateAf": "Pay Rate AF",
+        "LineDescription": "Line Description",
+        "CreateUser": "Create User",
+        "CreateDt": "Create Date",
+        "UpdateUser": "Update User",
+        "UpdateDt": "Update Date",
+        "OrgId": "ORG ID",
+        "LineBaseAmount": "Line Base Amount",
+        "PayBaseAmount": "Pay Base Amount"
+      }
+    }
+  }
+}

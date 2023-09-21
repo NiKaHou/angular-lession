@@ -1,0 +1,61 @@
+{
+  "AddressMaintain": {
+    "Header": "地址維護",
+    "Form": {
+      "ConsigneeKey": "客戶",
+      "Country": "國家",
+      "City": "城市",
+      "AssignmentDistrict": "小區",
+      "DeliveryToLocalName": "收件公司(Local)",
+      "DeliveryToEngName": "收件公司(Eng)",
+      "Airport": "機場",
+      "LocalAddress": "正規化地址(Local)",
+      "EngAddress": "正規化地址(Eng)"
+    },
+    "MainTable": {
+      "Column": {
+        "Address": "參考地址",
+        "ConsigneeKey": "客戶",
+        "DeliveryToLocalName": "收件公司(Local)",
+        "DeliveryToEngName": "收件公司(Eng)",
+        "LocalAddress": "正規化地址(Local)",
+        "EngAddress":"正規化地址(Eng)",
+        "Country":"國家",
+        "City":"城市",
+        "AssignmentDistrict":"小區",
+        "Airport":"機場",
+        "CreateUser":"建立者",
+        "CreateDt":"建立日期",
+        "UpdateUser":"更新者",
+        "UpdateDt":"更新日期",
+        "GroupId": "Group Id"
+      }
+    },
+    "Button": {
+      "ViewOrEdit": "檢視/編輯",
+      "Rollback": "還原",
+      "Import": "匯入地址"
+    },
+    "Toast": {
+      "ImportSuccess": "匯入完成",
+      "SaveSuccess": "已完成儲存",
+      "RestoreSuccess": "已完成還原",
+      "SaveFail": "儲存失敗，錯誤代碼: ",
+      "DplFail": "未通過DPL驗證: ",
+      "NoAddress": "請填入正規化地址",
+      "AddressTooLong": "英文地址不得超過135字元",
+      "SaveDplFail": "無法儲存，DPL未通過",
+      "DeliveryTooLong": "英文收件公司名稱不得超過60字元",
+      "DeleteSuccess": "刪除完成",
+      "AddressIsAssociated": "此正規地址已有關聯的訂單，無法刪除。"
+    },
+    "Confirm": {
+      "Header": "系統資訊",
+      "GroupIsExist": "選擇的地址中已有對應的正規化地址，確定要將其也匯入此地址嗎?",
+      "Import": "確定要匯入以上勾選之地址嗎?",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要回復已異動的資料嗎?",
+      "Save": "確定要儲存嗎?"
+    }
+  }
+}

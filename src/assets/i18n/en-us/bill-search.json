@@ -1,0 +1,101 @@
+{
+  "BillSearch": {
+    "Header": "Billing",
+    "BillAdd": {
+      "Header": "Add Billing",
+      "RowId": "Row Id",
+      "ImportTable": {
+        "TermsName": "Terms Name",
+        "OrgId": "Org ID",
+        "NewLineCount":"New Line Count"
+      },
+      "Message": {
+        "Success": "Insert Success. total:",
+        "Error": "Save Failed.",
+        "Nodata": "No data insert",
+        "Failed": "Can not insert DB"
+      },
+      "Error": {
+        "OldInvoice":"Can not add the invoice that before 60 days.",
+        "TermsNull":"Payment method or Payment Term can not be null.",
+        "RateNull":"Rate can not be null",
+        "InoutKeyInvalid":"Can not find this invoice, or the invoice status can not create billing",
+        "BrandNull": "This billcorp can not correspond the vendor, please choose it again.",
+        "AmountInvalid": "ApplyAmount is Null or zero, please input ApplyAmount."
+      }
+    },
+    "Form": {
+      "CarrierPaymentBy": "Carrier Payment By",
+      "OpexOrgId": "Billing Owner",
+      "BillCorp": "Bill Corp",
+      "InOutKey": "InOut Key",
+      "InOutType": "Flow Invoice Type",
+      "GUINo": "GUI No",
+      "AccountCode": "Line Account Type",
+      "ExpressBill": "Hawb No",
+      "DoNo": "Do No",
+      "AdNo": "Ad No",
+      "GUIId": "GUI Id",
+      "UploadBatchNo": "Upload Batch No",
+      "Forwarder": "Forwarder",
+      "DocNo": "Doc No",
+      "DiffAmount": "Diff Amount",
+      "DiffRatio": "Diff Ratio",
+      "ImportType": "Import Type"
+    },
+    "MainTable": {
+      "Column": {
+        "SeqNo": "Row Key",
+        "InOutKey": "Inout Key",
+        "OpexOrgId": "Billing Owner",
+        "BillCorp": "Bill Corp",
+        "GUIId": "GUI Id",
+        "GUINo": "GUI No",
+        "ExpressBill": "Hawb No",
+        "VendorName": "Carrier Payment By",
+        "Status": "Status",
+        "LineBaseCurrency": "Pre Currency",
+        "EstimatedAmount": "Pre Amount",
+        "GUIAmount": "GUI Amount",
+        "LinePayAmount": "Line Pay Amount",
+        "ApplyDt": "Apply Date",
+        "AccountCode": "Line Account Type",
+        "UploadBatchNo": "Upload Batch No",
+        "GUIDt": "GUI Date",
+        "InvoiceType": "Invoice Type",
+        "GUICurrency": "GUI Currency",
+        "Description": "Description",
+        "VendorDescription": "Vendor Description",
+        "PaymentMethod": "Payment Method",
+        "TermsId": "Payment Term",
+        "DueDt": "Due Date",
+        "LinePayCurrency": "Line Pay Currency",
+        "LinePayRate": "Line Pay Rate",
+        "ConfirmDescription": "Confirm Description",
+        "ConfirmBy": "Confirm By",
+        "CreateUser": "Create User",
+        "CreateDt": "Creation Date",
+        "UpdateUser": "Update User",
+        "UpdateDt": "Update Date",
+        "InOutType": "Flow Invoice Type",
+        "DiffRatio": "DiffRatio",
+        "BillType": "Pay Type",
+        "PreCurrencyCode": "Pre Currency",
+        "Amount": "Amount",
+        "Facility": "Facility",
+        "BusinessTaxBaseAmount": "Business Tax Base Amount",
+        "CancelDt": "Cancel Date",
+        "CancelDesc": "Cancel Reason",
+        "CacnelUser": "Cancel User",
+        "ApplyAmount": "Apply Amount"
+      }
+    },
+    "Text":{
+      "Amount":"Amount",
+      "EstimatedAmount": "Estimated Amount",
+      "Count":"Count",
+      "LinePayAmount": "Line Pay Amount",
+      "ApplyAmount": "Apply Amount"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "DHLCityMaintenance": {
+    "Header": "DHL City Maintenance",
+    "Form": {
+      "AwbNumber": "Awb Number"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "Restore"
+      },
+      "ColumnHeader": {
+        "AwbNumber": "Awb Number",
+        "ConsigneeCountryCode": "Consignee Country",
+        "ConsigneeCity": "Consignee City",
+        "ConsigneeCityMappingLaaSCity": "Consignee City(LaaS)",
+        "ShipperCountryCode": "Shipper Country",
+        "ShipperCity": "Shipper City",
+        "ShipperCityMappingLaaSCity": "Shipper City(LaaS)",
+        "ErrorMsg": "Error Msg"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACity": "Select a city",
+        "ChooseColumns": "Choose columns"
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+
+    "Toast": {
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: "
+    }
+  }
+}

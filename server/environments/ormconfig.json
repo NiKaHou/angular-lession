@@ -1,0 +1,17 @@
+{
+  "type": "mssql",
+  "host": "laas-dev-sql-server.database.windows.net",
+  "username": "laasapuser",
+  "password": "lA@5dev26d9Dba1cS",
+  "port": 1433,
+  "database": "laas-dev-sql-database",
+  "synchronize": false,
+  "logging": false,
+  "options": {
+    "encrypt": true
+  },
+  "entities": ["dist/server/entity/*.js"],
+  "cli": {
+    "entitiesDir": "dist/server/entity"
+  }
+}

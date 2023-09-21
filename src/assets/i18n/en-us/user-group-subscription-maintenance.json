@@ -1,0 +1,49 @@
+{
+  "UserGroupSubscriptionMaintenance": {
+    "Header": "User Group Subscription Notification Setting",
+    "Form": {
+      "NotifyEvent": "Notification Event",
+      "Tenant": "Tenant",
+      "Group": "Group",
+      "WorkType": "Work Type",
+      "Brand": "Brand",
+      "Dept": "Dept",
+      "CreateUser": "Create User",
+      "UpdateUser": "Update User"
+    },
+    "Table": {
+        "HeaderColumns": {
+            "NotifyEvent": "Notification Event",
+            "GroupCode": "Group Code",
+            "GroupName": "Group Name",
+            "Tenant": "Tenant",
+            "OrgId": "OrgId",
+            "WorkType": "Work Type",
+            "Brand": "Brand",
+            "VendorCategory": "CTG1",
+            "Dept": "Dept",
+            "Consignee": "Consignee",
+            "Sales": "Sales",
+            "IsActivated": "Is Activated",
+            "UpdateActivatedUser": "Update Activated User",
+            "UpdateActivatedDt": "Update Activated Date",
+            "CreateUser": "Create User",
+            "CreateDt": "Create Date",
+            "UpdateUser": "Update User",
+            "UpdateDt": "Update Date"
+        },
+        "DetailColumns": {
+            "Email": "Email",
+            "IsActivated": "Is Activated"
+        }
+    },
+    "TenantMappingUserGrouupDetailDialog": {
+      "Title": "LaaS Group",
+      "Table": {
+        "Columns": {
+          "Email": "Email"
+        }
+      }
+    }
+  }
+}

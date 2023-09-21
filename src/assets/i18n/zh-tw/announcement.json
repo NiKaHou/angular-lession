@@ -1,0 +1,55 @@
+{
+  "Announcement": {
+    "SearchHeader": "公告查詢",
+    "EditHeader": "公告編輯",
+    "ViewHeader": "公告檢視",
+    "HeaderForm": {
+      "AnnouncementTitle": "主旨:",
+      "CreateBy": "發起人:",
+      "AnnouncementDt": "發布日期:",
+      "AnnouncementType": "公告類別:",
+      "Edit": {
+        "ImportantFlag": "重要",
+        "Facility": "公告歸屬:",
+        "UploadFile": "上傳檔案:",
+        "SelectFile": "選擇檔案"
+      }
+    },
+    "Table": {
+      "AnnouncementTitle": "主旨",
+      "CreateUser": "發起人",
+      "AnnouncementDt": "發布日期",
+      "AnnouncementType": "公告類別",
+      "Status": "狀態",
+      "Action": "動作",
+      "Facility": "歸屬倉別"
+    },
+    "Button": {
+      "NewAnnouncement": "新增公告",
+      "Release": "發布",
+      "Cancel": "取消",
+      "View": "預覽",
+      "SelectFile": "選擇檔案"
+    },
+    "Action": {
+      "Copy": "複製",
+      "Cancel": "取消",
+      "Edit": "編輯",
+      "View": "預覽"
+    },
+    "Toast": {
+      "EndDtLessThanNow": "請您輸入的結束日期大於今日",
+      "EndDtLessThanStart": "請您輸入的結束日期大於開始日期",
+      "DateNull": "請您輸入發布日期",
+      "DuplicateFile": "請不要上傳相同檔名及副檔名之檔案",
+      "CancelSuccess": "取消成功",
+      "SaveSuccess": "分布成功",
+      "FacilityIsNull": "請輸入公告歸屬",
+      "TypeIsNull": "請輸入公告類別",
+      "ContentIsNull": "請輸入公告內文",
+      "TitleIsNull": "請輸入公告標題",
+      "InvalidColumn": "異常欄位:"
+    }
+  }
+}
+

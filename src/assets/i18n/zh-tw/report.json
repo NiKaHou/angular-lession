@@ -1,0 +1,227 @@
+{
+  "ConsignmentLog": {
+    "Header": "託運日誌報表",
+    "Search": {
+      "ConsignmentDate": "託運日期",
+      "Forwarder": "貨代",
+      "BookingNum": "Booking 單號",
+      "CarTripNum": "車次碼"
+    }
+  },
+  "MESReport": {
+    "Header": "MES Report",
+    "Date": "日期",
+    "BookingStatus": "Booking狀態"
+  },
+  "AssignDate": {
+    "Header": "提貨單發票列表",
+    "AssignDate": "指派日期",
+    "BOLCreationDate": "派車建立日期",
+    "BookingNum": "Booking 單號",
+    "BookingStatus": "Booking 狀態",
+    "Forwarder": "貨代",
+    "CarTripNum": "車次碼",
+    "DeliverTo": "Deliver To",
+    "DisplayReasonForMulti": "僅顯示多次派送原因",
+    "PODReport": "POD核對報表格式顯示",
+    "ConsignmentLog": "託運日誌報表格式顯示",
+    "ShowFloorExBkId": "顯示棧板資訊"
+  },
+  "PackOut": {
+    "Header": "箱到齊查詢",
+    "Search": {
+      "Forwarder": "貨代",
+      "BookingNum": "Booking 單號",
+      "DONum": "交貨單號",
+      "AWBNum": "提單號碼"
+    },
+    "MainTable":{
+      "Forwarder": "貨代",
+      "BookingNum": "Booking 單號",
+      "BookingStatus": "Booking 狀態",
+      "DONum": "交貨單號",
+      "DONumStatus": "交貨單狀態",
+      "OffloadPalletNum": "下線棧板號",
+      "DeliveryCntExcludeDrop": "出貨箱數(不包含廠外空飛)",
+      "NormalDOCnt": "正常訂單箱數",
+      "InternalDropShipCnt": "廠內空飛箱數"
+    },
+    "Button": "檔案下載"
+  },
+  "BOLPalletNumQuery": {
+    "Header": "派車板號查詢",
+    "Search": {
+      "BookingNum": "Booking 單號",
+      "DONum": "交貨單號",
+      "OffloadPalletNum": "下線棧板號",
+      "LoadToPallet": "上車棧板",
+      "DisplaySKU": "顯示料號"
+    }
+  },
+  "ShipImportConfirmReport": {
+    "Header": "委託進口貨物確認單(會計)",
+    "Search": {
+      "ReportType": "報表類型",
+      "SourceNo": "有憑流水號",
+      "Forwarder": "貨代",
+      "Date": "單據建立日期(BookingNo,WhNo)"
+    }
+  },
+  "FreightAnalysisReport" : {
+    "Header": "運費分析報表",
+    "Search": {
+      "CertificateNum": "憑證號碼",
+      "Forwarder" : "貨代"
+    }
+  },
+  "ViewRequestExpenseReport": {
+    "Header": "貨代請款費用報表",
+    "Search": {
+      "Forwarder": "貨代",
+      "CreateTime": "建立時間",
+      "AirTime": "班機日期",
+      "PayTime": "付款日期",
+      "BillingStatus": "狀態"
+    },
+    "Alert": {
+      "AtLeastTimeBlank": "建立時間、班機日期、付款日期 三個至少要輸入其中一組",
+      "CreateDayOver": "建立時間區間錯誤，起日不可大於迄日且查詢期間不可超過7天",
+      "AirDayOver": "班機日期區間錯誤，起日不可大於迄日且查詢期間不可超過7天",
+      "PayDayOver": "付款日期區間錯誤，起日不可大於迄日且查詢期間不可超過7天"
+    }
+  },
+  "PaymentReport": {
+    "Header": "請款彙總表",
+    "Search": {
+      "ReportType": "單據類型",
+      "CreateDt": "建立時間",
+      "OrgId": "公司",
+      "Status": "狀態",
+      "Forwarder": "貨代"
+    }
+  },
+  "ImportDeclarationFeeReport": {
+    "Header": "進口報關費用明細表",
+    "Search": {
+      "CreateDt": "建立日期",
+      "ImportDt": "報關日期",
+      "Forwarder": "貨代",
+      "BillCorp": "公司",
+      "SourceType": "單據來源",
+      "Status": "狀態",
+      "ImportDeclarationNo": "進口報單申請單號",
+      "CreateUser": "建立者",
+      "UpdateUser": "修改者"
+    }
+  },
+  "ImportDeclarationFeeAccountingReport": {
+    "Header": "進口報關費用明細表(會計)",
+    "Search": {
+      "ImportDt": "報關日期",
+      "CreateDt": "立帳日期",
+      "Vendor": "廠商",
+      "DocType": "報關類別",
+      "ImportType": "報關方式",
+      "Forwarder": "報關行",
+      "Status": "狀態",
+      "TrxNumber": "單據號碼",
+      "ApInvoiceId": "請款編號",
+      "ApNo": "請款單號",
+      "ImportDeclarationNo": "報單流水號",
+      "GuiNo": "稅單號碼",
+      "DocNo": "報單號碼",
+      "SourceType": "單據別",
+      "OrgId": "公司",
+      "ShowDetail": "顯示 AD 明細",
+      "Facility": "倉別"
+    },
+    "MainTable": {
+      "Column": {
+        "ImportDt": "報關日期",
+        "DocNo": "報單號碼",
+        "ImportTypeDesc": "報關方式",
+        "IncoTerm": "貿易條件",
+        "ExpressBill": "提單號碼",
+        "GuiNo": "稅單號碼",
+        "ImportDeclarationNo": "報單流水號",
+        "OrgId": "公司",
+        "GvAcctdExpCAmount": "實際稅單進口稅",
+        "GvAcctdExpBAmount": "實際稅單推貿費",
+        "GvAcctdAmount": "實際稅單營業稅稅基(報關金額(作帳幣) + 進口稅)",
+        "GvAcctdAmountTax": "實際稅單稅額",
+        "Forwarder": "運送者",
+        "ForwarderName": "運送者描述",
+        "Vendor": "廠商/客戶編號",
+        "VendorName": "廠商",
+        "Currency": "幣別",
+        "ImportRate": "匯率",
+        "AcctdExpCAmount": "進口報單進口稅",
+        "AcctdExpBAmount": "進口報單推貿費",
+        "AcctdAmountTax": "進口報單稅額",
+        "ImportAmount": "進口報單營業稅稅基",
+        "ImportAcctdAmount": "進口報單報單金額",
+        "ImportAcctdAmountTax": "進口報單作帳金額(起岸價)",
+        "SourceType": "來源別",
+        "TrxNumber": "單據號碼",
+        "ApGuiNo": "AP 立帳傳票號碼",
+        "ApInvoiceId": "AP INV NO.",
+        "ApCurrency": "AP 立帳原幣別",
+        "ApInvoiceAmount": "AP 立帳發票金額",
+        "ApConfirmAmount": "AP 立帳作帳金額",
+        "ApRate": "AP 立帳匯率",
+        "ApDeffRate": "作帳幣別匯率差異",
+        "ApNo": "請款單號",
+        "BillingStatus": "費用狀態",
+        "ApCpNo": "AP 傳票號碼",
+        "BillType": "費用別"
+      }
+    }
+  },
+  "PaymentForDHLReport": {
+    "Header": "DHL 請款發票檢核",
+    "Search": {
+      "InvoiceNo": "發票號碼",
+      "Forwarder" : "貨代"
+    }
+  },
+  "UploadDocReport": {
+    "Header": "UPLOAD DOC REPORT",
+    "Search": {
+      "CreateDt": "建立時間",
+      "BookingStatus":"Booking 狀態",
+      "Forwarder":"貨代",
+      "Type":"上傳類型",
+      "HawbNo":"HAWB",
+      "UploadSnDoc":"客戶簽收單",
+      "UploadDoc":"空運提單",
+      "CreateUser":"建立者"
+    },
+    "Alert":{
+      "EitherSnDocOrUploadDoc": "客戶簽收單、空運提單，請至少填一項"
+    }
+  },
+  "PaymentErrorReport": {
+    "Header": "請款異常報表",
+    "Search": {
+      "CreateDt": "建立時間",
+      "ErpApKey":"ERP 流水號",
+      "GuiNo":"憑證編號",
+      "BillingNo":"單據號碼",
+      "InoutNo":"交貨單號/進貨單號",
+      "Forwarder": "貨代"
+    }
+  },
+  "ChinaImportDeclarationFeeReport": {
+    "Header": "中國進口完稅費用表",
+    "Search": {
+      "Facility": "倉別",
+      "LetterOrgId": "公司別",
+      "BookingNo": "Booking 單號",
+      "DoNo": "交貨單號",
+      "CreateDate": "建立時間",
+      "Forwarder": "貨代",
+      "Customer": "客戶",
+      "ReceiptFormNum": "入倉單號"
+    }
+  }
+}

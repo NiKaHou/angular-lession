@@ -1,0 +1,152 @@
+{
+    "Common": {
+        "Status": "Status",
+        "Button": {
+            "Select": "Select",
+            "Search": "Query",
+            "Reset": "Reset",
+            "Restore": "Restore",
+            "Confirm": "Confirm",
+            "Clean": "Clear",
+            "Import": "Import",
+            "Export": "Export",
+            "Delete": "Delete",
+            "Add": "New",
+            "Save": "Save",
+            "Edit": "Edit",
+            "Cancel": "Cancel",
+            "ViewOrEdit": "View/Edit",
+            "FileUpload": "File Upload",
+            "FileDownload": "File Download",
+            "DeleteDuplicate": "Delete Duplicate Item",
+            "Return":"Return without Saving",
+            "Required": "This Field is Required",
+            "Unpick": "Unpick",
+            "Start": "Start",
+            "End": "End",
+            "Range": "Range",
+            "Today": "Today",
+            "ThisWeek": "This Week",
+            "ThreeDaysBefore": "3 Days Before",
+            "OneWeekBefore": "1 Week Before",
+            "TwoWeeksBefore": "2 Weeks Before",
+            "OneMonthBefore": "1 Month Before",
+            "ShowFile": "Show File",
+            "BatchUploadFiles": "Batch Upload Files",
+            "DownloadExcel": "Download Excel",
+            "ShowAll": "Show All",
+            "All": "All",
+            "Unread": "Unread",
+            "Export": "Export",
+            "DownloadExcel": "Download Excel",
+            "Agree": "Agree",
+            "Disagree": "Disagree"
+        },
+        "Table": {
+            "Keyword": "Search keyword",
+            "NoData": "No data found",
+            "Toggle": "Fields Selected",
+            "PageSummary": "Showing {first} to {last} of {totalRecords} entries"
+        },
+        "Form": {
+            "Header": "Query Form"
+        },
+        "Term": {
+            "CreateUser": "Create user",
+            "CreateDate": "Create date",
+            "UpdateUser": "Update user",
+            "UpdateDate": "Update date"
+        },
+        "LogLevel": {
+            "Trace": "Trace",
+            "Debug": "Debug",
+            "Info": "Info",
+            "Warn": "Warn",
+            "Error": "Error",
+            "Fatal": "Fatal"
+        },
+        "Toast": {
+            "Success": "Success",
+            "Info": "Info",
+            "Warn": "Warn",
+            "Error": "Error",
+            "RestoreSuccess": "Restore Completed",
+            "SaveSuccess": "Save Completed",
+            "ExitSuccess": "Exit completed",
+            "GetDataFail": "Query failed, Error Code: ",
+            "SaveFail": "Save failed, Error Code: {0}, Error Msg: {1}",
+            "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet",
+            "NoData": "No Data"
+        },
+        "Message": {
+            "SuccessSave": "Successfully saved",
+            "FailSave": "Failed to saved",
+            "ChooseOption": "Choose",
+            "UnknowError": "Unknow error occurs. Please contacts IT.",
+            "DateRangeCannotExceedSeveralMonths": "Date range cannot exceed {0} months."
+        },
+        "DropDown": {
+            "Select": "Select"
+        },
+        "TMS": {
+          "Success": "Send Success",
+          "Fail": "Send Fail",
+          "SystemError": "System error"
+        },
+        "Dialog": {
+          "Header": "System Info",
+          "Message": {
+            "File": {
+              "Exit": "Are you sure to exit this dialog? Remember to save your changes.",
+              "Save": "Are you sure to save your file data changes?",
+              "SaveFailure": "Saving File failed, Error Code: "
+            }
+          }
+        },
+        "PlaceHolder": {
+          "EnterSearchCondition": "Enter Search Condition"
+        },
+        "Confirm": {
+          "Header": "System Info",
+          "Restore": "Are you sure to restore the changed data?",
+          "Save": "Are you sure to save?",
+          "Exit": "Are you sure to exit edit mode? Remember to save your changes.",
+          "ConfirmDelete": "Confirm delete?"
+        }
+    },
+
+    "Menu":{
+      "Menu":{
+        "OutboundOperation": "Outbound Operation",
+        "CreateBooking": "Create Booking",
+        "DOQuery": "DO Query",
+        "BookingQuery": "Booking Query",
+        "AssignPicker": "Assign Picker",
+        "ShippingStatus": "Shipping Status Query",
+        "ExportDeclare": "Export Declaration Form Query",
+        "CreateExportDeclare": "Create Export Declaration Form",
+        "ContainerManagement": "Container Management",
+        "SystemSetting": "System Setting",
+        "SubscriptNotiSet": "Subscription Notification Setting",
+        "UserMaintenance": "User Maintenance",
+        "CompanyStampMaintenance": "Company Stamp Maintenance",
+        "RoleMaintenance": "Role Maintenance",
+        "ChangePass": "Change Password",
+        "ReportQuery": "Report Query",
+        "MESReport": "MES Report",
+        "DOCartonDetails": "DO Carton Details Query",
+        "ConsignmentLog": "Consignment Log Report",
+        "BOLInvoiceList": "BOL Invoice List",
+        "PackOutQuery": "Pack Out Query",
+        "BOLPalletNumber": "BOL Pallet Number Query",
+        "RFQMaintenance": "RFQ Maintenance",
+        "FSCSSCSetting": "FSC & SSC Setting",
+        "ExchangeRate": "Exchange Rate Maintenance",
+        "ImportDeclaration": "Import Declaration Form Query",
+        "ReceivingRegistration": "Receiving Registration Form",
+        "ReceiptFormQuery": "Receipt Form Query",
+        "InOutWarehousingFormQuery": "In Out Warehousing Form Query",
+        "TermsMaintenance": "TermsMaintenance"
+      }
+    }
+}

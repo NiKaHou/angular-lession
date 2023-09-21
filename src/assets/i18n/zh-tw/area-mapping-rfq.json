@@ -1,0 +1,64 @@
+{
+  "AreaMappingRFQMaintenance": {
+    "Header": "小區 - 貨代報價對應表維護",
+    "Form": {
+      "Country": "國家",
+      "City": "城市",
+      "AssignmentDistrict": "小區",
+      "RFQCountry": "RFQ國家",
+      "RFQCity": "RFQ城市",
+      "RFQAreaCode": "RFQ區域碼",
+      "RFQAreaName": "RFQ區域名字"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "還原"
+      },
+      "ColumnHeader": {
+        "SeqNo": "SeqNo",
+        "Facility": "倉別",
+        "Country": "國家",
+        "City": "城市",
+        "AssignmentDistrict": "小區",
+        "RFQCountry": "RFQ國家",
+        "CitySeqNo": "城市SeqNo",
+        "RFQCity": "RFQ城市",
+        "RFQAreaCode": "RFQ區域碼",
+        "RFQAreaName": "RFQ區域名字",
+        "CreateUser": "建立者",
+        "CreateDt": "建立日期",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新日期"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACountry": "請選擇一個國家",
+        "SelectOneOrMoreCity": "請選擇一或多個城市",
+        "SelectACity": "請選擇一個城市",
+        "SelectOneOrMoreAssignmentDistrict": "請選擇一或多個小區",
+        "SelectAAssignmentDistrict": "請選擇一個小區",
+        "ChooseColumns": "請選擇欄位"
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+
+    "Toast": {
+      "DeleteSuccess": "已完成刪除",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "获取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: "
+    }
+  }
+}

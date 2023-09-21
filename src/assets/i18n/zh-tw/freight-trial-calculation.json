@@ -1,0 +1,31 @@
+{
+  "FreightField": {
+    "Facility": "RFQ倉別",
+    "DeliveryMode": "運送方式",
+    "Forwarder": "貨代",
+    "RFQCategory": "報價類型",
+    "Freight": "運費",
+    "FuelCosts": "燃油費",
+    "SecurityCheckFee": "安檢費",
+    "OtherFee": "其它",
+    "EstimateTotalCharge": "合計",
+    "Currency": "幣別",
+    "IncoTerm": "貿易條件",
+    "Other": {
+      "FreightEstimate": "運費試算",
+      "ShippingType": "運送方式",
+      "ShipTerm": "貿易條件",
+      "FromandTo": "起訖點",
+      "OriginCountry": "來源地",
+      "OriginCity": "來源城市",
+      "DestinationCountry": "目的地",
+      "DestinationCity": "目的城市",
+      "VolumnGrosWeight": "材積/重量",
+      "totalGrossWeight": "總重",
+      "totalVolumeWeight": "總材積重",
+      "Length": "長",
+      "Width": "寬",
+      "Height": "高"
+    }
+  }
+}

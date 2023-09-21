@@ -1,0 +1,11 @@
+{
+    "Error": {
+        "UnAuthorize": {
+            "Title": "You do not have the permissions to use this service.",
+            "Detail": "Please contact your administrator or service provider."
+        },
+        "BookingPreview":{
+          "GroupIdDiff":"The booking address might be different from the one customer requested."
+        }
+    }
+}

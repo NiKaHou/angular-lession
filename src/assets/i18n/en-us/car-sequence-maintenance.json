@@ -1,0 +1,93 @@
+{
+  "CarSequenceMaintenance": {
+    "Header": "Car Sequence Maintenance",
+    "Form": {
+      "DeliveryCategory": "Delivery Category",
+      "PickupLocationType": "Pickup Location Type",
+      "AssignmentDistrictId": "Assignment District Id",
+      "ETD": "ETD",
+      "WeekDay": "Week Day",
+      "IsWorkDay": "Is work day?",
+
+      "Time": {
+        "Header": "Time",
+        "StartTime": "Start Time",
+        "EndTime": "End Time"
+      },
+
+      "Departure": {
+        "Header": "Departure",
+        "DepartureDay": "Departure Day",
+        "DepartureTime": "Departure Time"
+      }
+    },
+
+    "Button": {
+      "Restore": "Restore"
+    },
+
+    "Table": {
+      "ColumnHeader": {
+        "SeqNo": "SeqNo",
+        "Facility": "Facility",
+        "DeliveryCategory": "Delivery Category",
+        "StartTime": "Start Time",
+        "EndTime": "End Time",
+        "Departure": "Departure",
+        "ETD": "ETD",
+        "AssignmentDistrictId": "Assignment District Id",
+        "PickupLocationType": "Pickup Location Type",
+        "WeekDay": "Week Day",
+        "IsWorkDay": "Is Work Day"
+      },
+      "FieldRequired": {
+        "DeliveryCategoryRequired": "Delivery Category is required",
+        "StartTimeRequired": "Start Time is required",
+        "EndTimeRequired": "End Time is required",
+        "DepartureTimeRequired": "Departure Time is required"
+      }
+    },
+
+    "Placeholder": {
+      "Form": {
+        "Time": {
+          "SelectAStartTime": "Select a start time",
+          "SelectAnEndTime": "Select an end time"
+        },
+
+        "Departure": {
+          "SelectADepartureDay": "Select a departure day",
+          "SelectADepartureTime": "Select a departure time"
+        },
+
+        "SelectADeliveryCategory": "Select a delivery category",
+        "SelectAPickupLocationType": "Select a pickup location type",
+        "SelectOneOrMoreAssignmentDistrictId": "Select one or more assignment district id",
+        "SelectANETD": "Select an ETD",
+        "SelectOneOrMoreWeekDay": "Select one or more week day",
+        "SelectIsWorkDayOrNot": "Select is work or not"
+      },
+
+      "Table": {
+        "ChooseColumns": "Choose columns"
+      }
+    },
+
+    "Toast": {
+      "EmptyDataError": "Please fill the required data",
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "SaveFail": "Save failed, Error Code: ",
+      "ExitSuccess": "Exit completed"
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    }
+  }
+}

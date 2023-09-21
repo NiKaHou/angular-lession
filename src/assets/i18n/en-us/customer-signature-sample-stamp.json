@@ -1,0 +1,26 @@
+{
+  "CustomerSignatureSampleStamp":{
+    "Header": "Customer ChopSign Sample",
+    "Form":  {
+      "Facility": "Facility",
+      "OrgId": "Organization Id",
+      "ConsigneeKey":"Customer Code",
+      "ConsigneeCompany":"Customer Name",
+      "OnlyNullChopSign":"Only display no chopsign data"
+    },
+    "Table":{
+      "Column":{
+        "OU":"OU",
+        "ConsigneeKey":"Customer Code",
+        "ConsigneeCompany":"Customer Name",
+        "Type": "Address Type",
+        "ShipAddress":"Address  ",
+        "ChopSignSample": "ChopSign Sample",
+        "EffectiveStartDate": "Effective Start Date",
+        "EffectiveEndDate": "Effective End Date",
+        "UpdateUser":"Update User",
+        "UpdateDt":"Update Date"
+      }
+    }
+  }
+}

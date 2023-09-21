@@ -1,0 +1,81 @@
+{
+  "IntransitUpdate": {
+    "Header": "在途中更新",
+    "Search":{
+      "hawb":"HAWB"
+    },
+    "MainTable": {
+      "deliveryWarehouse": "目的地倉別",
+      "forwarderName": "貨代",
+      "awbNumber": "AWB",
+      "shipperName": "Shipper Name",
+      "shipperCity": "來源城市",
+      "shipperCountry": "來源國家",
+      "consigneeName": "收貨人名稱",
+      "consigneeCity": "目的城市",
+      "consigneeCountry": "目的國家",
+      "pieces": "件數",
+      "actWgt": "GW",
+      "bookingDate": "預計提貨時間",
+      "pickUpDate": "提貨時間",
+      "completeDeliveryTime": "派送完成時間",
+      "brandName": "品牌",
+      "reference": "Reference",
+      "etd": "ETD",
+      "eta": "ETA",
+      "edc": "EDC",
+      "atd": "ATD",
+      "ata": "ATA",
+      "estimatedPortClearanceTime": "預計口岸清關時間",
+      "actualPortClearanceTime": "實際口岸清關時間",
+      "others": "異常說明",
+      "mawbNumber": "MAWB",
+      "route": "運送路徑",
+      "createDt": "建立日期",
+      "createUser": "建立人員",
+      "updateDt": "更新日期",
+      "updateUser": "更新人員"
+    }
+  },
+  "IntransitImport": {
+    "Header": "匯入 Intransit 資料",
+    "MainTable": {
+      "deliveryWarehouse": "目的地倉別",
+      "forwarderName": "貨代",
+      "awbNumber": "AWB",
+      "shipperName": "Shipper Name",
+      "shipperCity": "來源城市",
+      "shipperCountry": "來源國家",
+      "consigneeName": "收貨人名稱",
+      "consigneeCity": "目的城市",
+      "consigneeCountry": "目的國家",
+      "pieces": "件數",
+      "actWgt": "GW",
+      "bookingDate": "預計提貨時間",
+      "pickUpDate": "提貨時間",
+      "completeDeliveryTime": "派送完成時間",
+      "brandName": "品牌",
+      "reference": "Reference",
+      "etd": "ETD",
+      "eta": "ETA",
+      "edc": "EDC",
+      "atd": "ATD",
+      "ata": "ATA",
+      "estimatedPortClearanceTime": "預計口岸清關時間",
+      "actualPortClearanceTime": "實際口岸清關時間",
+      "others": "異常說明",
+      "mawbNumber": "MAWB",
+      "route": "運送路徑",
+      "createDt": "建立日期",
+      "createUser": "建立人員",
+      "updateDt": "更新日期",
+      "updateUser": "更新人員"
+    },
+    "Message": {
+      "SelectFile": "請先選擇檔案."
+    },
+    "Button":{
+      "Download":"範本下載"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "UserMaintenance": {
+    "Header": "User Maintenance",
+    "Search": {
+      "Account": "Account",
+      "Name": "Name",
+      "Email": "Email"
+    },
+    "MainTable": {
+      "Account": "Account",
+      "UserType": "User Type",
+      "UserName": "User Name",
+      "Email": "Email",
+      "IsActivated": "IsActivated",
+      "Action": "Action"
+    },
+    "Button": "Add User",
+    "UserEdit": {
+      "UserEdit": "User Edit",
+      "Account": "Account",
+      "UserType": "User Type",
+      "Email": "Email",
+      "UserName": "User Name",
+      "EmployCode": "Employee S/N",
+      "Pwd": "Password",
+      "ConfirmPwd": "Confirm Password",
+      "IsActivated": "Is Activated",
+      "DataAuthor": "Data Authorization",
+      "Button": "Add Role",
+      "Role": "Role"
+    }
+  },
+  "ChangePwd": {
+    "Header": "Change Password",
+    "Form": {
+      "OldPwd": "Old Password",
+      "NewPwd": "New Password",
+      "ConfirmPwd": "Confirm Password"
+    }
+  },
+  "RoleMaintenance": {
+    "Header": "Role Maintenance",
+    "Search": {
+      "UserType": "User Type",
+      "RoleCode": "Role Code",
+      "RoleName": "Role Name"
+    },
+    "MainTable": {
+      "RoleCode": "Role Code",
+      "RoleName": "Role Name",
+      "UserType": "User Type",
+      "IsActivated": "IsActivated",
+      "Action": "Action"
+    }
+  },
+  "CompanyStampMaintenance": {
+    "Header": "Company Stamp Maintenance",
+    "Search": {
+      "DONum": "DO Number"
+    },
+    "MainTable": {
+      "FileKey": "File Key",
+      "FileName": "File Name",
+      "SiteId": "Site Use Id",
+      "FromTime": "From Time",
+      "EndTime": "End Time",
+      "Photo": "Photo",
+      "CreateBy": "Create By",
+      "CreateDate": "Create Date"
+    },
+    "UploadFile": {
+      "UploadFile": "Upload File",
+      "StartEnd": "Time Start & End",
+      "ForceUpdate": "ForceUpdate",
+      "File": "File",
+      "Button": {
+        "ChooseFile": "Choose File",
+        "Upload": "Upload",
+        "Cancel": "Cancel"
+      }
+    }
+  },
+  "FaqMaintenance": {
+    "Header": "FAQ Maintenance",
+    "Search": {
+      "Facility": "Facility",
+      "Keyword": "Keyword",
+      "IsActivated": "Is Activated",
+      "ApplyFacility": "Apply facility: "
+    },
+    "MainTable": {
+      "Question": "Question",
+      "Answer": "Answer",
+      "IsActivated": "IsActivated",
+      "CreateBy": "Create By",
+      "CreationTime": "Creation Time",
+      "UpdateBy": "Update By",
+      "UpdateTime": "Update time",
+      "Action": "Action"
+    },
+    "Button": "Add FAQ",
+    "FaqEdit": {
+      "EditHeader": "FAQ Edit",
+      "Question": "Question",
+      "Answer": "Answer",
+      "Facility": "Facility",
+      "IsActivated": "IsActivated",
+      "Button": "Add FAQ"
+    }
+  },
+  "Terms": {
+    "View":{
+      "Header": "Terms of use",
+      "TermsType":"TermsType",
+      "LaaSTerms":"LaaSTerms",
+      "CookiePolicy":"CookiePolicy",
+      "PrivacyPolicy":"PrivacyPolicy",
+      "CustomerNotification":"CustomerNotification"
+    },
+    "Maintenance": {
+      "Header": "Terms Maintenance",
+      "Confirm": {
+        "Header": "System information",
+        "Announcement": "Confirm announcement?",
+        "Save": "Confirm Save?"
+      }
+    }
+  }
+}

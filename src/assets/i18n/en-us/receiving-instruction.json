@@ -1,0 +1,84 @@
+{
+  "ReceivingInstruction":{
+    "Header": "Receiving Instruction",
+    "SearchForm":{
+      "ReceivingRequestHeader": "Receiving Request(Header)",
+      "ReceivingRequestDetail": "Receiving Request(Detail)",
+      "Facility": "Facility",
+      "HawbNo": "Hawb No",
+      "InvoiceNo": "Invoice No",
+      "ReceivedDt": "Received Date",
+      "Vendor": "Vendor",
+      "ImportDeclarationNo": "ImportDeclaration No",
+      "AdNo": "AdNo",
+      "Sku": "Sku",
+      "DocStatus": "DocStatus",
+      "CreateDt": "Create Date",
+      "IsNotify": "IsNotify",
+      "Notify" : "IsNotified",
+      "ReceivingInstructionSearch": "ReceivingInstructionSearch",
+      "Warning": {
+        "NotifiedAndStatusdWarning": "Note: When the 'DocStatus' is not 0 - Normal, 1 - Arrival. Then you can't edit 'Receiving Requirements Items', 'Receiving Requirements Description' and do 'ReturnWms'."
+      }
+    },
+    "MainTable": {
+      "AdNo": "AdNo",
+      "BillOfLading": "Hawb No",
+      "CarbonCopyUsers": "CarbonCopyUsers",
+      "ImportDeclarationNo": "ImportDeclaration No",
+      "File": "File",
+      "DocStatus": "Doc Status",
+      "VendorName": "Vendor",
+      "ArrivalCnt": "Arrival Cnt",
+      "ReceivedDt": "Received Date",
+      "Facility": "Facility",
+      "CreateDt": "Create Date",
+      "NotifyUser": "NotifyUser",
+      "NotifyDt": "NotifyDt",
+      "IsNotify": "IsNotified",
+      "Priority": "Priority"
+    },
+    "DetailTable": {
+      "Sku": "Sku",
+      "ExpectedQty": "Expected Qty",
+      "InvoiceNo": "Invoice No",
+      "TaskCode": "Receiving Requirements Items",
+      "TaskRemark": "Receiving Requirements Description",
+      "ReturnWms": "Return WMS",
+      "ReturnWmsSuccess": "Return WMS Success",
+      "ReturnWmsFail": "Return WMS Fail",
+      "BatchUpdate": "Batch Update of receiving instruction",
+      "NotifyUser": "NotifyUser",
+      "NotifyDt": "NotifyDt",
+      "IsNotify": "isNotified",
+      "Restore" : "Restore"
+    },
+    "Confirm": {
+      "Header": "System Information",
+      "Save": "Are you sure to save?",
+      "ChangeSaveOrNot": "Your change didn't save. Do you want to save?",
+      "SaveOrNot": "Do you want to save?",
+      "ReturnWms": "Do you want to return data to WMS?",
+      "Restore": "Do you want to restore the data?"
+    },
+    "Toast": {
+      "SaveSuccess": "Save success",
+      "RestoreSuccess": "Restore success"
+    },
+    "errorMessage":{
+      "HeaderHaveRemarkNotHaveCode": "You didn't select taskCode when you input taskRemark in header table.",
+      "DetailHaveRemarkNotHaveCode": "You didn't select taskCode when you input taskRemark in detail table.",
+      "ReturnWmsError": "The goods have been arrived, please contact the logistics customer service for your needs.",
+      "DocStatusCannotUploadFile": "DocStatus is F - ERP Received, Can't upload files.",
+      "TaskCodeEmpty": "There is no taskcode in your selection. You must input taskcode when you return wms.",
+      "WmsDocStatusIsNull": "WMS {0} Doc Status is null.",
+      "DocStatusIsDiff": "{0} Doc Status is different, please try again later.",
+      "DocStatusCannotUpdateTaskCode": "{0} WMS Doc status is {1}, Task code cannot be {2}."
+    },
+    "Dialog": {
+      "File": {
+        "Header": "Receiving Instruction File"
+      }
+    }
+  }
+}

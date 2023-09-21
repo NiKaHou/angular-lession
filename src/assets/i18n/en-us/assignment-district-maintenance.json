@@ -1,0 +1,64 @@
+{
+  "AssignmentDistrictMaintenance": {
+    "Header": "Assignment District Maintenance",
+
+    "Form": {
+      "AssignmentDistrictId": "Assignment District Id",
+      "DistrictName": "District Name",
+      "Country": "Country",
+      "City": "City",
+      "Priority": "Priority",
+      "PriorityNote": "*Priority can be positive number only"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "Restore"
+      },
+
+      "ColumnHeader": {
+        "AssignmentDistrictId": "Assignment District Id",
+        "Facility": "Facility",
+        "Country": "Country",
+        "City": "City",
+        "DistrictName": "District Name",
+        "Priority": "Priority",
+        "CreateUser": "Create User",
+        "CreateDt": "CreateDt",
+        "UpdateUser": "Update User",
+        "UpdateDt": "UpdateDt"
+      },
+
+      "FieldWarning": {
+        "AssignmentDistrictIdIsRequired": "Assignment District Id is required",
+        "PriorityMustBePositiveNumber": "Priority must be positive number"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectACountry": "Select a country",
+        "ChooseColumns": "Choose columns"
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+
+    "Toast": {
+      "EmptyDataError": "Please fill the required data",
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: ",
+      "WrongPriorityFormat": "Priority error, must be positive number"
+    }
+  }
+}

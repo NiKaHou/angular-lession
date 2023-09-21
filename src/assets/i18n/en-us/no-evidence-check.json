@@ -1,0 +1,77 @@
+{
+  "NoEvidenceCheck": {
+    "Header": "Non Goverment Uniform Invoice Check",
+    "Confirm": {
+      "Header": "System Info",
+      "Save": "Are you sure to save?",
+      "SaveOrNot": "Your change is not saved. Do you want to save?"
+    },
+    "Toast": {
+      "SaveSuccess": "Save success"
+    },
+    "Button": {
+      "EditOrView":"View/Edit"
+    },
+    "Form": {
+      "InoutType": "Flow Invoice Type",
+      "NonGUIId": "REF No",
+      "OrgId": "Org Id",
+      "CarrierPaymentBy": "Carrier Payment By",
+      "Status": "Status",
+      "GUIAmount": "Invoice Amount",
+      "GUINo": "Invoice No",
+      "GUIDt": "Invoice Date",
+      "SourceModel": "Source Model"
+    },
+    "Table": {
+      "Columns": {
+        "NonGUIId": "REF No",
+        "OrgId": "Org Id",
+        "SetOfBooksId": "Set Of Books Id",
+        "CarrierPaymentBy": "Carrier Payment By",
+        "Status": "Status",
+        "GUIAmount": "Invoice Amount",
+        "GUINo": "Invoice No",
+        "GUIDt": "Invoice Date",
+        "GUICurrency": "Invoice Currency",
+        "ShippingDescription": "Shipping Description",
+        "AmountDifferenceDescription": "Amount Difference Description",
+        "ERPCarrierPaymentSiteId": "Vendor Site Id",
+        "TermsId": "Payment Terms",
+        "PaymentMethod": "Payment Method",
+        "GLDt": "GL DATE",
+        "SourceModel": "Source Model",
+        "AmountDifferenceColorFlag": "Amount DifferenceColor Flag",
+        "Amount": "Amount"
+      }
+    },
+    "DetailTable": {
+      "Columns": {
+        "NonGUIId": "Non GUI Id",
+        "InvoiceType": "Invoice Type",
+        "AccountName": "Account Name",
+        "EstimatedAmount": "Estimated Amount",
+        "Amount": "Amount",
+        "LinePayCurrency": "Line Pay Currency",
+        "LinePayAmount": "Line Pay Amount",
+        "LinePayRate": "Line Pay Rate",
+        "ExpressBill": "ExpressB ill",
+        "ImportDeclarationNo": "Import Declaratio nNo",
+        "Description": "Description",
+        "SalerNo": "Saler No",
+        "SalerName": "Saler Name",
+        "FormatType": "Format Type",
+        "TaxCode": "Tax Code",
+        "VatCode": "Vat Code",
+        "GuiTaxAmount": "Gui Tax Amount",
+        "LinePayRateAf": "Line Pay Rate Af",
+        "GuiAmountWithoutTax": "Gui Amount Without Tax",
+        "LineDescription": "Line Description",
+        "LineBaseCurrency": "Line Base Currency",
+        "LineBaseAmount": "Line Base Amount",
+        "PayBaseAmount": "Pay Base Amount",
+        "CutCode": "Cut Code"
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "StockMaintenance": {
+    "Header": "Stock Maintenance",
+
+    "MainTable": {
+      "Column": {
+        "facility": "Facility",
+        "organizationCode": "Organization Code",
+        "uId": "UID",
+        "brand": "Brand",
+        "receiptChargeType": "Receipt Charge Type",
+        "receivedTime": "Received Time",
+        "dateCode": "Date Code",
+        "vendorLot": "Vendor Lot",
+        "originalAD": "Original AD",
+        "ipCapacity": "IP Capacity",
+        "packageCode": "Package Code",
+        "hue": "Hue",
+        "dfName": "DF Name",
+        "reservedOrgId": "Reserved Org ID",
+        "uidLockCode": "UID Lock Code(Cust/Vendor)",
+        "supplierRegion": "Supplier Region",
+        "uidLockTime": "UID Lock Time",
+        "uidUnlockTime": "UID Unlock Time",
+        "lockReason": "Lock Reason",
+        "storer": "Storer",
+        "orgId": "Org ID",
+        "caseId": "Case ID",
+        "sku": "Sku",
+        "vendorDc": "Vendor DC",
+        "coo": "Coo",
+        "iipCapacity": "IIP Capacity",
+        "caseCapacity": "Case Capacity",
+        "revision": "Revision",
+        "kitNo": "Kit NO.",
+        "2DBarcode": "2D Barcode",
+        "reservedSubinventory": "Reserved Subinventory",
+        "reservedOthers": "Reserved Others",
+        "lockStaff": "Lock Staff",
+        "unlockStaff": "Unlock Staff",
+        "lockType": "Lock Type",
+        "othersReasonDesc": "Others Reason Desc",
+        "trackingItemsNotes": "Tracking Items Notes",
+        "destockingDate": "Destocking Date",
+        "imcCode": "Imc Code",
+        "onhandQty": "Onhand Qty",
+        "createUser": "Create User",
+        "lastUpdateDate": "Last Update Date",
+        "lastUpdateUser": "Last Update User"
+      }
+    },
+
+    "Message": {
+      "Restore": "Are you sure to restore the changed data ?",
+      "Save": "Are you sure to save ?",
+      "NoDestocking": "Destocking Date is required.",
+      "NotificationOfQuery":"Note: The maximum number of queries is 2,000!"
+    }
+  },
+
+  "TrackingItemImport": {
+    "Header": "Import Tracking Item",
+
+    "Message": {
+      "SelectFile": "Please select file."
+    }
+  }
+}

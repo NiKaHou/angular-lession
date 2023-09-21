@@ -1,0 +1,20 @@
+{
+  "ImportExportLicenceInfo": {
+    "Title" : "進出口訊息",
+    "ApplyArea": "申請地區",
+    "ApplyItemCode" : "查詢項目",
+    "Description": "相關說明",
+    "IsNecessary": "必要",
+    "IsSpecificallyRequested": "特殊要求",
+    "OfficalInfo": "官網連結",
+    "DocumentName": "適用狀況",
+    "ApplyForm" : "申請表格",
+    "Toast" :{
+      "SelectApplyArea": "請選擇申請地區",
+      "SelectApplyItemCode": "請選擇查詢項目",
+      "NoFile" : "查無檔案",
+      "ApplicationProgressHK" : "如需查證申請進出口證進度，需先在\"進出口License 申請單\"找出申請收據號，再在香港工貿處查詢欄位打上查出實際進度。如有不明白可聯絡申請人員了解。"
+    }
+  }
+
+}

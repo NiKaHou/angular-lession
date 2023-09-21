@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-side-menu',
@@ -11,11 +12,15 @@ export class SideMenuComponent implements OnInit, AfterViewInit, OnDestroy {
   sidebarVisible: boolean;
   items: MenuItem[];
 
+  public toggleMenuBar: BehaviorSubject<any>;
+
   constructor() {
     this.sidebarVisible = true;
+    this.items = [];
+    this.toggleMenuBar = new BehaviorSubject<any>(null);
   }
   ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
+    this.toggleMenuBar = new BehaviorSubject<any>(null);
   }
 
   ngAfterViewInit(): void {
@@ -28,28 +33,16 @@ export class SideMenuComponent implements OnInit, AfterViewInit, OnDestroy {
       label: 'File',
       icon:'pi pi-fw pi-file',
       items: [
-          {
-              label: 'New',
-              icon:'pi pi-fw pi-plus',
-              items: [
-                  {
-                  label: 'Bookmark',
-                  icon:'pi pi-fw pi-bookmark'
-                  },
-                  {
-                  label: 'Video',
-                  icon:'pi pi-fw pi-video'
-                  }
-              ]
-          },
-          {
-              label: 'Delete',
-              icon:'pi pi-fw pi-trash'
-          },
-          {
-              label: 'Export',
-              icon:'pi pi-fw pi-external-link'
-          }
+        {
+        label: 'BillSearch',
+        icon:'pi pi-fw pi-bookmark',
+        routerLink:'/Bill/BillSearch'
+        },
+        {
+        label: 'billPromission',
+        icon:'pi pi-fw pi-video',
+        routerLink:'/Bill/BillPromission'
+        }
       ]
       },
       {
@@ -58,7 +51,8 @@ export class SideMenuComponent implements OnInit, AfterViewInit, OnDestroy {
       items: [
           {
               label: 'Left',
-              icon:'pi pi-fw pi-align-left'
+              icon:'pi pi-fw pi-align-left',
+              routerLink:'/Bill/BillCard'
           },
           {
               label: 'Right',

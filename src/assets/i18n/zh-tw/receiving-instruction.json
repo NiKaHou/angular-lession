@@ -1,0 +1,84 @@
+{
+  "ReceivingInstruction": {
+    "Header": "收料指示",
+    "SearchForm":{
+      "ReceivingRequestHeader": "收料需求項目(Header)",
+      "ReceivingRequestDetail": "收料需求項目(明細)",
+      "Facility": "倉別",
+      "HawbNo": "提單號碼",
+      "InvoiceNo": "發票號碼",
+      "ReceivedDt": "收貨完成日期",
+      "Vendor": "供應商",
+      "ImportDeclarationNo": "報關單號",
+      "AdNo": "進貨單號",
+      "Sku": "商品料號",
+      "DocStatus": "進貨狀態",
+      "CreateDt": "建立日期",
+      "ReceivingInstructionSearch": "收料查詢",
+      "IsNotify" : "是否回傳",
+      "Notify" : "已回傳",
+      "Warning": {
+        "NotifiedAndStatusdWarning": "注：當 '進貨狀態' 已不為 0 - 等待驗收、1 - 貨已到倉庫，將不可以編輯 '收料需求項目' 及 '收料需求說明' 以及 回傳WMS。"
+      }
+    },
+    "MainTable": {
+      "AdNo": "進貨單號",
+      "BillOfLading": "提單號碼",
+      "CarbonCopyUsers":"副本寄送對象",
+      "ImportDeclarationNo": "報關單號",
+      "File": "文件",
+      "DocStatus": "進貨狀態",
+      "VendorName": "供應商",
+      "ArrivalCnt": "進貨箱數",
+      "ReceivedDt": "收貨完成日期",
+      "Facility": "倉別",
+      "CreateDt": "建立日期",
+      "NotifyUser": "回傳人員",
+      "NotifyDt": "回傳日期",
+      "IsNotify": "是否回傳",
+      "Priority": "優先度"
+    },
+    "DetailTable": {
+      "Sku": "商品料號",
+      "ExpectedQty": "數量",
+      "InvoiceNo": "發票號碼",
+      "TaskCode": "收料需求項目",
+      "TaskRemark": "收料需求說明",
+      "ReturnWms": "回傳WMS",
+      "ReturnWmsSuccess": "回傳WMS成功",
+      "ReturnWmsFail": "回傳WMS失敗",
+      "BatchUpdate": "批次收料指示",
+      "NotifyUser": "回傳人員",
+      "NotifyDt": "回傳日期",
+      "IsNotify": "是否回傳",
+      "Restore" : "回復"
+    },
+    "Confirm": {
+      "Header": "系統資訊",
+      "Save": "確定要儲存嗎?",
+      "ChangeSaveOrNot": "您的變更尚未儲存，請問要儲存嗎?",
+      "SaveOrNot": "請問要儲存嗎?",
+      "ReturnWms": "確定要將資訊回傳至WMS嗎?",
+      "Restore": "確定要將資料回復嗎?"
+    },
+    "Toast": {
+      "SaveSuccess": "儲存成功",
+      "RestoreSuccess": "回復成功"
+    },
+    "errorMessage":{
+      "HeaderHaveRemarkNotHaveCode": "您在Header有資料輸入收料需求說明但未輸入收料需求項目",
+      "DetailHaveRemarkNotHaveCode": "您在Detail有資料輸入收料需求說明但未輸入收料需求項目",
+      "ReturnWmsError": "貨品已進貨，您的需求請與運籌客服窗口聯繫",
+      "DocStatusCannotUploadFile": "進貨狀態為 F - ERP入庫完成，不可上傳文件",
+      "TaskCodeEmpty": "您有收料需求項目為空，請維護好再進行WMS回傳。",
+      "WmsDocStatusIsNull": "WMS {0} 進貨狀態是空的",
+      "DocStatusIsDiff": "{0} 進貨狀態尚未同步，請稍後再試",
+      "DocStatusCannotUpdateTaskCode": "{0} WMS 進貨狀態 {1}，收料需求項目不可為 {2}"
+    },
+    "Dialog": {
+      "File": {
+        "Header": "收料指示文件"
+      }
+    }
+  }
+}

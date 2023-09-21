@@ -1,0 +1,32 @@
+{
+    "NotificationSubscribtion": {
+        "Header": "訂閱通知設定",
+        "SubHeader": "訂閱通知新增",
+        "Facility": "倉別",
+        "Forwarder": "貨代",
+        "Customer": "客戶",
+        "Org": "公司",
+        "Form": {
+            "Search": "搜尋",
+            "Email": "電子郵件",
+            "NotificationType": "通知類型",
+            "NotificationMode": "通知方式",
+            "IndiOrGroup": "是否為個人",
+            "Tenant": "Tenant",
+            "InfoTypeDesc": "傳遞方式",
+            "InfoType": {
+                "Email": "Email通知",
+                "SMS": "SMS通知"
+            },
+            "Subscriber": "訂閱者",
+            "hash": "#",
+            "Status": "狀態",
+            "Action": "動作",
+            "Org": "公司",
+            "IsPersonalSubscription": "是否為個人訂閱"
+        },
+        "EditDialog": {
+            "Title": "編輯訂閱通知"
+        }
+    }
+}

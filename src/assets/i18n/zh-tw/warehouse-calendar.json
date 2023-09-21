@@ -1,0 +1,25 @@
+{
+  "WarehouseCalendar": {
+    "Header": {
+      "Title": "WMS行事曆",
+      "LaaSTitle": "LaaS行事曆",
+      "PreviousMonth": "上個月",
+      "Today": "今天",
+      "NextMonth": "下個月"
+    },
+    "Calendar": {
+      "Year": "年",
+      "Month": "月"
+    },
+    "EditDialog": {
+      "Title": "編輯WMS行事曆",
+      "LaaSTitle": "編輯LaaS行事曆",
+      "DescrLabel": "標題",
+      "MemoLabel": "備註",
+      "VacationLabel": "假日",
+      "CreateUserLabel": "建立人員: ",
+      "LastUpdateUserLabel": "最後更新人員: ",
+      "OverLengthMsg": "超過最大長度"
+    }
+  }
+}

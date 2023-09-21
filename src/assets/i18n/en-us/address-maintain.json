@@ -1,0 +1,61 @@
+{
+  "AddressMaintain": {
+    "Header": "Address Maintain",
+    "Form": {
+      "ConsigneeKey": "Consignee",
+      "Country": "Country",
+      "City": "City",
+      "AssignmentDistrict": "Assignment District",
+      "DeliveryToLocalName": "Delivery To(Local)",
+      "DeliveryToEngName": "Delivery To(Eng)",
+      "Airport": "Airport",
+      "LocalAddress": "Normalized Address(Local)",
+      "EngAddress": "Normalized Address(Eng)"
+    },
+    "MainTable": {
+      "Column": {
+        "Address": "Address",
+        "ConsigneeKey": "Consignee",
+        "DeliveryToLocalName": "DeliveryTo(Local)",
+        "DeliveryToEngName": "DeliveryTo(Eng)",
+        "LocalAddress": "Normalized Address(Local)",
+        "EngAddress":"Normalized Address(Eng)",
+        "Country":"Country",
+        "City":"City",
+        "AssignmentDistrict":"Assignment District",
+        "Airport":"Airport",
+        "CreateUser":"Create User",
+        "CreateDt":"Create Date",
+        "UpdateUser":"Update User",
+        "UpdateDt":"Update Date",
+        "GroupId": "Group Id"
+      }
+    },
+    "Button": {
+      "ViewOrEdit": "View/Edit",
+      "Rollback": "Restore",
+      "Import": "Import Address"
+    },
+    "Toast": {
+      "ImportSuccess": "Import Completed",
+      "SaveSuccess": "Save Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveFail": "Save failed, Error Code: ",
+      "DplFail": "DPL check is failed: ",
+      "NoAddress": "Please fill in the local address",
+      "AddressTooLong": "The Eng Address limited 135 chars",
+      "SaveDplFail": "Save failed, DPL check is failed",
+      "DeliveryTooLong": "The DeliveryTo(Eng) limited 60 chars",
+      "DeleteSuccess": "Delete Completed",
+      "AddressIsAssociated": "This normalized address already has associated orders, so can't delete that."
+    },
+    "Confirm": {
+      "Header": "System Info",
+      "GroupIsExist": "The selected address has a corresponding normalized address, are you sure to import that address?",
+      "Import": "Are you sure to import these address?",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?"
+    }
+  }
+}

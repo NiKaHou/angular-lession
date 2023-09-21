@@ -1,0 +1,10 @@
+{
+  "FileUpload": {
+    "Header": "上傳",
+    "File":"檔案",
+    "MutlipleFile":"多選檔案",
+    "OneFileWarn":"一個單據號碼只能上傳一份檔案",
+    "ChooseFileWarn":"請選擇單據號碼!!",
+    "DeleteMsg":"確定要刪除嗎?"
+  }
+}

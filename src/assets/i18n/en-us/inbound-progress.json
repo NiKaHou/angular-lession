@@ -1,0 +1,15 @@
+{
+  "InboundProgress": {
+    "Header": "Inbound Progress",
+    "MainTable":{
+      "Column":{
+        "OrgId":"Org Id",
+        "AdNo":"Ad No.",
+        "BillOfLading":"Bill Of Lading",
+        "InvoiceNo":"Invoice No.",
+        "Sku":"Sku",
+        "ExpectedQty":"Expected Qty"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "DOImport": {
+    "Header": "Create Booking",
+    "SubHeader": "Import DO",
+    "Button": {
+      "DOScan": "DO Number Scan",
+      "DOSearch": "DO Number Query Import",
+      "Preview": "Preview Booking"
+    },
+    "RadioBtn":{
+      "Standard": "Standard",
+      "Special": "Special"
+    },
+    "Table": {
+      "Column": {
+        "Delete": "Delete",
+        "DONo": "DO Number",
+        "LetterHeadCorp": "Letter Head Company",
+        "ShippingCorp": "Ship Out Company",
+        "OrderCorp": "Load Order Company",
+        "ConsigneeKey": "Customer Code",
+        "ConsineeName": "Customer Name",
+        "Shipterm": "Trade Term",
+        "ETD": "ETD",
+        "ETA": "ETA",
+        "DeliveryType": "Delivery Location",
+        "DischargeType": "Delivery Mode",
+        "ShipToAddr": "Ship To Address",
+        "DeliverToAddr": "Deliver To Address",
+        "ShippingRemark": "Shipping Note",
+        "TotalCarton": "Total Carton Count",
+        "NetWeight": "Net Weight",
+        "GrossWeight": "Gross Weight",
+        "VolumeWeight": "Volume",
+        "PaymentTerm": "Payment Term",
+        "Storer": "Storer",
+        "Group": "Group",
+        "InvoiceTime": "Invoice Time",
+        "NoShippingReason": "On Hold Reason",
+        "Sales": "Sales",
+        "Department": "Department",
+        "DoStatus": "DO Status",
+        "BookingStatus": "DO Booking Status",
+        "DropShipFlag": "Drop Ship Flag",
+        "BookingNo": "Booking Number",
+        "Facility": "Facility",
+        "BookingCount": "BOL Count",
+        "ShipNotes": "Shipping Instruction",
+        "InvoiceNumber":"Invoice Number"
+      },
+      "NoData": "No DO Imported"
+    },
+    "Alert":{
+      "CancelDo":"DO(s) are cancelled."
+    }
+  }
+}

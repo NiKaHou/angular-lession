@@ -1,0 +1,78 @@
+{
+  "ShippingStatus": {
+    "Header": "Shipping Status Query",
+    "Search": {
+     "Urgent":"Urgent",
+     "OverOrder":"Overdue Order",
+     "PersonOrder":"Personal Order",
+     "All":"All",
+     "StatusQuery":"Status Query",
+     "LeaveWare":"Leave Warehouse",
+     "HasnotLeave":"Has not leave warehouse",
+     "Customer":"Customer",
+     "DONum":"DO Number",
+     "CustomerPO":"Customer PO",
+     "EstimateLeave":"Estimate Leave Warehouse Date",
+     "InvoiceNo":"Invoice No.",
+     "InvoiceDt":"Invoice Date",
+     "ShipDt": "Ship Date",
+     "Sales":"Sales",
+     "CreateUser":"Create User",
+     "IncludeDept":"Include Dept",
+     "OrgId":"OrgId",
+     "MergeKey":"Merge Key"
+    },
+    "Button": {
+      "Today":"Today",
+      "ThreeDaysBefore":"3 Days before",
+      "OneWeekBefore":"1 week before",
+      "TwoWeeksBefore":"2 Weeks before",
+      "OneMonthBefore":"1 month before",
+      "DOUrgent": "DO Urgent"
+    },
+    "MianTable":{
+      "Facility": "Facility",
+      "DONum": "DO Number",
+      "Customer": "Customer",
+      "NumCartons": "Number of Allocated Cartons",
+      "Status": "Status",
+      "EstimateLeave": "Estimate Leave Warehouse Time",
+      "ReEsitmate": "Re-esitmate Leave Warehouse Time",
+      "ActualLeave": "Actual Leave Warehouse Time",
+      "Remarks": "Remarks",
+      "FileDownload": "File Download",
+      "MergeKey": "Merge Key",
+      "CartonCnt": "CartonCnt",
+      "Priority": "Priority"
+
+    },
+    "DetailTable":{
+      "Facility": "Facility",
+      "DONum": "DO Number",
+      "MONum": "MO Number",
+      "Status": "Status",
+      "Customer": "Customer",
+      "Remarks": "Remarks",
+      "MODetail": "MO Detail"
+    },
+    "MODetailTable":{
+      "Facility": "Company",
+      "DeliveryType": "Delivery Type",
+      "MONum": "MO Number",
+      "ERPSku": "ERP SKU",
+      "CustomerSku": "Customer SKU",
+      "Qty": "Qty"
+    },
+    "Event":{
+      "Allocated": "Allocated",
+      "PickedUp": "Picked Up",
+      "PackedOut": "Packed Out",
+      "LeftWarehouse": "Left Warehouse",
+      "Deliveried": "Delivered",
+      "Estimate": "Estimate",
+      "Actual": "Actual",
+      "CheckDeliveryStatus": "Check the delivery status"
+    }
+  }
+}
+

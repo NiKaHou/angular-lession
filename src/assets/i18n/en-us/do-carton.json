@@ -1,0 +1,38 @@
+{
+  "DOCartonDetailsQuery": {
+    "Header": "DO Carton Details Query",
+    "Search": {
+      "DONum": "DO Number",
+      "BookingNum": "Booking Number",
+      "CartonStatus": "Carton Status",
+      "DisplaySKUDetails": "Display SKU Details",
+      "OffloadTime": "Offload Time"
+    },
+    "Form": {
+      "OutercaseID": "OutercaseID",
+      "Facility": "Facility",
+      "Storer": "Storer",
+      "Company": "Company",
+      "DONum": "DO Number",
+      "OffloadTime": "Offload Time",
+      "Status": "Status",
+      "PalletNum": "Pallet Number",
+      "Length": "Length",
+      "Width": "Width",
+      "Height": "Height",
+      "GrossWeight": "Gross Weight",
+      "NetWeight": "Net Weight",
+      "Qty": "Qty",
+      "CaseID": "Case ID",
+      "SKU": "SKU",
+      "AltSKU": "AltSKU",
+      "DateCode": "Date Code",
+      "COO": "COO",
+      "Country": "Country",
+      "GlAttribute02": "glAttribute02",
+      "GlAttribute03": "glAttribute03",
+      "GlAttribute05": "glAttribute05",
+      "GlAttribute06": "glAttribute06"
+    }
+  }
+}

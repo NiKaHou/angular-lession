@@ -1,0 +1,101 @@
+{
+  "BillSearch": {
+    "Header": "費用",
+    "BillAdd": {
+      "Header": "新增費用別",
+      "RowId": "編號",
+      "ImportTable": {
+        "TermsName": "付款名稱",
+        "OrgId": "公司",
+        "NewLineCount": "明細筆數"
+      },
+      "Message": {
+        "Success": "新增成功，總數為：",
+        "Error": "儲存失敗",
+        "Nodata": "無資料新增",
+        "Failed": "無法存入資料庫"
+      },
+      "Error": {
+        "OldInvoice": "不可新增超過60天前的單據",
+        "TermsNull": "該付款公司沒有對應到此付款對象，請重新選擇",
+        "RateNull": "匯率不可為空",
+        "InoutKeyInvalid": "找不到此單據或單據狀態不可產生費用",
+        "BrandNull": "請填寫入倉單的品牌欄位",
+        "AmountInvalid": "付款金額為空或為0，請輸入付款金額"
+      }
+    },
+    "Form": {
+      "CarrierPaymentBy": "付款對象",
+      "OpexOrgId": "費用歸屬公司",
+      "BillCorp": "付款公司",
+      "InOutKey": "單據號碼",
+      "InOutType": "單據類別",
+      "GUINo": "憑證編號",
+      "AccountCode": "費用別(會科)",
+      "ExpressBill": "提單號",
+      "DoNo": "交貨單號",
+      "AdNo": "AD單號",
+      "GUIId": "有憑或無憑流水號",
+      "UploadBatchNo": "批次上傳號",
+      "Forwarder": "貨代",
+      "DocNo": "關別",
+      "DiffAmount": "差異金額",
+      "DiffRatio": "差異比例",
+      "ImportType": "報關方式"
+    },
+    "MainTable": {
+      "Column": {
+        "SeqNo": "流水號",
+        "InOutKey": "單據號碼",
+        "OpexOrgId": "費用歸屬公司",
+        "BillCorp": "付款公司",
+        "GUIId": "有憑或無憑流水號",
+        "GUINo": "憑證編號",
+        "ExpressBill": "提單號",
+        "VendorName": "付款對象",
+        "Status": "狀態",
+        "LineBaseCurrency": "預估幣別",
+        "EstimatedAmount": "預估金額",
+        "GUIAmount": "憑証金額",
+        "LinePayAmount": "幣別轉換金額",
+        "ApplyAmount": "付款金額",
+        "ApplyDt": "核准日期",
+        "AccountCode": "費用別(會科)",
+        "UploadBatchNo": "批次上傳號",
+        "GUIDt": "憑證日期",
+        "InvoiceType": "憑證類別",
+        "GUICurrency": "憑證幣別",
+        "Description": "摘要",
+        "VendorDescription": "廠商備註",
+        "PaymentMethod": "付款方式",
+        "TermsId": "付款條件",
+        "DueDt": "ERP預計付款日",
+        "LinePayCurrency": "付款幣別",
+        "LinePayRate": "付款匯率",
+        "ConfirmDescription": "核准備註",
+        "ConfirmBy": "核准人",
+        "CreateUser": "建立者",
+        "CreateDt": "建立日期",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新日期",
+        "InOutType": "單據類別",
+        "DiffRatio": "DiffRatio",
+        "BillType": "付款類型",
+        "PreCurrencyCode": "預估幣別",
+        "Amount": "確認金額",
+        "Facility": "倉別",
+        "BusinessTaxBaseAmount": "營業稅稅基",
+        "CancelDt": "取消日期",
+        "CancelDesc": "取消原因",
+        "CancelUser": "取消者"
+      }
+    },
+    "Text": {
+      "Amount": "確認金額",
+      "EstimatedAmount": "預估金額",
+      "Count": "筆數",
+      "LinePayAmount": "幣別轉換金額",
+      "ApplyAmount": "付款金額"
+    }
+  }
+}

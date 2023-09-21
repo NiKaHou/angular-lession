@@ -1,0 +1,53 @@
+{
+  "HubLabelSetup": {
+    "Header": "Hub Label Setup",
+    "Form": {
+      "ORGId": "Org Id",
+      "HubVendorCode": "Hub Vendor Code",
+      "CustSku": "Cust Sku",
+      "LabelKey": "Label Key",
+      "LabelKeyNote": "*Label Key only can be positive integer"
+    },
+    "Button": {
+      "Restore": "Restore"
+    },
+    "Dropdown": {
+      "ChooseColumns": "Choose Columns"
+    },
+    "ColumnHeaders": {
+      "CreatedBy": "Created By",
+      "CreationDate": "Creation Date",
+      "LastUpdatedBy": "Last Updated By",
+      "LastUpdateDate": "Last Update Date",
+      "HubLabelSetupId": "Hub Label Setup Id",
+      "ORGId": "Org Id",
+      "HubVendorCode": "Hub Vendor Code",
+      "CustSku": "Cust Sku",
+      "LabelKey": "Label Key"
+    },
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+    "Toast": {
+      "EmptyDataError": "Please fill the required data",
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: ",
+      "WrongLabelKeyFormat": "Label Key error, must be positive integer"
+    },
+    "Warning": {
+      "OrgIdRequired": "Org Id is required",
+      "HubVendorCodeRequired": "Hub Vendor Code is required",
+      "CustSkuRequired": "Cust Sku is required",
+      "LabelKeyRequired": "Label Key is required",
+      "LabelKeyMustOnlyHavePositiveInteger": "Label Key must be positive integer"
+    }
+  }
+}

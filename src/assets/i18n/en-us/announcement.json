@@ -1,0 +1,55 @@
+{
+  "Announcement": {
+    "SearchHeader": "Search Announcement",
+    "EditHeader": "Announcement Edit",
+    "ViewHeader": "Announcement View",
+    "HeaderForm": {
+      "AnnouncementTitle": "Title:",
+      "CreateBy": "CreateBy:",
+      "AnnouncementDt": "Release Date:",
+      "AnnouncementType": "Type:",
+      "Edit": {
+        "ImportantFlag": "Important",
+        "Facility": "Facility:",
+        "UploadFile": "UploadFile:",
+        "SelectFile": "Please Select File"
+      }
+    },
+    "Table": {
+      "AnnouncementTitle": "Title",
+      "CreateUser": "CreateBy",
+      "AnnouncementDt": "Release Date",
+      "AnnouncementType": "Type",
+      "Status": "Status",
+      "Action": "Action",
+      "Facility": "Facility"
+    },
+    "Button": {
+      "NewAnnouncement": "Add NewAnnouncement",
+      "Release": "Release",
+      "View": "View",
+      "Cancel": "Cancel",
+      "SelectFile": "Select File"
+    },
+    "Action": {
+      "Copy": "Copy",
+      "Cancel": "Cancel",
+      "Edit": "Edit",
+      "View": "View"
+    },
+    "Toast": {
+      "EndDtLessThanNow": "Please select a EndDate after Today.",
+      "EndDtLessThanStart": "Please select a EndDate after StartDate",
+      "DateNull": "Please select release Date.",
+      "DuplicateFile": "Do not upload the same file.",
+      "CancelSuccess": "Cancel success.",
+      "SaveSuccess": "Release success.",
+      "FacilityIsNull": "Pleasse Input Facility.",
+      "TypeIsNull": "Please Input Type.",
+      "ContentIsNull": "Please Input Content.",
+      "TitleIsNull": "Please Input Title.",
+      "InvalidColumn": "InvalidColumn:"
+    }
+  }
+}
+

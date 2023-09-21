@@ -1,0 +1,48 @@
+{
+  "AssignPicker": {
+    "Header": "Assign Picker",
+    "Search": {
+      "CustomerCode": "Customer Code",
+      "BookingNum": "Booking Number",
+      "DONum": "DO Number",
+      "Forwarder": "Forwarder",
+      "CarTripNum": "Car Trip Number",
+      "AssignDate": "Assign Date",
+      "DepartureTime": "Departure Time",
+      "IssuanceDate": "Issuance Date"
+    },
+    "MainTable": {
+      "Button": {
+        "Assign": "Assign"
+      },
+      "Form":{
+        "CarTripNum": "Car Trip Number",
+        "AssignDate": "Assign Date",
+        "DepartureTime": "Departure Time",
+        "Forwarder": "Forwarder",
+        "VehicleNumRemarks": "Vehicle Number Remarks",
+        "BookingQty": "Booking Qty",
+        "TotalCartonCnt": "Total Carton Count",
+        "DropShipCartonCnt": "Drop Ship Carton Count",
+        "LoadCarCartonCnt": "Load to Car Carton Count",
+        "LeaveWare": "Leave Warehouse",
+        "NoPicker": "No. of Picker",
+        "Issuer": "Issuer",
+        "IssuanceDate": "Issuance Date"
+      }
+    },
+    "SubTable": {
+      "BookingNum": "Booking Number",
+      "DONum": "DO Number",
+      "CustomerCode": "Customer Code",
+      "CustomerName": "Customer Name",
+      "TotalCartonCnt": "Total Carton Count",
+      "LoadCarCartonCnt": "Load to Car Carton Count",
+      "LeaveWare": "Leave Warehouse",
+      "TotalDropCartonCnt": "Total Dropship Carton Count",
+      "DropShipLoadCount": "Drop Ship Load to Car Carton Count",
+      "DropShipLeaveCount": "Drop Ship Leave Warehouse Carton Count",
+      "Status": "Status"
+    }
+  }
+}

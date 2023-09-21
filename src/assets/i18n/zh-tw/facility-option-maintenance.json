@@ -1,0 +1,90 @@
+{
+  "FacilityOptionMaintenance": {
+    "Header": "參數設定維護",
+    "Form": {
+      "FacilityCode": "倉別代碼",
+      "OptionType": "選項類別",
+      "OptionCode": "選項代碼",
+      "IsActivated": "是否已啓用？"
+    },
+
+    "Table": {
+      "Button": {
+        "Restore": "還原"
+      },
+      "ColumnHeader": {
+        "SeqNo": "SeqNo",
+        "FacilityCode": "倉別代碼",
+        "OptionType": "選項類別",
+        "OptionCode": "選項代碼",
+        "OptionDesc": "選項描述",
+        "CommonAttr01": "共同屬性01",
+        "CommonAttr02": "共同屬性02",
+        "CommonAttr03": "共同屬性03",
+        "CommonAttr04": "共同屬性04",
+        "CommonAttr05": "共同屬性05",
+        "CommonAttr06": "共同屬性06",
+        "CommonAttr07": "共同屬性07",
+        "CommonAttr08": "共同屬性08",
+        "CommonAttr09": "共同屬性09",
+        "CommonAttr10": "共同屬性10",
+        "CommonAttr11": "共同屬性11",
+        "CommonAttr12": "共同屬性12",
+        "CommonAttr13": "共同屬性13",
+        "CommonAttr14": "共同屬性14",
+        "CommonAttr15": "共同屬性15",
+        "CommonAttr16": "共同屬性16",
+        "CommonAttr17": "共同屬性17",
+        "CommonAttr18": "共同屬性18",
+        "CommonAttr19": "共同屬性19",
+        "CommonAttr20": "共同屬性20",
+        "CommonAttr21": "共同屬性21",
+        "CommonAttr22": "共同屬性22",
+        "CommonAttr23": "共同屬性23",
+        "Notes": "注記",
+        "IsActivated": "啓用狀態",
+        "CreateUser": "建立者",
+        "CreateDt": "建立時間",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新時間",
+        "IsDefaultAwbAddress": "是否為預設Awb地址"
+      }
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectIsActivatedOrNot": "請選擇啓用狀態",
+        "SelectIsDefaultAwbAddressOrNot": "請選擇是否為預設Awb地址",
+        "ChooseColumns": "請選擇欄位"
+      }
+    },
+
+    "Option": {
+      "IsActivated": {
+        "Activated": "啓用中",
+        "Deactivated": "已停用"
+      },
+      "IsDefaultAwbAddress": {
+        "Yes": "是",
+        "No": "否"
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+
+    "Toast": {
+      "DeleteSuccess": "已完成刪除",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "获取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: "
+    }
+  }
+}

@@ -1,6 +1,17 @@
 <div class="layout-main">
-  <app-side-menu></app-side-menu>
-  <div class="layout-content" [class.menu-hide]="true">
+  <div class="layout-topbar" style="background-color:#82FF82;padding:10px;margin-bottom:5px;">
+    <button pbutton
+    pButton
+    pRipple
+
+    (click)="changeLanguage($event)"
+    ><label>{{ this.systemLang }}</label></button>
+  </div>
+  <div class="layout-sidebar">
+    <app-side-menu></app-side-menu>
+  </div>
+  <div class="layout-content" [class.menu-hide]="!isMenuVisible">
     <router-outlet></router-outlet>
   </div>
 </div>
+

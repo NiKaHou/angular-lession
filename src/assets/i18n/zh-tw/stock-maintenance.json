@@ -1,0 +1,68 @@
+{
+  "StockMaintenance": {
+    "Header": "庫存管理追蹤平台",
+
+    "MainTable": {
+      "Column": {
+        "facility": "倉別",
+        "organizationCode": "組織代碼",
+        "uId": "UID",
+        "brand": "品牌",
+        "receiptChargeType": "Receipt Charge Type",
+        "receivedTime": "入倉時間",
+        "dateCode": "Date Code",
+        "vendorLot": "Vendor Lot",
+        "originalAD": "原始進貨單號",
+        "packageCode": "Package Code",
+        "hue": "Hue",
+        "dfName": "DF Name",
+        "reservedOrgId": "預訂公司",
+        "uidLockCode": "UID Lock Code(Cust/Vendor)",
+        "supplierRegion": "Supplier Region",
+        "uidLockTime": "UID 上鎖時間",
+        "uidUnlockTime": "UID 解鎖時間",
+        "lockReason": "上鎖原因",
+        "storer": "貨主",
+        "orgId": "公司別",
+        "caseId": "箱號",
+        "sku": "料號",
+        "vendorDc": "Vendor DC",
+        "coo": "Coo",
+        "ipCapacity": "IP 容量",
+        "iipCapacity": "IIP 容量",
+        "caseCapacity": "Case 容量",
+        "revision": "修訂",
+        "kitNo": "Kit NO.",
+        "2DBarcode": "2D 條碼",
+        "reservedSubinventory": "Reserved Subinventory",
+        "lockStaff": "Lock Staff",
+        "unlockStaff": "Unlock Staff",
+        "lockType": "Lock Type",
+        "reservedOthers": "Reserved Others",
+        "othersReasonDesc": "Others Reason Desc",
+        "imcCode": "Imc Code",
+        "onhandQty": "Onhand Qty",
+        "trackingItemsNotes": "Tracking Items Notes",
+        "destockingDate": "Destocking Date",
+        "createUser": "建立人員",
+        "lastUpdateDate": "資料最後更新時間",
+        "lastUpdateUser": "資料最後修改者"
+      }
+    },
+
+    "Message": {
+      "Restore": "確定要回復已異動的資料嗎 ?",
+      "Save": "確定要儲存嗎 ?",
+      "NoDestocking": "Destocking Date 為必填欄位.",
+      "NotificationOfQuery":"注：查詢筆數最多為2,000筆!"
+    }
+  },
+
+  "TrackingItemImport": {
+    "Header": "匯入 Tracking Item 資料",
+
+    "Message": {
+      "SelectFile": "請先選擇檔案."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "LeaveWarehouse": {
+    "Header": "出倉單明細",
+    "Form": {
+      "LeaveWarehouseKey": "出倉單號",
+      "CarTrip": "車次碼",
+      "Status": "狀態",
+      "Forwarder": "貨代",
+      "LicensePlate": "車號",
+      "Facility": "倉別",
+      "ScanType": "刷入型態",
+      "CreateUser": "創建人",
+      "CreateDt": "創建時間",
+      "UpdateUser": "最後更新人",
+      "UpdateDt": "最後更新時間",
+      "CntCaseNormal": "一般單箱數",
+      "CntCaseDrop": "空飛單箱數",
+      "CntCase": "總箱數",
+      "CntBooking": "Booking數量",
+      "SignatureDt": "簽收日期",
+      "ScanStatus": "刷入狀態"
+    },
+    "DetailForm": {
+      "DropId": "棧板號",
+      "DoNo": "交貨單號",
+      "OuterCaseId": "箱號",
+      "ExpectedCaseCount": "預計箱數"
+    },
+    "Button": {
+      "DownloadFile": "下載文件",
+      "Re-print": "補印出倉單",
+      "Re-sign": "重新簽收出倉單"
+    }
+  }
+}

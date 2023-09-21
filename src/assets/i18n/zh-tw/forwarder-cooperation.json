@@ -1,0 +1,66 @@
+{
+  "ForwarderCooperation":{
+    "ForwarderHeader": "貨代清單及配合事項",
+    "SearchForm" : {
+      "FromCountry": "來源地",
+      "FromCity": "來源城市",
+      "ToCountry": "目的地",
+      "ToCity": "目的城市",
+      "ShippingType": "運送方式",
+      "ShipTerm": "貿易條件"
+    },
+    "TableColumn": {
+      "FromCountry": "來源地",
+      "FromCity": "來源城市",
+      "ToCountry": "目的地",
+      "ToCity": "目的城市",
+      "Forwarder": "貨代名稱",
+      "IncoTerm": "貿易條件",
+      "Remark": "配合事項",
+      "ShippingType": "運送方式",
+      "RFQCategory": "運送類型",
+      "Facility": "倉別"
+    },
+    "QuotationLinkButton": "報價連結",
+    "SearchValueInvalid":{
+      "InvalidSearchValueFromCountryToCountry": "請填入必填值"
+    },
+    "SearchAll": "搜尋All條件",
+    "button": {
+      "ShipTerm": "貿易條件說明"
+    }
+  },
+  "ForwarderDesc": {
+    "Buyer": "買方",
+    "Seller": "賣方",
+    "Deal": "可協商",
+    "RowName": {
+      "PickUpLoad": "提貨裝載",
+      "DeliverToPortOrPoint": "配送到港口或指定點",
+      "ExportDeclaration": "出口報關",
+      "ExportPort": "出口港",
+      "PortAirport": "港口（機場）裝載",
+      "Freight": "運費",
+      "Insurance": "保險",
+      "DestinationPortAirport": "目的港口（機場）",
+      "DeliveryToDestination": "配送至目的地",
+      "DestinationUnloading": "目的地卸貨",
+      "ImportDutiesAndClearance": "進口關稅及通關"
+    },
+    "IncoTermsTable": {
+      "Header": "Incoterms®2022國貿條規",
+      "Rule": {
+        "Title": "適用運送規則",
+        "Any": "適用任何或多種類運送方式",
+        "Ship": "適用海陸及內陸水路運送"
+      },
+      "Term": "貿易條件",
+      "Content": "條規內容"
+    },
+    "IncoTermsCost": {
+      "Header": "國貿條規費用歸屬",
+      "TableHeader": "INCOTERMS",
+      "TermTitle": "費用項目"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "FreightSearch": {
+    "Search": {
+      "Title":"Freight Query",
+      "Facility": "Facility",
+      "ShipCorp": "Import/Export Company",
+      "ExpressBill": "HAWB",
+      "Brand": "Brand",
+      "Vendor": "Customer/Vendor Code",
+      "AdNoDoNo": "AD No. / DO No.",
+      "BillingCreateDt": "Billing Creation Date"
+    },
+    "MainTable": {
+      "AdNo": "AD No.",
+      "DoNo": "DO No.",
+      "Department": "Dept Code",
+      "ShipCorp": "Import/Export Company",
+      "BillingCreateDt": "Billing Creation Date",
+      "Vendor": "CTMR/Vendor",
+      "Brand": "Brand",
+      "PreCurrencyCode": "Currency",
+      "FreightChargeAmount": "Freight Cost",
+      "FuelSurchargeAmount": "Fuel Surcharge",
+      "SecuritySurchargeAmount": "Security Surcharge",
+      "OtherChargeAmount": "Other Charges",
+      "ExpressBill": "HAWB"
+    }
+  }
+}

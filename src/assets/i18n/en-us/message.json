@@ -1,0 +1,537 @@
+{
+  "BoookingSearch": {
+    "Alert": {
+      "PleaseMaintainNum": "Please maintain the number of carton in the listed DO",
+      "CannotAddDO": "This booking status cannot add DO",
+      "BelowDOCannotAdd": "Below DO cannot add into this Booking",
+      "TickDOTMSReturn": "Please tick the DO for TMS return message",
+      "CheckRequired": "Please check if there is required fields that has not been filled in yet",
+      "FileType": "Please select file type",
+      "SelectUploaded": "Please select DO# to be uploaded",
+      "TickFile": "Please tick the file",
+      "BillingCannotBlank": "Billing Type cannot be blank",
+      "ForwarderCannotBlank": "Forwarder Code cannot be blank"
+    },
+    "Confirm": {
+      "Resend": "Send success, do you want to resend?",
+      "ExcludePrintedDoc": "Do you want to exclude printed documents?",
+      "ConfirmExclude": "Confirm exclude",
+      "ConfirmDeleteDO": "Confirm delete this DO?",
+      "ConfirmDelete": "Confirm delete",
+      "SendBack": "DO already send back to TMS, do you want to send back again?",
+      "ResendTMS": "Resend to TMS",
+      "DeleteParameterCombination": "Do you want to delete this parameter combination?",
+      "ConfirmCancelBooking": "Confirm cancel this Booking",
+      "ConfirmCancel": "Confirm cancel",
+        "IfRefresh":"The delivery information of this booking may be changed after this action. Are you sure to proceed?"
+    },
+    "Error": {
+      "DHLNoError": "DHL no error message",
+      "DOCannotAdd": "Below DO cannot add into this Booking",
+      "DeleteFail": "Delete fail"
+    },
+    "Info": {
+      "NoFileDownload": "No file to download",
+      "UpdateSuccess": "Update success",
+      "NoDatafound": "No data found",
+      "DataEmpty": "Data is empty",
+      "NoAbnormalTMS": "Currently this booking has no abnormal TMS",
+      "UnableGenerateRFQ": "Currently this booking status unable to generate RFQ"
+    },
+    "Success": {
+      "NoDataFound": "No data found",
+      "AWBNum": "AWB Number",
+      "CancelSuccess": "Cancel success",
+      "DeleteSuccess": "Delete success",
+        "UpdateSuccess": "Update success",
+      "Uploadsuccess": "Upload success",
+      "UploadFail": "Upload fail"
+    }
+  },
+  "DOCartonDetails": {
+    "Enter": "Please enter the DO number or booking number or offload time",
+    "OffloadTimeBlank": "Offload time cannot be blank",
+    "StartTimeGreater": "Start time cannot be greater than end time",
+    "OffloadTimem": "Offload time cannot be more than 24 hrs"
+  },
+  "MESReport": {
+    "Alert": {
+      "DateBlank": "Date cannot be blank",
+      "StartGreater": "Start date cannot be greater than end date"
+    },
+    "Info": "No data found"
+  },
+  "RFQSetting": {
+    "Alert": {
+      "CheckMainPage": "Please check the required field in the main page",
+      "CheckDetailedList": "Please check the required field in the detailed list",
+      "EffectiveGreater": "Effective date cannot be greater than end date",
+      "QuoteNumber": "Quote number must be smaller than last quote number.",
+      "MaintenanceStatus": "Maintenance of the data must be of same status",
+      "ApplicationInProgress": "Application in progress",
+      "ProcceedingApplication": "Pending for application data before procceeding with application",
+      "DataValid": "Maintenance of the data must be valid",
+      "OnlyApplicationWithdrawn": "Only the data in the application can be withdrawn",
+      "ApplicationApproved": "Application approved",
+      "OnlyApplicationApproved": "Only the data in the application can be approved",
+      "PreviewFail": "Preview fail",
+      "Tick": "Please tick the information"
+    },
+    "Error": "Upload fail",
+    "Info": {
+      "AddSuccess": "Add success",
+      "UpdateSuccess": "Update success",
+      "NoData": "No data found",
+      "DeleteSuccess": "Delete success",
+      "EnterForwarder": "Please enter forwarder",
+      "FormatError": "File format error"
+    },
+    "Success": {
+      "UpdateInProgress": "Data status is successfully updated to: Application in progress",
+      "UpdatePending": "Data status is successfully updated to: Pending application",
+      "UpdateApproved": "Data status is successfully updated to: Approved",
+      "PreviewSuccess": "Preview success",
+      "UploadSuccess": "Upload success"
+    },
+    "Confirm": {
+      "ConfirmRFQ": "Confirm to add RFQ?",
+      "ConfirmDeleteRFQDetail": "Confirm to delete RFQ detail?",
+      "ConfirmEditRFQ": "Confirm to edit RFQ?",
+      "ConfirmApply": "Confirm apply?",
+      "ConfirmWithdraw": "Confirm withdraw?",
+      "ConfirmDelete": "Confirm delete?",
+      "ConfirmApprove": "Confirm approve?",
+      "ConfirmCancel": "Confirm cancel?"
+    }
+  },
+  "ExportDeclarationQuery": {
+    "Alert": {
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet"
+    },
+    "Confirm": {
+      "ContinueExecute": "Continue to execute the confirmation of the export declaration form?",
+      "ConfirmDelete": "Confirm delete?",
+      "ConfirmCancelExport": "Confirm cancel this export declaration form?",
+      "ConfirmCancel": "Confirm cancel"
+    },
+    "Success": {
+      "CancelSuccess": "Cancel success"
+    }
+  },
+  "LeaveWarehouse": {
+    "Info": "No file to download"
+  },
+  "DOSearchForShip": {
+    "Alert": {
+      "ERPReturnedError": "ERP returned with an error on control item certificate number",
+      "StatusInvoiced": "Status must be invoiced",
+      "InvoiceStatus": "For SG warehouse, DO must be under Invoice status",
+      "BPaaSReturnedError": "BPaaS returned with an error on control item certificate number"
+    },
+    "Confirm": {
+      "RemarkUrgentDO": "Remark as urgent DO?",
+      "ConfirmAutoBooking": "Confirm to perform auto booking?"
+    },
+    "Success": "Has added to auto booking queue, system will execute the operation within 15 minutes"
+  },
+  "ConsignmentDaily": {
+    "Alert": {
+      "EnterDate": "Please enter shipping date",
+      "SelectForwarder": "Please select forwarder"
+    },
+    "Confirm": {
+      "ConsignmentReport": "Consignment log report"
+    },
+    "Info": {
+      "NoData": "No data found"
+    }
+  },
+  "Calendar": {
+    "Confirm": {
+      "ConfirmDelete": "Confirm delete this trip?",
+      "ConfirmCancel": "Confirm cancel"
+    }
+  },
+  "RoleMaintainance": {
+    "Error": {
+      "PwdNotMatch": "Password does not match",
+      "EnterPwd": "Please enter password"
+    },
+    "Success": {
+      "AddSuccess": "Add success",
+      "UpdateSuccess": "Update success",
+      "SaveSuccess": "Save success"
+    }
+  },
+  "AirwaysExpenseSetting": {
+    "Alert": {
+      "CheckSerialNum": "Please check whether first serial number is smaller than the last serial number",
+      "CheckDate": "Please check if the effective end date is greater than the start date",
+      "MaintenanceOfData": "Maintenance of the data must be of the same status",
+      "ApplicationInProgress": "Application in progress",
+      "PendingData": "Pending for application data before procceeding with application",
+      "DataValid": "Maintenance of the data must be valid",
+      "OnlyApplicationWithdrawn": "Only the data in the application can be withdrawn",
+      "ApplicationApproved": "Application approved",
+      "OnlyApplicationApproved": "Only the data in the application can be approved",
+      "CheckFreightForwarder": "Please check whether the freight forwarder has not been selected",
+      "CheckFee": "Please check whether the fee is correct",
+      "CheckCurrency": "Please check if the currency is correct",
+      "CheckAirline": "Please check if the airline is correct",
+      "CheckMileage": "Please check if the mileage type is correct",
+      "CheckDoc": "Please check if the document type is correct",
+      "CheckRFQForwarder": "Please check if the RFQ forwarder service type is correct",
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet",
+      "AmountFilled": "Please check whether the amount is filled in",
+      "DepartureCountryCorrect": "Please check whether the departure country is correct",
+      "DestinationIATACorrect": "Please check whether the destination IATA area is correct"
+    },
+    "Confirm": {
+      "ConfirmApply": "Confirm apply?",
+      "ConfirmWithdraw": "Confirm withdraw?",
+      "ConfirmDelete": "Confirm delete?",
+      "ConfirmApprove": "Confirm approve?",
+      "ConfirmCancel": "Confirm cancel?"
+    },
+    "Info": {
+      "DeleteSuccess": "Delete success"
+    },
+    "Success": {
+      "UpdatedAppInProgress": "Data status is successfully updated to: Application in progress",
+      "UpdatedPending": "Data status is successfully updated to: Pending application",
+      "UpdatedApproved": "Data status is successfully updated to: Approved"
+    }
+  },
+  "CreateBooking": {
+    "Alert": {
+      "ERPError": "ERP returned with an error on control item certificate number",
+      "InvoiceStatus": "For SG warehouse, DO must be under Invoice status",
+      "AlreadyExist": "already exist",
+      "DONotFound": "This DO is not found",
+      "CertificateNumIncorrect": "Control item certificate number is incorrect",
+      "CertificateNumBlank": "Control item certificate number cannot be blank",
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet",
+      "CarTripBlank": "Car trip number is blank.  Please check if there is required fields that has not been filled in yet",
+      "ConfirmCreateAgain": "Already has same car trip number, confirm whether to create again",
+      "CreateAfterMaintenance": "No area info, please create Booking after maintenance",
+      "QueryBeforeCreating": "No normalized address or city or country, please go to DO Query maintenance before creating Booking",
+      "CannotCreateDuring_DoChange": "Cannot create Booking during DO Change",
+      "CannotCreateDuringDO_FrontLineDoc": "Cannot create Booking during FrontLineDoc procceeding",
+      "BPaaSError": "BPaaS returned with an error on control item certificate number"
+    },
+    "Error": {
+      "DeleteFail": "Delete fail, cannot find relevant DO"
+    }
+  },
+  "BOLPalletNumber": {
+    "Alert": {
+      "EnterQuery": "Please enter any query condition"
+    },
+    "Confirm": {
+      "BOLPalletQuery": "BOL Pallet Number Query"
+    },
+    "Info": {
+      "DataEmpty": "Data is empty"
+    }
+  },
+  "SubscriptNotiSet": {
+    "Confirm": {
+      "ConfirmDelete": "Confirm delete?"
+    },
+    "Success": {
+      "DeleteSuccess": "Delete success",
+      "AddSuccess": "Add success",
+      "UpdateSuccess": "Update success"
+    }
+  },
+  "ContainerManagement": {
+    "Success": {
+      "UpdateSuccess": "Update success"
+    },
+    "Confirm": {
+      "ChangeContainer": "Carton QTY, weight, cbm, pallet exceeded. Want to change container?"
+    },
+    "Alert": {
+      "ValueExceeded": "Cargo value exceeded, cannot change container"
+    },
+    "Info": {
+      "NoFound": "No data found",
+      "EmptyHawb":"BookingNo's Hawb is NULL:",
+      "MultipleBooking":"The Booking is in different containers:"
+    }
+  },
+  "AssignPicker": {
+    "Alert": {
+      "MustFill": "Must fill in one field before query"
+    }
+  },
+  "DeliveryOrderInvoice": {
+    "Alert": {
+      "EnterStart": "Please enter start date",
+      "EnterEnd": "Please enter end date",
+      "StartDateGreater": "Start date cannot be greater than end date",
+      "DateRangeError": "Date range ERROR, range must be less than 31 days",
+      "DateRangeError2": "Date range ERROR, range must be less than 1 days"
+    },
+    "Info": {
+      "DataEmpty": "Data is empty"
+    }
+  },
+  "ImportDeclareSearch": {
+    "Alert": {
+      "CheckrequiredFields": "Please check if there is required fields that has not been filled in yet",
+      "ImportDeclarationPaid": "Import declaration fee has been paid, cannot be cancelled",
+      "ERPReturnedError": "ERP returned with unknown error"
+    },
+    "Success": {
+      "ConfirmSuccess": "Import declaration form confirm success",
+      "CancelSuccess": "Import declaration form cancel success",
+      "DeleteSuccess": "Delete success"
+    },
+    "Confirm": {
+      "ConfirmDelete": "Confirm delete?"
+    }
+  },
+  "PackOutQuery": {
+    "Alert": {
+      "FilledBeforeQuery": "Either Forwarder or Booking or DO number or AWB number must be filled in before query"
+    },
+    "Info": {
+      "DataEmpty": "Data is empty"
+    }
+  },
+  "CompanyStampMaintenance": {
+    "Alert": {
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet"
+    },
+    "Success": {
+      "UploadSuccess": "Upload success"
+    }
+  },
+  "TariffRateSetting": {
+    "Alert": {
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet",
+      "CheckFreightForwarder": "Please check whether the freight forwarder has not been selected",
+      "CheckForwarder": "Please check if the forwarder is correct"
+    }
+  },
+  "ChangePass": {
+    "Error": {
+      "PasswordMatch": "Password does not match"
+    },
+    "Info": {
+      "ChangeSuccess": "Change success"
+    },
+    "Alert": {
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet"
+    }
+  },
+  "ExchangeRate": {
+    "Alert": {
+      "ExchangeRateRangeBlank": "Exchange rate range cannot be blank",
+      "OriginCurrencyBlank": "Origin currency cannot be blank",
+      "CoversionCurrencyBlank": "Coversion currency cannot be blank",
+      "ExchangeRateBlank": "Exchange rate cannot be blank",
+      "CheckRequiredFields": "Please check if there is required fields that has not been filled in yet"
+    }
+  },
+  "BillSearch": {
+    "Alert": {
+      "Tick": "Please tick the information",
+      "SelectFormat": "Please select download format",
+      "NoFound": "No data found",
+      "PreviewFail": "Preview fail",
+      "UploadFail": "Upload fail"
+    },
+    "Success": {
+      "ConfirmSuccess": "Confirm success",
+      "CancelSuccess": "Cancel success",
+      "PreviewSuccess": "Preview success",
+      "UploadSuccess": "Upload success"
+    }
+  },
+  "EvidenceCheck": {
+    "TickInformation": "Please tick the information",
+    "NoFound": "No data found",
+    "ApprovedSuccess": "Approved success",
+    "ReturnSuccess": "Return success",
+    "ResendSuccess": "Resend success",
+    "SignedSuccessfully": "Signed successfully"
+  },
+  "NoEvidenceCheck": {
+    "TickInformation": "Please tick the information",
+    "NoFound": "No data found",
+    "ApprovedSuccess": "Approved success",
+    "ApplicationSuccess": "Application success",
+    "ReturnSuccess": "Return success",
+    "UploadSuccess": "Upload success"
+  },
+  "AddressMaintain": {
+    "ChooseAddress": "Please choose a similar address",
+    "AddressLimited": "Address in English the length is limited 135 characters",
+    "ReceivingCompanyLimited": "Receiving company in English the length is limited to 60 characters",
+    "FillOption": "Fill in at least one option on regularized address",
+    "OperationFailed": "Operation failed.  Please contact IT personnel",
+    "DeleteCompleted": "Delete completed",
+    "Restored": "Restored",
+    "Saved": "Saved",
+    "ConfirmDelete": "Confirm delete this line?",
+    "ConfirmRestore": "Confirm to restore the changed data?",
+    "ConfirmSave": "Confirm to save?",
+    "SystemInformation": "System information"
+  },
+  "FreightAnalysisReport": {
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "ImportDeclarationFeeAccountingReport": {
+    "Alert": {
+      "CustomsDeclarationFilled": "Please check whether the customs declaration date has not been filled in yet",
+      "EndGreaterThanStart": "Please check whether the customs declaration end date is greater than the start date",
+      "PeriodExceeds": "Please check whether the customs declaration date period exceeds 31 days",
+      "AccountOpeningDateFilled": "Please check whether the account opening date has not been filled in yet",
+      "AccountOpeningEndDateGreater": "Please check whether account opening end date is greater than the start date",
+      "AccountOpeningDateExceeds": "Please check whether the account opening date period exceeds 31 days"
+    },
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "ImportDeclarationFeeReport": {
+    "Alert": {
+      "DateFilledRequired": "Please check at least the creation date or the customs declaration date be filled in",
+      "CheckCreationDate": "Please check the creation start date and end date both have been filled in",
+      "CreationEndDateGreaterStart": "Please check whether the creation end date is greater than the start date",
+      "CreationDateExceeds": "Please check whether the creation date period exceeds 31 days",
+      "CheckCustomsDeclarationDate": "Please check the customs declaration start date and end date both have been filled in",
+      "CustomsDeclarationEndDateGreater": "Please check whether the customs declaration end date is greater than the start date",
+      "CustomsDeclarationExceeds": "Please check whether the customs declaration date period exceeds 31 days"
+    },
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "PaymentErrorReport": {
+    "Alert": {
+      "FieldFilled": "Please check at least one field must be filled in before you can inquire: Creation time, ERP serial number, voucher number, document number, DO number/Receiving number",
+      "CreationDateEndDateGreater": "Please check whether the creation date end date is greater than the start date"
+    },
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "PaymentReport": {
+    "Alert": {
+      "DocumentTypeSelected": "Please check whether the document type has not been selected",
+      "EffectiveEndDateGreater": "Please check whether the effective end date is greater than the start date",
+      "CreationTimeExceeds": "Please check whether the creation time period exceeds 7 days"
+    },
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "PaymentForDHLReport": {
+    "Info": {
+      "NoFound": "EnterEndDate"
+    }
+  },
+  "ShipImportConfirmReport": {
+    "Alert": {
+      "FillOption": "Fill in at least one option, serial number or creation date",
+      "EnterEndDate": "Please enter end date",
+      "EnterStartDate": "Please enter start date",
+      "EndDateGreater": "Create end date cannot be greater than create start date",
+      "CreationTimeExceeds": "Please check whether the creation time period exceeds 31 days"
+    },
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "UploadDocReport": {
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "ViewRequestExpenseReport": {
+    "Info": {
+      "NoFound": "No data found"
+    }
+  },
+  "DoRuleSetting": {
+    "Confirm": {
+      "ConfirmDelete": "Confirm delete?",
+      "ConfirmImportData": "Confirm to import data?",
+      "OverwriteConfirmImportData": "Current data will be overwrite.  Do you confirm to import data?"
+    },
+    "Info": {
+      "DeleteSuccess": "Delete success",
+      "SaveSuccess": "Save success",
+      "UpdateSuccess": "Update Success",
+      "AddSuccess": "Add Success",
+      "ImportSuccess": "Import Success"
+    }
+  },
+  "ReceiptFormQuery": {
+    "Alert": {
+      "CheckRequired": "Please check if there is required fields that has not been filled in yet",
+      "ReceiptFormNumFilled": "Please check whether the receipt form number is filled in",
+      "SKUFilled": "Please check whether the SKU is filled in",
+      "COOFilled": "Please check whether the COO is filled in",
+      "UnitPriceFilled": "Please check whether the unit price is filled in",
+      "FileFormatError": "File format error",
+      "NoRecordsFound": "Customs unit price, no records found",
+      "UpdateFail": "Update fail",
+      "PreviewFail": "Preview fail"
+    },
+    "Confirm": {
+      "ConfirmCancelBookingForm": "Confirm to cancel this booking form?",
+      "ConfirmCancel": "Confirm cancel",
+      "ConfirmAssignWarehousingForm": "Confirm assign warehousing form?",
+      "ConfirmAssign": "Confirm assign",
+      "ConfirmCopyWarehousingForm": "Confirm copy warehousing form?",
+      "ConfirmCopy": "Confirm copy",
+      "ConfirmDelete": "Confirm delete?"
+    },
+    "Info": {
+      "NoFound": "No data found",
+      "AssignSuccess": "Assign success",
+      "NoFileDownload": "No file to download"
+    },
+    "Success": {
+      "PreviewSuccess": "Preview success",
+      "UploadSuccess": "Upload success",
+      "CopySuccess": "Copy success",
+      "AddSuccess": "Add success",
+      "CancelSuccess": "Cancel success",
+      "UpdateSuccess": "Update success"
+    },
+    "Error": {
+      "UploadFail": "Upload fail"
+    }
+  },
+  "TariffRate": {
+    "Alert": {
+      "ForwarderCorrect": "Please check whether the forwarder is correct",
+      "SKUBlank": "SKU cannot be blank",
+      "TariffBlank": "Tariff rate cannot be blank"
+    }
+  },
+  "UserMaintenance": {
+    "Alert": {
+      "EmployCodeExceeds": "Please check whether the employee S/N exceeds 10 digits"
+    }
+  },
+  "BillingViewer": {
+    "Error": {
+      "CheckRequiredFields": "Please check whether Accounting Type, Estimate Charges, Estimate Cost Currency, and Bill Type are filled in, and Estimate Charges must be greater than 0"
+    }
+  },
+  "FreightSearch": {
+    "Error": {
+      "CheckRequired": "Please check if any required fields have not been filled.",
+      "CheckIfStartTimeGreaterThanEndTime": "The start time cannot be greater than the end time.",
+      "CheckIfStartTimeExceedsEndTimeRnageDays": "The interval between the start time and the end time cannot exceed {{dayRange}} days."
+    }
+  }
+}

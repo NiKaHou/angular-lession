@@ -1,0 +1,17 @@
+{
+  "CustomsDeclarationReport": {
+    "Header": "Customs Declaration Report",
+    "Form": {
+      "Forwarder": "Forwarder",
+      "OrgName": "Corp.",
+      "WarehousingDate": "Warehousing Date",
+      "CreatedBy": "Created By"
+    },
+    "Button": {
+      "DownLoadExcel": "DownLoad Excel"
+    },
+    "Toast": {
+      "NoData": "No Data"
+    }
+  }
+}

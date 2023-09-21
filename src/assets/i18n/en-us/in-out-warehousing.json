@@ -1,0 +1,31 @@
+{
+  "Form": {
+    "Header": {
+      "InOutNo": "InOutNo",
+      "SourceReferenceKey": "Source Reference Key",
+      "DoNo": "DO Number",
+      "Forwarder": "Forwarder",
+      "AssignDate": "Assign Date"
+    },
+    "MainTable": {
+      "SeqNo": "SeqNo",
+      "InOutNo": "InOutNo",
+      "Facility": "Facility",
+      "Forwarder": "Forwarder",
+      "BillCorp": "Bill Corp",
+	    "InOutFeeType": "InOut Fee Type",
+      "TotalCartonCnt": "Total Carton Count",
+      "TotalGrossWeight": "Total Gross Weight",
+	    "TotalVolumeWeight": "Total Volume Weight",
+	    "CreateDt": "Create Date",
+      "LetterOrgId": "Org Id"
+    },
+    "DetailTable": {
+      "SeqNo": "SeqNo",
+      "DoNo": "DO Number",
+      "SourceReferenceKey": "Source Reference Key",
+      "SourceReferenceType": "Source Reference Type",
+      "CreateDt": "Create Date"
+    }
+  }
+}

@@ -1,1 +1,596 @@
-<p>bill-search works!</p>
+<div class="container">
+  <h1 class="page-title">
+    <span class="icon"><i class="fas fa-cog"></i>{{ 'BillSearch.Header' | translate }}</span>
+  </h1>
+  <p-card>
+    <p-accordion>
+      <p-accordionTab
+        header="{{ 'Common.Form.Header' | translate }}"
+        [selected]="true"
+      >
+        <form [formGroup]="searchForm">
+          <div class="p-fluid p-formgrid p-grid">
+            <div class="p-field p-col-4">
+              <label>{{ 'BillSearch.Form.OpexOrgId' | translate}}</label>
+              <p-dropdown
+                [filter]="false"
+                placeholder="{{ 'Common.DropDown.Select' | translate}}"
+                [options]="orgIdOptions"
+                [showClear]="true"
+                [itemSize]="30"
+                [virtualScroll]="true"
+                formControlName="opexOrgId"
+              ></p-dropdown>
+            </div>
+            <div class="p-field p-col-4">
+              <label>{{ 'BillSearch.Form.BillCorp' | translate}}</label>
+              <p-dropdown
+                [filter]="true"
+                placeholder="{{ 'Common.DropDown.Select' | translate}}"
+                [options]="orgIdOptions"
+                [showClear]="true"
+                [itemSize]="30"
+                [virtualScroll]="true"
+                formControlName="billCorp"
+              ></p-dropdown>
+            </div>
+            <div class="p-field p-col-4">
+              <label>{{ 'BillSearch.Form.GUIId' | translate}}</label>
+              <p-chips formControlName="guiId" separator="," (onAdd)="chipsAdd($event, 'guiId')"></p-chips>
+            </div>
+            <div class="p-field p-col-4 p-mt-3">
+              <label>{{ 'BillSearch.Form.InOutKey' | translate}}</label>
+              <div class="p-formgrid p-grid">
+                  <div class="p-col">
+                    <input type="text" pInputText formControlName="billingNoStart" />
+                  </div>
+                  <div class="p-mt-2">~</div>
+                  <div class="p-col">
+                    <input type="text" pInputText formControlName="billingNoEnd" />
+                  </div>
+              </div>
+            </div>
+            <div class="p-field p-col-6">
+              <label>{{ 'NotificationSubscribtion.Form.IndiOrGroup' | translate }}</label>
+              <div>
+                  <p-checkbox [disabled]="false" [binary]="true" [(ngModel)]="isByOwner"
+                      [ngModelOptions]="{standalone: true}"></p-checkbox>
+              </div>
+          </div>
+          <div class="p-field p-col-6">
+            <label>{{ 'NotificationSubscribtion.Form.IndiOrGroup' | translate }}</label>
+            <div>
+                <p-checkbox [disabled]="false" [binary]="true" [(ngModel)]="isByOwner2"
+                    [ngModelOptions]="{standalone: true}"></p-checkbox>
+            </div>
+        </div>
+        <div class="p-field p-col-6">
+          <label>{{ 'NotificationSubscribtion.Form.IndiOrGroup' | translate }}</label>
+          <div>
+              <p-checkbox [disabled]="false" [binary]="true" [(ngModel)]="isByOwner3"
+                  [ngModelOptions]="{standalone: true}"></p-checkbox>
+          </div>
+      </div>
+          </div>
+          <div class="p-grid">
+            <div class="p-col">
+              <button
+                pButton
+                pRipple
+                label="{{ 'Common.Button.Search' | translate }}"
+                (click)="searchClickBtn($event)"
+              ></button>
+              <button
+                pButton
+                pRipple
+                label="{{ 'Common.Button.Reset' | translate }}"
+                (click)="resetClickBtn($event)"
+                class="p-button-secondary p-ml-2"
+              ></button>
+            </div>
+          </div>
+        </form>
+      </p-accordionTab>
+    </p-accordion>
+    <div class="p-mt-2">
+      <p-table
+      #evidenceTable
+      [columns]="columns"
+      [value]="tableValue"
+      [scrollable]="true"
+      scrollHeight="500px"
+      [reorderableColumns]="true"
+      [resizableColumns]="true"
+      [totalRecords]="this.pageInfo.totalRecords"
+      (onPage)="this.tablePageChange($event)"
+      (onSort)="this.tableSort($event)"
+      [rowsPerPageOptions]="this.pageDropDownList"
+      [showCurrentPageReport]="true"
+      [paginator]="true"
+      [virtualScroll]="true"
+      [virtualRowHeight]="40"
+      [rows]="100"
+      [loading]="isHeaderLoading"
+      [lazy]="true"
+      currentPageReportTemplate="{{ 'Common.Table.PageSummary' | translate }}"
+      [(selection)]="selectedRow"
+      selectionMode="single"
+      class="edittable"
+      dataKey="rowId"
+      editMode="row"
+      styleClass="p-datatable-gridlines p-datatable-striped p-mt-2 white-space: nowrap;"
+      [(first)]="first"
+    >
+      <ng-template pTemplate="caption">
+        <laas-table-column-toggle
+          [optionsColumn]="columns"
+          [dataTable]="evidenceTable">
+        </laas-table-column-toggle>
+        <button
+          pButton
+          *ngIf="canEditTable"
+          type="button"
+          label="{{ 'EvidenceCheck.Button.EditOrView' | translate }}"
+          icon="fas fa-pen"
+          class="p-button-warning p-button-raised p-ml-2"
+          (click)="switchHeaderEditMode()"
+          style="color: white"
+        ></button>
+        <button
+          pButton
+          *ngIf="canEditTable"
+          type="button"
+          label="{{ 'Common.Button.Save' | translate }}"
+          [disabled]="!editMode"
+          icon="fas fa-save"
+          (click)="saveBtnClick()"
+          class="p-button-raised p-ml-2"
+        ></button>
+        <button
+          pButton
+          *ngIf="canEditTable"
+          type="button"
+          label="導出Excel"
+          icon="fas fa-save"
+          class="p-button-raised p-ml-2"
+          [disabled]="editMode"
+          (click)="govermentUniformInvoiceDownlondBtn(1)"
+        ></button>
+        <button
+          pButton
+          *ngIf="canEditTable"
+          type="button"
+          label="導出Pdf"
+          icon="fas fa-save"
+          class="p-button-raised p-ml-2"
+          [disabled]="editMode"
+          (click)="govermentUniformInvoiceDownlondBtn(2)"
+        ></button>
+        <button
+          pButton
+          pRipple
+          *ngIf="isBtnApproveVisible"
+          label="核准"
+          (click)="approveBtnClick()"
+          [disabled]="editMode"
+          [disabled]="isDisabledUpdate()"
+          class="p-ml-2"
+        ></button>
+        <button
+          pButton
+          pRipple
+          *ngIf="isBtnApproveVisible"
+          label="返回"
+          [disabled]="editMode"
+          (click)="rejectBtnClick()"
+          [disabled]="isDisabledUpdate()"
+          class="p-ml-2"
+        ></button>
+        <button
+          pButton
+          pRipple
+          *ngIf="isBtnApproveVisible"
+          label="重送"
+          [disabled]="editMode"
+          (click)="resendBtnClick()"
+          [disabled]="isDisabledResendUpdate()"
+          class="p-ml-2"
+        ></button>
+        <button
+          pButton
+          pRipple
+          *ngIf="isBtnApproveVisible"
+          label="立即送簽"
+          [disabled]="editMode"
+          (click)="erpFlowBtnClick()"
+          [disabled]="isDisabledUpdate()"
+          class="p-ml-2"
+        ></button>
+      </ng-template>
+      <ng-template pTemplate="colgroup" let-columns>
+        <colgroup>
+          <col style="width: 3vw" />
+          <col *ngFor="let col of columns" style="width: 10.8vw" />
+        </colgroup>
+      </ng-template>
+
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th>
+            <p-checkbox
+              [(ngModel)]="headerChecked"
+              [binary]="true"
+              (onChange)="selectAllOrUnSelectAll($event)"
+            ></p-checkbox>
+          </th>
+          <th
+            [pSortableColumn]="col.field"
+            [pSortableColumnDisabled]="!col.sort"
+            *ngFor="let col of columns"
+            pResizableColumn
+            pReorderableColumn
+          >
+            {{ col.header | translate }}
+            <p-sortIcon [field]="col.field"></p-sortIcon>
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr
+          [pSelectableRow]="rowData"
+          [pEditableRow]="rowData"
+          (click)="onRowClick(rowData)"
+          style="height:40px"
+          [ngClass]="{
+            'row-red': rowData.amountDifferenceColorFlag === 'R',
+            'row-yellow': rowData.amountDifferenceColorFlag === 'Y'
+          }"
+        >
+          <td>
+            <p-checkbox
+              [value]="rowData"
+              [(ngModel)]="selectedRowsWithCheckBox"
+              (onChange)="countTotalRow($event)"
+            ></p-checkbox>
+          </td>
+          <td *ngFor="let col of columns">
+            <ng-container [ngSwitch]="col.field">
+              <ng-container *ngSwitchCase="'billCorp'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: billCorpList
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <p-cellEditor *ngSwitchCase="'guiDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <p-calendar
+                    appendTo="body"
+                    dateFormat="yy-mm-dd"
+                    [showTime]="true"
+                    [(ngModel)]="rowData[col.field]"
+                  ></p-calendar>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'dueDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <p-calendar
+                    appendTo="body"
+                    dateFormat="yy-mm-dd"
+                    [showTime]="true"
+                    [(ngModel)]="rowData[col.field]"
+                  ></p-calendar>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'guiAmount'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <p-inputNumber
+                    mode="decimal"
+                    [minFractionDigits]="4"
+                    [(ngModel)]="rowData[col.field]"
+                  ></p-inputNumber>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | number: "1.4-4"
+                        | replaceNullWith: "0.0000"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor
+                *ngSwitchCase="'shippingDescription'"
+                class="p-fluid"
+              >
+                <ng-template pTemplate="input">
+                  <input
+                    pInputText
+                    type="text"
+                    required
+                    [(ngModel)]="rowData[col.field]"
+                  />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{ rowData[col.field] | replaceNullWith: "-" }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'description'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <input
+                    pInputText
+                    type="text"
+                    required
+                    [(ngModel)]="rowData[col.field]"
+                  />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{ rowData[col.field] | replaceNullWith: "-" }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor
+                *ngSwitchCase="'amountDifferenceDescription'"
+                class="p-fluid"
+              >
+                <ng-template pTemplate="input">
+                  <input
+                    pInputText
+                    type="text"
+                    required
+                    [(ngModel)]="rowData[col.field]"
+                  />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{ rowData[col.field] | replaceNullWith: "-" }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'guiNo'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <input
+                    pInputText
+                    type="text"
+                    required
+                    [(ngModel)]="rowData[col.field]"
+                  />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{ rowData[col.field] | replaceNullWith: "-" }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'guiCurrency'">
+                <ng-template pTemplate="input">
+                  <p-dropdown
+                    [filter]="true"
+                    placeholder="{{ 'Common.DropDown.Select' | translate }}"
+                    [options]="currencyOptions"
+                    appendTo="body"
+                    [showClear]="true"
+                    [(ngModel)]="rowData[col.field]"
+                    class="p-fluid"
+                  >
+                  </p-dropdown>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | optionsMapping: this.currencyOptions
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <ng-container *ngSwitchCase="'sourceModel'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: expenseInvSourceOptions
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'carrierPaymentBy'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: carrierPaymentByOptions
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'status'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: statusOptions
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'paymentMethod'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: paymentMethodOptions
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <ng-container *ngSwitchCase="'termsId'">
+                <div class="overflow-text">
+                  {{
+                    rowData[col.field]
+                      | optionsMapping: termsIdOptions
+                      | replaceNullWith: "-"
+                  }}
+                </div>
+              </ng-container>
+              <p-cellEditor *ngSwitchCase="'glDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date: "yyyy-MM-dd":this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date: "yyyy-MM-dd":this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'applyDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date: "yyyy-MM-dd":this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date: "yyyy-MM-dd":this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'createDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <p-cellEditor *ngSwitchCase="'updateDt'" class="p-fluid">
+                <ng-template pTemplate="input">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+                <ng-template pTemplate="output">
+                  <div class="overflow-text">
+                    {{
+                      rowData[col.field]
+                        | date
+                          : "yyyy-MM-dd HH:mm"
+                          : this.laasSetting.facilityTimeZone
+                        | replaceNullWith: "-"
+                    }}
+                  </div>
+                </ng-template>
+              </p-cellEditor>
+              <ng-container *ngSwitchDefault>
+                <ng-container [ngSwitch]="col.dataType">
+                  <p-cellEditor *ngSwitchCase="'date'" class="p-fluid">
+                    <ng-template pTemplate="input">
+                      <div class="overflow-text">
+                        {{
+                          rowData[col.field]
+                            | date
+                              : "yyyy-MM-dd HH:mm"
+                              : this.laasSetting.facilityTimeZone
+                            | replaceNullWith: "-"
+                        }}
+                      </div>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                      <div class="overflow-text">
+                        {{
+                          rowData[col.field]
+                            | date
+                              : "yyyy-MM-dd HH:mm"
+                              : this.laasSetting.facilityTimeZone
+                            | replaceNullWith: "-"
+                        }}
+                      </div>
+                    </ng-template>
+                  </p-cellEditor>
+                  <ng-container *ngSwitchDefault class="p-fluid">
+                    <div class="overflow-text">
+                      {{ rowData[col.field] | replaceNullWith: "-" }}
+                    </div>
+                  </ng-container>
+                </ng-container>
+              </ng-container>
+            </ng-container>
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="emptymessage">
+        <tr>
+          <td [attr.colspan]="columns.length + 1">
+            {{ "Common.Table.NoData" | translate }}
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+    </div>
+  </p-card>
+</div>

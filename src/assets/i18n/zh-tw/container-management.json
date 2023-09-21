@@ -1,0 +1,100 @@
+{
+  "ContainerManagement": {
+    "Header": "貨櫃管理",
+    "Transfer": "換櫃",
+    "Search": {
+      "Facility": "倉別",
+      "ContainerNumber": "貨櫃碼",
+      "AssignDate": "指派日期",
+      "Period": "時段",
+      "DONumber": "交貨單號",
+      "EditContainer": "編輯貨櫃",
+      "BookingNo": "Booking No.",
+      "LockStatus": "鎖定狀態"
+    },
+    "Button": {
+      "ReviewUnallocated": "檢視未配櫃資料",
+      "Export": "匯出",
+      "Lock": "鎖櫃",
+      "Unlock": "解櫃",
+      "Return":"回傳資料"
+    },
+    "MainTable": {
+      "LockStatus": "鎖定狀態",
+      "Forwarder": "貨代",
+      "PickUp": "提貨地點",
+      "Customer": "客戶",
+      "TotalAnt": "總值",
+      "TotalCarton": "總箱數",
+      "TotalDim": "總材積",
+      "Facility": "倉別",
+      "ContainerNumber": "貨櫃碼",
+      "AssignDate": "指派日期",
+      "Period": "時段",
+      "DOQty": "DO 數量",
+      "TotalWeight": "總重",
+      "TotalCbm":"總材積"
+    },
+    "SubTable": {
+      "CarNumber": "車次碼",
+      "BookingNo": "Booking No.",
+      "DONumber": "DO#",
+      "DOInvoiceNumber": "DO Invoice#",
+      "CustomerCode": "客戶代碼",
+      "CustomerName": "客戶名稱",
+      "LoadOrderCompany": "下單公司",
+      "ShipOutCompany": "出貨公司",
+      "LetterHeadCompany": "Letter Head 公司",
+      "DOStatus": "DO狀態",
+      "CartonCount": "箱數",
+      "GrossWeight": "毛重",
+      "NetWeight": "淨重",
+      "Volume": "材積",
+      "DefaultCarType": "預設貨櫃車型",
+      "CarType":"貨櫃車型",
+      "PlateNo":"貨櫃車牌號"
+    }
+  },
+  "UnallocatedContainer": {
+    "Header": "未配櫃資料",
+    "DONumber": "交貨單號",
+    "MainTable": {
+      "Facility": "倉別",
+      "AssignDate": "指派日期",
+      "PickUp": "提貨地點",
+      "ContainerPeriod": "貨櫃條件時段",
+      "ContainerShippingType": "貨櫃條件運送類型",
+      "ContainerForwarder": "貨櫃條件貨代",
+      "ContainerCustomer": "貨櫃條件客戶",
+      "CreationTime": "建立時間",
+      "Creator": "建立者"
+    },
+    "SubTable": {
+      "UnallocatedDetails": "未配櫃明細",
+      "CarNumber": "車次碼",
+      "BookingNo": "Booking No.",
+      "DO": "DO#",
+      "DOInvoice": "DO Invoice#",
+      "CustomerCode": "客戶代碼",
+      "CustomerName": "客戶名稱",
+      "LoadOrderComp": "下單公司",
+      "ShipOutComp": "出貨公司",
+      "LetterHeadComp": "Letter Head 公司",
+      "DOStatus": "DO 狀態",
+      "CartonCount": "箱數",
+      "GrossWeight": "毛重",
+      "NetWeight": "淨重",
+      "Volume": "材積"
+    }
+  },
+  "EditContainer":{
+    "CartonCount": "箱數",
+    "NetWeight": "淨重",
+    "Volume": "材積",
+    "Value": "價值",
+    "ContainerNumber": "貨櫃碼",
+    "TotalCarton": "總箱數",
+    "TotalWeight": "總重",
+    "TotalValue": "總價值"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "DoMerge":{
+    "Search":{
+      "Title":"併單Do查詢",
+      "DoNo":"出貨單號",
+      "LetterHeadOrgId":"LetterHead公司",
+      "ConsigneeKey":"客戶名稱",
+      "DoStatus":"訂單狀態",
+      "Facility":"倉別",
+      "DeliveryCategory":"運送類型",
+      "ShipTo":"送貨地點",
+      "Creater":"建立者",
+      "Sales":"業務員",
+      "OrderType":"查詢訂單",
+      "PersonalOrder":"個人訂單",
+      "All":"全部",
+      "DropType":"空飛單"
+    },
+    "MainTable":{
+      "DoNo":"出貨單號",
+      "LetterHeadOrgId":"LetterHead公司",
+      "ConsigneeKey":"客戶名稱",
+      "DoStatus":"訂單狀態",
+      "Facility":"倉別",
+      "InvoiceNo":"發票號碼",
+      "IsDropRemark":"空飛單",
+      "ETD":"ETD",
+      "DeliveryTo": "delivery To",
+      "ShipTo": "ship To",
+      "DeliveryType": "運送方式",
+      "IncoTerm": "貿易條件",
+      "Creater": "建立者",
+      "Sales":"業務員",
+      "taskCode": "併單註記",
+      "taskValue": "併單描述"
+    },
+    "Options":{
+      "Drop":{
+        "Yes":"是",
+        "No":"否"
+      }
+    },
+    "Footer":{
+      "Merge":"合併產生併單序號",
+      "Import": "匯入Do"
+    },
+    "Toast":{
+      "SaveTaskCodeSuccess":"儲存成功",
+      "SaveTaskCodeFail":"儲存失敗",
+      "NotSaveTaskCode":"請先勾選更動過的DoTaskCode，並儲存",
+      "EditModeError":"編輯模式下無法合併，請先儲存更動結果",
+      "TaskValueIsEmpty":"請輸入更改的DoTaskCode的併單描述 DO : "
+    },
+    "Confirm": {
+      "Header": "系統資訊",
+      "Save": "確定要儲存嗎?",
+      "ChangeSaveOrNot": "您的變更尚未儲存，請問要儲存嗎?",
+      "SaveOrNot": "請問要儲存嗎?"
+    }
+  }
+}

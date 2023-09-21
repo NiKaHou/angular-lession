@@ -1,0 +1,152 @@
+{
+  "Common": {
+    "Status": "狀態",
+    "Button": {
+      "Select": "請選擇",
+      "Search": "查詢",
+      "Reset": "重設",
+      "Restore": "還原",
+      "Confirm": "確認",
+      "Clean": "清除",
+      "Import": "匯入",
+      "Export": "匯出",
+      "Delete": "刪除",
+      "Add": "新增",
+      "Save": "儲存",
+      "Edit": "編輯",
+      "Cancel": "取消",
+      "ViewOrEdit": "檢視/編輯",
+      "FileUpload": "文件上傳",
+      "FileDownload": "檔案下載",
+      "DeleteDuplicate": "刪除重複項目",
+      "Return": "不儲存返回",
+      "Required": "此欄位為必填",
+      "Unpick": "不撿貨",
+      "Start": "起",
+      "End": "迄",
+      "Range": "區間",
+      "Today": "今天",
+      "ThisWeek": "本週",
+      "ThreeDaysBefore": "前三日",
+      "OneWeekBefore": "前一週",
+      "TwoWeeksBefore": "前兩週",
+      "OneMonthBefore": "前一個月",
+      "ShowFile": "顯示文件",
+      "BatchUploadFiles": "批次文件上傳",
+      "DownloadExcel": "下載 Excel",
+      "ShowAll": "顯示全部",
+      "All": "全部",
+      "Unread": "未讀",
+      "Export": "匯出",
+      "DownloadExcel": "下載 Excel",
+      "Agree": "同意",
+      "Disagree": "不同意"
+    },
+    "Table": {
+      "Keyword": "輸入關鍵字",
+      "NoData": "無資料",
+      "Toggle": "個欄位已選擇",
+      "PageSummary": "顯示第 {first} 筆至第 {last} 筆，共 {totalRecords} 筆"
+    },
+    "Form": {
+      "Header": "查詢表單"
+    },
+    "Term": {
+      "CreateUser": "建立者",
+      "CreateDate": "建立日期",
+      "UpdateUser": "更新者",
+      "UpdateDate": "更新日期"
+    },
+    "LogLevel": {
+      "Trace": "Trace",
+      "Debug": "Debug",
+      "Info": "資訊",
+      "Warn": "警告",
+      "Error": "錯誤",
+      "Fatal": "嚴重錯誤"
+    },
+    "Toast": {
+      "Success": "成功",
+      "Info": "資訊",
+      "Warn": "警告",
+      "Error": "錯誤",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "獲取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: {0}, 錯誤訊息: {1}",
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫",
+      "NoData": "資料為空"
+    },
+    "Message": {
+      "SuccessSave": "儲存成功",
+      "FailSave": "儲存失敗",
+      "ChooseOption": "請選擇",
+      "UnknowError": "發生錯誤，請聯絡IT人員",
+      "DateRangeCannotExceedSeveralMonths": "日期範圍不能超過{0}個月"
+    },
+    "DropDown": {
+      "Select": "請選擇"
+    },
+    "TMS": {
+      "Success": "傳送成功",
+      "Fail": "傳送失敗",
+      "SystemError": "系統異常"
+    },
+    "Dialog": {
+      "Header": "系統資訊",
+      "Message": {
+        "File": {
+          "Exit": "是否確定關閉視窗?\n請記得儲存已更動的資料.",
+          "Save": "是否確定儲存文件的更動？",
+          "SaveFailure": "文件儲存失敗，錯誤代碼："
+        }
+      }
+    },
+    "PlaceHolder": {
+      "EnterSearchCondition": "請輸入搜尋條件"
+    },
+    "Confirm": {
+      "Header": "系統資訊",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分",
+      "ConfirmDelete": "確定要刪除嗎?"
+    }
+  },
+
+  "Menu": {
+    "Menu": {
+      "OutboundOperation": "運輸作業",
+      "CreateBooking": "建立 Booking",
+      "DOQuery": "出貨單查詢",
+      "BookingQuery": "Booking 查詢",
+      "AssignPicker": "揀貨指派",
+      "ShippingStatus": "出貨進度查詢",
+      "ExportDeclare": "出口報關單查詢",
+      "CreateExportDeclare": "建立出口報關單",
+      "ContainerManagement": "貨櫃管理",
+      "SystemSetting": "系統設定",
+      "SubscriptNotiSet": "訂閱通知設定",
+      "UserMaintenance": "使用者維護",
+      "CompanyStampMaintenance": "簽收章維護",
+      "RoleMaintenance": "角色維護",
+      "ChangePass": "變更密碼",
+      "ReportQuery": "報表查詢",
+      "MESReport": "MES Report",
+      "DOCartonDetails": "DO箱明細查詢",
+      "ConsignmentLog": "託運日誌報表",
+      "BOLInvoiceList": "提貨單發票列表",
+      "PackOutQuery": "箱到齊查詢",
+      "BOLPalletNumber": "派車板號查詢",
+      "RFQMaintenance": "RFQ維護",
+      "FSCSSCSetting": "空運燃油費、安檢費設定",
+      "ExchangeRate": "匯率維護",
+      "ImportDeclaration": "進口報關單查詢",
+      "ReceivingRegistration": "新增入倉單",
+      "ReceiptFormQuery": "入倉單查詢",
+      "InOutWarehousingFormQuery": "進出倉費用",
+      "TermsMaintenance": "條款聲明維護"
+    }
+  }
+}

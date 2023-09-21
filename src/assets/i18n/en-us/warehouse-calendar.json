@@ -1,0 +1,25 @@
+{
+  "WarehouseCalendar": {
+    "Header": {
+      "Title": "Warehouse calendar",
+      "LaaSTitle": "LaaS calendar",
+      "PreviousMonth": "Previous",
+      "Today": "Today",
+      "NextMonth": "Next"
+    },
+    "Calendar": {
+      "Year": "Year",
+      "Month": "Month"
+    },
+    "EditDialog": {
+      "Title": "Edit Warehouse calendar",
+      "LaaSTitle": "Edit LaaS calendar",
+      "DescrLabel": "Descr",
+      "MemoLabel": "Memo",
+      "VacationLabel": "Vacation",
+      "CreateUserLabel": "Create user: ",
+      "LastUpdateUserLabel": "Last update user: ",
+      "OverLengthMsg": "Over max length"
+    }
+  }
+}

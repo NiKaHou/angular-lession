@@ -1,0 +1,63 @@
+{
+  "TariffRate": {
+    "Header": "關稅率維護",
+    "Form": {
+      "SKU": "料號",
+      "Forwarder": "貨代",
+      "Effective": "有效"
+    },
+    "MainTable": {
+      "Forwarder": "貨代",
+      "SKU": "料號",
+      "TariffRate": "關稅率",
+      "CustomsNumber": "海關稅號",
+      "PartNumDescript": "料號描述",
+      "FilingDate": "申報日期",
+      "Brand": "品牌",
+      "IsValid": "是否有效",
+      "StartDate": "起始日",
+      "EndDate": "結束日",
+      "Creator": "建立者",
+      "CreationTime": "建立時間",
+      "UpdateBy": "更新者",
+      "UpdateTime": "更新時間",
+      "Action": "Action"
+    },
+    "Button": {
+      "New": "新增",
+      "Import": "匯入",
+      "Export": "匯出"
+    }
+  },
+  "TariffRateNew": {
+    "New": "新增",
+    "Forwarder": "貨代",
+    "SKU": "料號",
+    "TariffRate": "關稅率",
+    "CustomsNum": "海關稅號",
+    "PartNumDescription": "料號描述",
+    "FilingDate": "申報日期",
+    "Brand": "品牌",
+    "IsValid": "是否有效",
+    "StartDate": "起始日",
+    "EndDate": "結束日"
+  },
+  "TariffRateImport": {
+    "Header": "關稅率設定匯入",
+    "Forwarder": "貨代",
+    "File": "檔案",
+    "Select": "選擇",
+    "Import": "匯入",
+    "Cancel": "取消",
+    "TemplateDownload": "範本下載",
+    "Upload": "上傳",
+    "SKU": "料號",
+    "TariffRate": "關稅率",
+    "CustomsNum": "海關稅號",
+    "PartNumDescription": "料號描述",
+    "FilingDate": "申報日期",
+    "Brand": "品牌",
+    "EffectiveStartDate": "生效日起",
+    "EffectiveEndDate": "生效日迄"
+  }
+}

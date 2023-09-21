@@ -1,0 +1,32 @@
+{
+    "NotificationSubscribtion": {
+        "Header": "Subscription Notification Setting",
+        "SubHeader": "Add notification subscribtion",
+        "Facility": "Facility",
+        "Forwarder": "Forwarder",
+        "Customer": "Customer",
+        "Org": "Org.",
+        "Form": {
+            "Search": "Search",
+            "Email": "Email",
+            "NotificationType": "Notification Type",
+            "NotificationMode": "Notification Mode",
+            "IndiOrGroup": "Individual/Group",
+            "Tenant": "Tenant",
+            "InfoTypeDesc": "Info Type",
+            "InfoType": {
+                "Email": "By Email",
+                "SMS": "By SMS"
+            },
+            "Subscriber": "Subscriber",
+            "hash": "#",
+            "Status": "Status",
+            "Action": "Action",
+            "Org": "Org.",
+            "IsPersonalSubscription": "Is Personal Subscription"
+        },
+        "EditDialog": {
+            "Title": "Edit Notification Subscribtion"
+        }
+    }
+}

@@ -10,8 +10,8 @@ const routes: Routes = [
       {
         path:'Bill',
         loadChildren: () =>
-        import('src/app/core-function/bill/bill-operation.module')
-        .then(m => m.BillOperationModule)
+        import('src/app/core-function/bill/bill-operation-routing.module')
+        .then(m => m.BillOperationRoutingModule)
       }
     ]
   }

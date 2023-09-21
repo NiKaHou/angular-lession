@@ -1,0 +1,64 @@
+{
+  "AirportMaintenance": {
+    "Header": "Airport Maintenance",
+    "Form": {
+      "Field": {
+        "AirportCode": "Airport Code (IATA)",
+        "AirportName": "Airport Name",
+        "LocatedCityName": "Located City Name"
+      },
+      "Placeholder": {
+        "OptionHint": {
+          "SelectOneOrMoreCity": "Select one or more city"
+        }
+      }
+    },
+
+    "Table": {
+      "ColumnHeader": {
+        "AirportCode": "Airport Code (IATA)",
+        "AirportName": "Airport Name",
+        "LocatedCityName": "Located City Name",
+        "IsActivated": "Is Activated",
+        "CreateUser": "Create User",
+        "CreateDt": "CreateDt",
+        "UpdateUser": "Update User",
+        "UpdateDt": "UpdateDt"
+      },
+      "Button": {
+        "Restore": "Restore"
+      },
+      "Placeholder": {
+        "OptionHint": {
+          "SelectACity": "Select a city",
+          "SelectIsActivatedOrNot": "Select is activated or not",
+          "ChooseColumns": "Choose columns"
+        }
+      }
+    },
+
+    "Option": {
+      "IsActivated": {
+        "Activated": "Activated",
+        "Deactivated": "Deactivated"
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info",
+      "Delete": "Are you sure to delete?",
+      "Restore": "Are you sure to restore the changed data?",
+      "Save": "Are you sure to save?",
+      "Exit": "Are you sure to exit edit mode? Remember to save your changes."
+    },
+
+    "Toast": {
+      "DeleteSuccess": "Delete Completed",
+      "RestoreSuccess": "Restore Completed",
+      "SaveSuccess": "Save Completed",
+      "ExitSuccess": "Exit completed",
+      "GetDataFail": "Query failed, Error Code: ",
+      "SaveFail": "Save failed, Error Code: "
+    }
+  }
+}

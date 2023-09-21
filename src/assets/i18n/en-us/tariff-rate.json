@@ -1,0 +1,63 @@
+{
+  "TariffRate": {
+    "Header": "Tariff Rate Maintenance",
+    "Form": {
+      "SKU": "SKU",
+      "Forwarder": "Forwarder",
+      "Effective": "Effective"
+    },
+    "MainTable": {
+      "Forwarder": "Forwarder",
+      "SKU": "SKU",
+      "TariffRate": "Tariff Rate",
+      "CustomsNumber": "Customs Number",
+      "PartNumDescript": "Part Number Description",
+      "FilingDate": "Filing Date",
+      "Brand": "Brand",
+      "IsValid": "Is It Valid?",
+      "StartDate": "Start Date",
+      "EndDate": "End Date",
+      "Creator": "Creator",
+      "CreationTime": "Creation Time",
+      "UpdateBy": "Update By",
+      "UpdateTime": "Update time",
+      "Action": "Action"
+    },
+    "Button": {
+      "New": "New",
+      "Import": "Import",
+      "Export": "Export"
+    }
+  },
+  "TariffRateNew": {
+    "New": "New",
+    "Forwarder": "Forwarder",
+    "SKU": "SKU",
+    "TariffRate": "Tariff Rate",
+    "CustomsNum": "Customs Number",
+    "PartNumDescription": "Part Number Description",
+    "FilingDate": "Filing Date",
+    "Brand": "Brand",
+    "IsValid": "Is It Valid?",
+    "StartDate": "Start Date",
+    "EndDate": "End Date"
+  },
+  "TariffRateImport": {
+    "Header": "Import Tariff Rate Setting",
+    "Forwarder": "Forwarder",
+    "File": "File",
+    "Select": "Select",
+    "Import": "Import",
+    "Cancel": "Cancel",
+    "TemplateDownload": "Template Download",
+    "Upload": "Upload",
+    "SKU": "SKU",
+    "TariffRate": "Tariff Rate",
+    "CustomsNum": "Customs Number",
+    "PartNumDescription": "Part Number Description",
+    "FilingDate": "Filing Date",
+    "Brand": "Brand",
+    "EffectiveStartDate": "Effective Start Date",
+    "EffectiveEndDate": "Effective End Date"
+  }
+}

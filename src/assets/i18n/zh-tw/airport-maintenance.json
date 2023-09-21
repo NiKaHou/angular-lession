@@ -1,0 +1,64 @@
+{
+  "AirportMaintenance": {
+    "Header": "機場維護",
+    "Form": {
+      "Field": {
+        "AirportCode": "機場代碼 (IATA)",
+        "AirportName": "機場名稱",
+        "LocatedCityName": "城市名稱"
+      },
+      "Placeholder": {
+        "OptionHint": {
+          "SelectOneOrMoreCity": "請選擇一或多個城市"
+        }
+      }
+    },
+
+    "Table": {
+      "ColumnHeader": {
+        "AirportCode": "機場代碼 (IATA)",
+        "AirportName": "機場名稱",
+        "LocatedCityName": "城市名稱",
+        "IsActivated": "是否已啓用？",
+        "CreateUser": "建立者",
+        "CreateDt": "建立時間",
+        "UpdateUser": "更新者",
+        "UpdateDt": "更新時間"
+      },
+      "Button": {
+        "Restore": "還原"
+      },
+      "Placeholder": {
+        "OptionHint": {
+          "SelectACity": "請選擇一個城市",
+          "SelectIsActivatedOrNot": "請選擇啓用狀態",
+          "ChooseColumns": "請選擇欄位"
+        }
+      }
+    },
+
+    "Option": {
+      "IsActivated": {
+        "Activated": "啓用中",
+        "Deactivated": "已停用"
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊",
+      "Delete": "確定要刪除嗎?",
+      "Restore": "確定要還原已更動的資料嗎?",
+      "Save": "確定要儲存嗎?",
+      "Exit": "確定要退出編輯模式嗎？記得保存更動的部分"
+    },
+
+    "Toast": {
+      "DeleteSuccess": "已完成刪除",
+      "RestoreSuccess": "已完成還原",
+      "SaveSuccess": "已完成儲存",
+      "ExitSuccess": "已完成退出",
+      "GetDataFail": "获取失敗, 錯誤代碼: ",
+      "SaveFail": "儲存失敗, 錯誤代碼: "
+    }
+  }
+}

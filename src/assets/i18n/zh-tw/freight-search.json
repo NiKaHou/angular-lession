@@ -1,0 +1,29 @@
+{
+  "FreightSearch": {
+    "Search": {
+      "Title":"運費查詢",
+      "Facility": "倉別",
+      "ShipCorp": "進 / 出貨公司",
+      "ExpressBill": "提單號(HAWB)",
+      "Brand": "品牌",
+      "Vendor": "客戶代碼 / 原廠代碼",
+      "AdNoDoNo": "AD 單號 / DO 單號",
+      "BillingCreateDt": "費用建立日期"
+    },
+    "MainTable": {
+      "AdNo": "AD 單號",
+      "DoNo": "DO 單號",
+      "Department": "部門代碼",
+      "ShipCorp": "公司",
+      "BillingCreateDt": "費用建立日期",
+      "Vendor": "供貨商",
+      "Brand": "品牌",
+      "PreCurrencyCode": "幣別",
+      "FreightChargeAmount": "運費",
+      "FuelSurchargeAmount": "燃油費",
+      "SecuritySurchargeAmount": "安檢費",
+      "OtherChargeAmount": "其他費用",
+      "ExpressBill": "HAWB"
+    }
+  }
+}

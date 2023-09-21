@@ -1,0 +1,38 @@
+{
+  "DOCartonDetailsQuery": {
+    "Header": "DO箱明細查詢",
+    "Search": {
+      "DONum": "交貨單號",
+      "BookingNum": "Booking 單號",
+      "CartonStatus": "箱狀態",
+      "DisplaySKUDetails": "顯示料號明細",
+      "OffloadTime": "下線時間"
+    },
+    "Form": {
+      "OutercaseID": "outerCsaeId",
+      "Facility": "倉別",
+      "Storer": "Storer",
+      "Company": "公司別",
+      "DONum": "交貨單號",
+      "OffloadTime": "下線時間",
+      "Status": "狀態",
+      "PalletNum": "棧板號",
+      "Length": "長",
+      "Width": "寬",
+      "Height": "高",
+      "GrossWeight": "毛重",
+      "NetWeight": "淨重",
+      "Qty": "數量",
+      "CaseID": "箱編號",
+      "SKU": "料號",
+      "AltSKU": "altSKU",
+      "DateCode": "Datecode",
+      "COO": "Coo",
+      "Country": "country",
+      "GlAttribute02": "glAttribute02",
+      "GlAttribute03": "glAttribute03",
+      "GlAttribute05": "glAttribute05",
+      "GlAttribute06": "glAttribute06"
+    }
+  }
+}

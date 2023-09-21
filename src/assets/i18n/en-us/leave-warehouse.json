@@ -1,0 +1,35 @@
+{
+  "LeaveWarehouse": {
+    "Header": "Leave Warehouse Details",
+    "Form": {
+      "LeaveWarehouseKey": "Leave Warehouse Number",
+      "CarTrip": "Car Trip Number",
+      "Status": "Status",
+      "Forwarder": "Forwarder",
+      "LicensePlate": "Vehicle Number",
+      "Facility": "Facility",
+      "ScanType": "Scan type",
+      "CreateUser": "Creator",
+      "CreateDt": "Create Date",
+      "UpdateUser": "Last Update By",
+      "UpdateDt": "Last Update Date",
+      "CntCaseNormal": "Normal DO Carton",
+      "CntCaseDrop": "Drop Ship DO Carton Count",
+      "CntCase": "Total Carton Count",
+      "CntBooking": "Booking Qty",
+      "SignatureDt": "Receipt Date",
+      "ScanStatus": "Scan Status"
+    },
+    "DetailForm": {
+      "DropId": "Pallet Number",
+      "DoNo": "DO Number",
+      "OuterCaseId": "Carton Number",
+      "ExpectedCaseCount": "Estimate Cartons"
+    },
+    "Button": {
+      "DownloadFile": "Download File",
+      "Re-print": "Re-print Leave Warehouse Form",
+      "Re-sign": "Re-sign Leave Warehouse Form"
+    }
+  }
+}

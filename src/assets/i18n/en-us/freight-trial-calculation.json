@@ -1,0 +1,31 @@
+{
+  "FreightField":{
+    "Facility" : "Facility",
+    "DeliveryMode": "Delivery Mode",
+    "Forwarder": "Forwarder",
+    "RFQCategory": "RFQ Category",
+    "Freight": "Freight",
+    "FuelCosts": "Fuel Costs",
+    "SecurityCheckFee" : "Security Check Fee",
+    "OtherFee": "Other Fee",
+    "EstimateTotalCharge": "Estimate Total Charge",
+    "Currency": "Currency",
+    "IncoTerm": "IncoTerm",
+    "Other": {
+      "FreightEstimate": "Freight Estimate",
+      "ShippingType": "Shipping Type",
+      "ShipTerm": "Ship Term",
+      "FromandTo": "From and To",
+      "OriginCountry": "Origin Country",
+      "OriginCity": "Origin City",
+      "DestinationCountry": "Destination Country",
+      "DestinationCity": "Destination City",
+      "VolumnGrosWeight": " Volumn Weight / Gross Weight",
+      "totalGrossWeight": "Total Gross Weight",
+      "totalVolumeWeight": "Total Volume Weight",
+      "Length": "Length",
+      "Width": "Width",
+      "Height": "Height"
+    }
+  }
+}

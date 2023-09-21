@@ -1,0 +1,130 @@
+{
+  "UserMaintenance": {
+    "Header": "使用者維護",
+    "Search": {
+      "Account": "帳號",
+      "Name": "名字",
+      "Email": "Email"
+    },
+    "MainTable": {
+      "Account": "Account",
+      "UserType": "User Type",
+      "UserName": "User Name",
+      "Email": "Email",
+      "IsActivated": "IsActivated",
+      "Action": "Action"
+    },
+    "Button": "新增使用者",
+    "UserEdit": {
+      "UserEdit": "使用者編輯",
+      "Account": "Account",
+      "UserType": "User Type",
+      "Email": "Email",
+      "UserName": "User Name",
+      "EmployCode": "Employee S/N",
+      "Pwd": "密碼",
+      "ConfirmPwd": "密碼確認",
+      "IsActivated": "Is Activated",
+      "DataAuthor": "資料權限",
+      "Button": "增加角色",
+      "Role": "角色"
+    }
+  },
+  "ChangePwd": {
+    "Header": "變更密碼",
+    "Form": {
+      "OldPwd": "舊密碼",
+      "NewPwd": "新密碼",
+      "ConfirmPwd": "確認新密碼"
+    }
+  },
+  "RoleMaintenance": {
+    "Header": "角色維護",
+    "Search": {
+      "UserType": "User Type",
+      "RoleCode": "Role Code",
+      "RoleName": "Role Name"
+    },
+    "MainTable": {
+      "RoleCode": "Role Code",
+      "RoleName": "Role Name",
+      "UserType": "User Type",
+      "IsActivated": "IsActivated",
+      "Action": "Action"
+    }
+  },
+  "CompanyStampMaintenance": {
+    "Header": "簽收章維護",
+    "Search": {
+      "DONum": "DO 單號"
+    },
+    "MainTable": {
+      "FileKey": "File Key",
+      "FileName": "File Name",
+      "SiteId": "Site Use Id",
+      "FromTime": "時間起",
+      "EndTime": "時間迄",
+      "Photo": "圖片",
+      "CreateBy": "Create By",
+      "CreateDate": "Create Date"
+    },
+    "UploadFile": {
+      "UploadFile": "上傳檔案",
+      "StartEnd": "時間起迄",
+      "ForceUpdate": "ForceUpdate",
+      "File": "檔案",
+      "Button": {
+        "ChooseFile": "Choose File",
+        "Upload": "Upload",
+        "Cancel": "Cancel"
+      }
+    }
+  },
+  "FaqMaintenance": {
+    "Header": "FAQ 維護",
+    "Search": {
+      "Facility": "倉別",
+      "Keyword": "關鍵字",
+      "IsActivated": "IsActivated",
+      "ApplyFacility": "適用倉別: "
+    },
+    "MainTable": {
+      "Question": "問題",
+      "Answer": "回答",
+      "IsActivated": "IsActivated",
+      "CreateBy": "建立者",
+      "CreationTime": "建立日期",
+      "UpdateBy": "更新者",
+      "UpdateTime": "更新日期",
+      "Action": "Action"
+    },
+    "Button": "FAQ 新增",
+    "FaqEdit": {
+      "EditHeader": "FAQ 編輯",
+      "Question": "問題",
+      "Answer": "回答",
+      "Facility": "倉別",
+      "IsActivated": "IsActivated",
+      "Button": "FAQ 新增"
+    }
+  },
+  "Terms": {
+    "View":{
+      "Header": "使用條款",
+      "TermsType":"條款類型",
+      "LaaSTerms":"平台服務條款",
+      "CookiePolicy":"Cookie政策",
+      "PrivacyPolicy":"隱私權政策",
+      "CustomerNotification":"雲端服務客戶告知聲明"
+
+    },
+    "Maintenance": {
+      "Header": "條款聲明維護",
+      "Confirm": {
+        "Header": "系統資訊",
+        "Announcement": "確定要發布嗎?",
+        "Save": "確定要儲存嗎?"
+      }
+    }
+  }
+}

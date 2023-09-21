@@ -1,0 +1,53 @@
+{
+  "ExchangeRate": {
+    "Search": {
+      "ExchangeType": "Exchange Rate Type",
+      "OriginCurrency": "Origin Currency",
+      "ConversionCurrency": "Conversion Currency",
+      "Effective": "Effective"
+    },
+    "Button": {
+      "New": "New",
+      "Import": "Import",
+      "Export": "Export"
+    },
+    "MainTable": {
+      "ExchangeType": "Exchange Rate Type",
+      "Date": "Date",
+      "OriginExchangeRate": "Origin Exchange Rate",
+      "ConversionRate": "Conversion Rate",
+      "ExchangeRate": "Exchange Rate",
+      "ExchangeRateRange": "Exchange Rate Range",
+      "IsValid": "Is It Valid?",
+      "Creator": "Creator",
+      "CreationTime": "Creation Time",
+      "UpdateBy": "Update By",
+      "UpdateTime": "Update time"
+    }
+  },
+  "ExchangeRateNew": {
+    "New": "New",
+    "ExchangeType": "Exchange Rate Type",
+    "ExchangeDate": "Exchange Date",
+    "OriginExchangeRate": "Origin Exchange Rate",
+    "ConversionRate": "Conversion Rate",
+    "ExchangeRate": "Exchange Rate",
+    "ExchangeRateRange": "Exchange Rate Range",
+    "IsValid": "Is It Valid?"
+  },
+  "ExchangeRateImport": {
+    "ImportExchangeRateSetting": "Import Exchange Rate Setting",
+    "ExchangeType": "Exchange Rate Type",
+    "File": "File",
+    "Select": "Select",
+    "Import": "Import",
+    "Cancel": "Cancel",
+    "TemplateDownload": "Template Download",
+    "Upload": "Upload",
+    "Date": "Date",
+    "ExchangeRateRange": "Exchange Rate Range",
+    "OriginCurrency": "Origin Currency",
+    "ConversionCurrency": "Conversion Currency",
+    "ExchangeRate": "Exchange Rate"
+  }
+}

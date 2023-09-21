@@ -1,0 +1,537 @@
+{
+  "BoookingSearch": {
+    "Alert": {
+      "PleaseMaintainNum": "請維護下列出貨單的箱數",
+      "CannotAddDO": "此 Booking 狀態不可加單",
+      "BelowDOCannotAdd": "以下 DO 無法新增至 Booking：",
+      "TickDOTMSReturn": "請勾選要回傳的TMS",
+      "CheckRequired": "請檢查是否有必填欄位尚未填寫",
+      "FileType": "請選擇文件種類",
+      "SelectUploaded": "請選擇欲上傳 DO#",
+      "TickFile": "請勾選檔案",
+      "BillingCannotBlank": "billingType 不能為空",
+      "ForwarderCannotBlank": "forwarderCode 不能為空"
+    },
+    "Confirm": {
+      "Resend": "已成功傳送過，是否要重新回傳?",
+      "ExcludePrintedDoc": "是否排除列印過的文件?",
+      "ConfirmExclude": "確定排除",
+      "ConfirmDeleteDO": "確定刪除此Do?",
+      "ConfirmDelete": "確定刪除",
+      "SendBack": "交貨單號已回傳過TMS，是否要重新回傳?",
+      "ResendTMS": "重新回傳TMS",
+      "DeleteParameterCombination": "是否刪除此參數組合?",
+      "ConfirmCancelBooking": "確定取消此筆Booking?",
+      "ConfirmCancel": "確定取消",
+        "IfRefresh":"此操作將覆蓋原有的地址資訊，是否確定執行？"
+    },
+    "Error": {
+      "DHLNoError": "DHL 沒有錯誤訊息",
+      "DOCannotAdd": "以下 DO 無法新增至 Booking",
+      "DeleteFail": "刪除失敗"
+    },
+    "Info": {
+      "NoFileDownload": "無檔案可下載",
+      "UpdateSuccess": "更新成功",
+      "NoDatafound": "查無資料_",
+      "DataEmpty": "資料為空",
+      "NoAbnormalTMS": "此Booking下目前無異常TMS",
+      "UnableGenerateRFQ": "此Booking目前狀態下無法產生報價"
+    },
+    "Success": {
+      "NoDataFound": "查無資料",
+      "AWBNum": "提單號:",
+      "CancelSuccess": "取消成功",
+      "DeleteSuccess": "刪除成功",
+        "UpdateSuccess": "更新成功",
+      "Uploadsuccess": "上傳成功",
+      "UploadFail": "上傳失敗"
+    }
+  },
+  "DOCartonDetails": {
+    "Enter": "請輸入交貨單號或Booking單號或下線時間",
+    "OffloadTimeBlank": "下線時間不能為空",
+    "StartTimeGreater": "起始時間不能大於結束時間",
+    "OffloadTimem": "下線時間不能超過24小時"
+  },
+  "MESReport": {
+    "Alert": {
+      "DateBlank": "日期不能為空",
+      "StartGreater": "起日不能大於迄日"
+    },
+    "Info": "查無資料"
+  },
+  "RFQSetting": {
+    "Alert": {
+      "CheckMainPage": "請檢查主表必填欄位",
+      "CheckDetailedList": "請檢查明細列表必填欄位",
+      "EffectiveGreater": "生效起日不能大於迄日",
+      "QuoteNumber": "報價號碼起不能大於迄",
+      "MaintenanceStatus": "維護資料須皆為相同狀態",
+      "ApplicationInProgress": "該資料已為申請中",
+      "ProcceedingApplication": "待申請的資料才可以進行申請",
+      "DataValid": "維護資料須皆為有效",
+      "OnlyApplicationWithdrawn": "申請中的資料才可以進行撤回",
+      "ApplicationApproved": "該資料已為已核准",
+      "OnlyApplicationApproved": "申請中的資料才可以進行核准",
+      "PreviewFail": "預覽失敗",
+      "Tick": "請勾選資料"
+    },
+    "Error": "上傳失敗",
+    "Info": {
+      "AddSuccess": "新增成功",
+      "UpdateSuccess": "更新成功",
+      "NoData": "查無資料",
+      "DeleteSuccess": "刪除成功",
+      "EnterForwarder": "請輸入貨代",
+      "FormatError": "檔案格式錯誤"
+    },
+    "Success": {
+      "UpdateInProgress": "資料狀態成功更新為：申請中",
+      "UpdatePending": "資料狀態成功更新為：待申請",
+      "UpdateApproved": "資料狀態成功更新為：已核准",
+      "PreviewSuccess": "預覽成功",
+      "UploadSuccess": "上傳成功"
+    },
+    "Confirm": {
+      "ConfirmRFQ": "確定新增RFQ?",
+      "ConfirmDeleteRFQDetail": "確定刪除RFQ明細?",
+      "ConfirmEditRFQ": "確定編輯RFQ?",
+      "ConfirmApply": "確定要申請嗎?",
+      "ConfirmWithdraw": "確定要撤回嗎?",
+      "ConfirmDelete": "確定要刪除嗎?",
+      "ConfirmApprove": "確定要核准嗎?",
+      "ConfirmCancel": "確定要作廢嗎?"
+    }
+  },
+  "ExportDeclarationQuery": {
+    "Alert": {
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫"
+    },
+    "Confirm": {
+      "ContinueExecute": "是否繼續執行出口報關單確認?",
+      "ConfirmDelete": "確定要刪除嗎?",
+      "ConfirmCancelExport": "確定取消此筆出口報單?",
+      "ConfirmCancel": "確定取消"
+    },
+    "Success": {
+      "CancelSuccess": "進口報關單取消成功"
+    }
+  },
+  "LeaveWarehouse": {
+    "Info": "無檔案可下載"
+  },
+  "DOSearchForShip": {
+    "Alert": {
+      "ERPReturnedError": "ERP回傳管制料號憑證錯誤: ",
+      "StatusInvoiced": "狀態需為已開票",
+      "InvoiceStatus": "SG倉狀態需為以開票",
+      "BPaaSReturnedError": "BPaaS回傳管制料號憑證錯誤: "
+    },
+    "Confirm": {
+      "RemarkUrgentDO": "是否註記為急單?",
+      "ConfirmAutoBooking": "是否確定執行自動派車?"
+    },
+    "Success": "已加入自動派車佇列，系統將在 15 分鐘內執行作業"
+  },
+  "ConsignmentDaily": {
+    "Alert": {
+      "EnterDate": "請輸入托運日期",
+      "SelectForwarder": "請選擇貨代"
+    },
+    "Confirm": {
+      "ConsignmentReport": "托運日誌報表"
+    },
+    "Info": {
+      "NoData": "查無資料"
+    }
+  },
+  "Calendar": {
+    "Confirm": {
+      "ConfirmDelete": "確定刪除此行程？",
+      "ConfirmCancel": "確定取消"
+    }
+  },
+  "RoleMaintainance": {
+    "Error": {
+      "PwdNotMatch": "兩密碼不相符",
+      "EnterPwd": "請輸入密碼"
+    },
+    "Success": {
+      "AddSuccess": "新增成功",
+      "UpdateSuccess": "更新成功",
+      "SaveSuccess": "儲存成功"
+    }
+  },
+  "AirwaysExpenseSetting": {
+    "Alert": {
+      "CheckSerialNum": "請檢查流水號結束是否大於起始",
+      "CheckDate": "請檢查生效日結束日期是否大於起始日期",
+      "MaintenanceOfData": "維護資料須皆為相同狀態",
+      "ApplicationInProgress": "該資料已為申請中",
+      "PendingData": "待申請的資料才可以進行申請",
+      "DataValid": "維護資料須皆為有效",
+      "OnlyApplicationWithdrawn": "申請中的資料才可以進行撤回",
+      "ApplicationApproved": "該資料已為已核准",
+      "OnlyApplicationApproved": "申請中的資料才可以進行核准",
+      "CheckFreightForwarder": "請檢查貨代是否尚未選擇",
+      "CheckFee": "請檢查費用別是否正確",
+      "CheckCurrency": "請檢查幣別是否正確",
+      "CheckAirline": "請檢查航空公司是否正確",
+      "CheckMileage": "請檢查里程類型是否正確",
+      "CheckDoc": "請檢查單據類型是否正確",
+      "CheckRFQForwarder": "請檢查 RFQ 貨代服務類型是否正確",
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫",
+      "AmountFilled": "請檢查金額是否填寫",
+      "DepartureCountryCorrect": "請檢查出發國家是否正確",
+      "DestinationIATACorrect": "請檢查目的 IATA 區域是否正確"
+    },
+    "Confirm": {
+      "ConfirmApply": "確定要申請嗎?",
+      "ConfirmWithdraw": "確定要撤回嗎?",
+      "ConfirmDelete": "確定要刪除嗎?",
+      "ConfirmApprove": "確定要核准嗎?",
+      "ConfirmCancel": "確定要作廢嗎?"
+    },
+    "Info": {
+      "DeleteSuccess": "刪除成功"
+    },
+    "Success": {
+      "UpdatedAppInProgress": "資料狀態成功更新為：申請中",
+      "UpdatedPending": "資料狀態成功更新為：待申請",
+      "UpdatedApproved": "資料狀態成功更新為：已核准"
+    }
+  },
+  "CreateBooking": {
+    "Alert": {
+      "ERPError": "ERP回傳管制料號憑證錯誤: ",
+      "InvoiceStatus": "SG倉狀態需為以開票",
+      "AlreadyExist": "已存在",
+      "DONotFound": "該DO不存在",
+      "CertificateNumIncorrect": "管制品憑證編號不正確",
+      "CertificateNumBlank": "管制品憑證編號不可為空",
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫",
+      "CarTripBlank": "車次碼空白，請檢查是否有必填欄位尚未填寫",
+      "ConfirmCreateAgain": "已有相同車次碼,請確認是否重複建立",
+      "CreateAfterMaintenance": "無小區，請維護後再建立Booking",
+      "QueryBeforeCreating": "無正規化地址或城市或國家，請至DO查詢維護後再建立Booking",
+      "CannotCreateDuringDO_DoChange": "DO Change審核中, 無法建立Booking",
+      "CannotCreateDuringDO_FrontLineDoc": "助理附件尚未上傳, 無法建立Booking",
+      "BPaaSError": "BPaaS回傳管制料號憑證錯誤: "
+    },
+    "Error": {
+      "DeleteFail": "刪除失敗，找不到對應的 DO"
+    }
+  },
+  "BOLPalletNumber": {
+    "Alert": {
+      "EnterQuery": "請輸入任一查詢條件"
+    },
+    "Confirm": {
+      "BOLPalletQuery": "派車板號查詢"
+    },
+    "Info": {
+      "DataEmpty": "資料為空"
+    }
+  },
+  "SubscriptNotiSet": {
+    "Confirm": {
+      "ConfirmDelete": "確定要刪除嗎?"
+    },
+    "Success": {
+      "DeleteSuccess": "刪除成功",
+      "AddSuccess": "新增成功",
+      "UpdateSuccess": "更新成功"
+    }
+  },
+  "ContainerManagement": {
+    "Success": {
+      "UpdateSuccess": "更新成功"
+    },
+    "Confirm": {
+      "ChangeContainer": "箱數、重量、材積、板數超過，是否要換櫃"
+    },
+    "Alert": {
+      "ValueExceeded": "貨值超過，不可換櫃"
+    },
+    "Info": {
+      "NoFound": "查無資料",
+      "EmptyHawb":"以下BookingNo 的Hawb為空白:",
+      "MultipleBooking":"以下 Booking 存在多個貨櫃中:"
+    }
+  },
+  "AssignPicker": {
+    "Alert": {
+      "MustFill": "必須填寫一欄位才可以進行查詢"
+    }
+  },
+  "DeliveryOrderInvoice": {
+    "Alert": {
+      "EnterStart": "請輸入起日",
+      "EnterEnd": "請輸入迄日",
+      "StartDateGreater": "起日不能大於迄日",
+      "DateRangeError": "查詢期間不可超過31天",
+      "DateRangeError2": "查詢期間不可超過1天"
+    },
+    "Info": {
+      "DataEmpty": "資料為空"
+    }
+  },
+  "ImportDeclareSearch": {
+    "Alert": {
+      "CheckrequiredFields": "請檢查是否有必填欄位尚未填寫",
+      "ImportDeclarationPaid": "進口報關單已付款，無法取消進口報關單",
+      "ERPReturnedError": "ERP 回傳未知錯誤"
+    },
+    "Success": {
+      "ConfirmSuccess": "進口報關單確認成功",
+      "CancelSuccess": "進口報關單取消成功",
+      "DeleteSuccess": "刪除成功"
+    },
+    "Confirm": {
+      "ConfirmDelete": "確定要刪除嗎?"
+    }
+  },
+  "PackOutQuery": {
+    "Alert": {
+      "FilledBeforeQuery": "貨代、Booking、交貨單號、提單號碼必須要有一欄位有填寫才可以進行查詢"
+    },
+    "Info": {
+      "DataEmpty": "資料為空"
+    }
+  },
+  "CompanyStampMaintenance": {
+    "Alert": {
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫"
+    },
+    "Success": {
+      "UploadSuccess": "上傳成功"
+    }
+  },
+  "TariffRateSetting": {
+    "Alert": {
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫",
+      "CheckFreightForwarder": "請檢查貨代是否尚未選擇",
+      "CheckForwarder": "請檢查貨代是否正確"
+    }
+  },
+  "ChangePass": {
+    "Error": {
+      "PasswordMatch": "兩密碼不相符"
+    },
+    "Info": {
+      "ChangeSuccess": "變更成功"
+    },
+    "Alert": {
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫"
+    }
+  },
+  "ExchangeRate": {
+    "Alert": {
+      "ExchangeRateRangeBlank": "匯率區間不可為空",
+      "OriginCurrencyBlank": "來源幣別不可為空",
+      "CoversionCurrencyBlank": "轉換幣別不可為空",
+      "ExchangeRateBlank": "匯率不可為空",
+      "CheckRequiredFields": "請檢查是否有必填欄位尚未填寫"
+    }
+  },
+  "BillSearch": {
+    "Alert": {
+      "Tick": "請勾選資料",
+      "SelectFormat": "請選擇下載格式",
+      "NoFound": "查無資料",
+      "PreviewFail": "預覽失敗",
+      "UploadFail": "上傳失敗"
+    },
+    "Success": {
+      "ConfirmSuccess": "確認成功",
+      "CancelSuccess": "取消成功",
+      "PreviewSuccess": "預覽成功",
+      "UploadSuccess": "上傳成功"
+    }
+  },
+  "EvidenceCheck": {
+    "TickInformation": "請勾選資料",
+    "NoFound": "查無資料",
+    "ApprovedSuccess": "核准成功",
+    "ReturnSuccess": "返回成功",
+    "ResendSuccess": "重送成功",
+    "SignedSuccessfully": "立即送簽成功"
+  },
+  "NoEvidenceCheck": {
+    "TickInformation": "請勾選資料",
+    "NoFound": "查無資料",
+    "ApprovedSuccess": "核准成功",
+    "ApplicationSuccess": "申請成功",
+    "ReturnSuccess": "返回成功",
+    "UploadSuccess": "上傳成功"
+  },
+  "AddressMaintain": {
+    "ChooseAddress": "請選擇一個相似地址",
+    "AddressLimited": "英文地址限長度為 135",
+    "ReceivingCompanyLimited": "收件公司(英文)限長度為 60",
+    "FillOption": "正規化地址請至少選填一項",
+    "OperationFailed": "操作失敗，請洽IT人員。",
+    "DeleteCompleted": "已刪除完成",
+    "Restored": "已完成還原",
+    "Saved": "已完成儲存",
+    "ConfirmDelete": "你確定要刪除此列嗎?",
+    "ConfirmRestore": "確定要回復已異動的資料嗎?",
+    "ConfirmSave": "確定要儲存嗎?",
+    "SystemInformation": "系統資訊"
+  },
+  "FreightAnalysisReport": {
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "ImportDeclarationFeeAccountingReport": {
+    "Alert": {
+      "CustomsDeclarationFilled": "請檢查報關日期是否尚未填寫",
+      "EndGreaterThanStart": "請檢查報關結束日期是否大於起始日期",
+      "PeriodExceeds": "請檢查報關日期期間是否超過 31 天",
+      "AccountOpeningDateFilled": "請檢查立帳日期起迄是否尚未填寫",
+      "AccountOpeningEndDateGreater": "請檢查立帳結束日期是否大於起始日期",
+      "AccountOpeningDateExceeds": "請檢查立帳日期期間是否超過 31 天"
+    },
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "ImportDeclarationFeeReport": {
+    "Alert": {
+      "DateFilledRequired": "請檢查建立日期或是報關日期至少一個欄位有填寫",
+      "CheckCreationDate": "請檢查建立起始日期與結束日期是否都填寫",
+      "CreationEndDateGreaterStart": "請檢查建立結束日期是否大於起始日期",
+      "CreationDateExceeds": "請檢查建立日期期間是否超過 31 天",
+      "CheckCustomsDeclarationDate": "請檢查報關起始日期與結束日期是否都填寫",
+      "CustomsDeclarationEndDateGreater": "請檢查報關結束日期是否大於起始日期",
+      "CustomsDeclarationExceeds": "請檢查報關日期期間是否超過 31 天"
+    },
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "PaymentErrorReport": {
+    "Alert": {
+      "FieldFilled": "請檢查至少要有一個欄位有填寫才可以查詢：建立時間、ERP流水號、憑證編號、單據號碼、交貨單號/進貨單號",
+      "CreationDateEndDateGreater": "請檢查建立日結束日期是否大於起始日期"
+    },
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "PaymentReport": {
+    "Alert": {
+      "DocumentTypeSelected": "請檢查單據類型是否尚未選擇",
+      "EffectiveEndDateGreater": "請檢查生效日結束日期是否大於起始日期",
+      "CreationTimeExceeds": "請檢查建立時間期間是否超過 7 天"
+    },
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "PaymentForDHLReport": {
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "ShipImportConfirmReport": {
+    "Alert": {
+      "FillOption": "有憑流水號或建立日期至少選填一項",
+      "EnterEndDate": "請輸入迄日",
+      "EnterStartDate": "請輸入起日",
+      "EndDateGreater": "建立迄日不能大於建立起日",
+      "CreationTimeExceeds": "請檢查建立時間期間是否超過 31 天"
+    },
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "UploadDocReport": {
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "ViewRequestExpenseReport": {
+    "Info": {
+      "NoFound": "查無資料"
+    }
+  },
+  "DoRuleSetting": {
+    "Confirm": {
+      "ConfirmDelete": "確定要刪除嗎?",
+      "ConfirmImportData": "確定要匯入資料?",
+      "OverwriteConfirmImportData": "會覆蓋現行的資料，確定要匯入主表?"
+    },
+    "Info":{
+      "DeleteSuccess": "刪除成功",
+      "SaveSuccess": "儲存成功",
+      "UpdateSuccess": "更新成功",
+      "AddSuccess": "新增成功",
+      "ImportSuccess": "匯入成功"
+    }
+  },
+  "ReceiptFormQuery": {
+    "Alert": {
+      "CheckRequired": "請檢查是否有必填欄位尚未填寫",
+      "ReceiptFormNumFilled": "請檢查入倉單號是否填寫",
+      "SKUFilled": "請檢查料號是否填寫",
+      "COOFilled": "請檢查產地是否填寫",
+      "UnitPriceFilled": "請檢查單價是否填寫",
+      "FileFormatError": "檔案格式錯誤",
+      "NoRecordsFound": "查無報關單價紀錄",
+      "UpdateFail": "更新失敗",
+      "PreviewFail": "預覽失敗"
+    },
+    "Confirm": {
+      "ConfirmCancelBookingForm": "確定取消此筆入倉單?",
+      "ConfirmCancel": "確定取消",
+      "ConfirmAssignWarehousingForm": "確定指派產生入倉單?",
+      "ConfirmAssign": "確定指派",
+      "ConfirmCopyWarehousingForm": "確定複製此入倉單?",
+      "ConfirmCopy": "確定複製",
+      "ConfirmDelete": "確定要刪除嗎?"
+    },
+    "Info": {
+      "NoFound": "查無資料",
+      "AssignSuccess": "指派成功",
+      "NoFileDownload": "無檔案可下載"
+    },
+    "Success": {
+      "PreviewSuccess": "預覽成功",
+      "UploadSuccess": "上傳成功",
+      "CopySuccess": "複製成功",
+      "AddSuccess": "新增成功",
+      "CancelSuccess": "取消成功",
+      "UpdateSuccess": "更新成功"
+    },
+    "Error":{
+      "UploadFail": "上傳失敗"
+    }
+  },
+  "TariffRate": {
+    "Alert": {
+      "ForwarderCorrect": "請檢查貨代是否正確",
+      "SKUBlank": "料號不可為空",
+      "TariffBlank": "關稅率不可為空"
+    }
+  },
+  "UserMaintenance": {
+    "Alert": {
+      "EmployCodeExceeds": "請檢查 employee S/N 是否超過 10 碼"
+    }
+  },
+  "BillingViewer": {
+    "Error": {
+      "CheckRequiredFields": "會計科目、預估費用、預估費用幣別、付款類型 不能為空且預估費用必須大於 0"
+    }
+  },
+  "FreightSearch": {
+    "Error": {
+      "CheckRequired": "請檢查是否有必填欄位尚未填寫",
+      "CheckIfStartTimeGreaterThanEndTime": "起始時間不能大於結束時間",
+      "CheckIfStartTimeExceedsEndTimeRnageDays": "起始時間不能大於結束時間{{dayRange}}天"
+    }
+  }
+}

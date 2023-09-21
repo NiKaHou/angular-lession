@@ -1,0 +1,57 @@
+{
+  "DOImport": {
+    "Header": "建立 Booking",
+    "SubHeader": "匯入 DO",
+    "Button": {
+      "DOScan": "DO 單號掃描",
+      "DOSearch": "DO 單號查詢匯入",
+      "Preview": "預覽 Booking"
+    },
+    "RadioBtn":{
+      "Standard": "標準",
+      "Special": "特殊"
+    },
+    "Table": {
+      "Column": {
+        "Delete": "刪除",
+        "DONo": "交貨單號",
+        "LetterHeadCorp": "Letter Head 公司",
+        "ShippingCorp": "出貨公司",
+        "OrderCorp": "下單公司",
+        "ConsigneeKey": "客戶代碼",
+        "ConsineeName": "客戶名稱",
+        "Shipterm": "貿易條件",
+        "ETD": "ETD",
+        "ETA": "ETA",
+        "DeliveryType": "運送地點",
+        "DischargeType": "運送方式",
+        "ShipToAddr": "Ship To Address",
+        "DeliverToAddr": "Deliver To Address",
+        "ShippingRemark": "Shipping Remark",
+        "TotalCarton": "總箱數",
+        "NetWeight": "淨重",
+        "GrossWeight": "毛重",
+        "VolumeWeight": "材積",
+        "PaymentTerm": "Payment Term",
+        "Storer": "貨主",
+        "Group": "集團",
+        "InvoiceTime": "發票時間",
+        "NoShippingReason": "不出貨原因",
+        "Sales": "Sales",
+        "Department": "部門",
+        "DoStatus": "訂單狀態",
+        "BookingStatus": "DO Booking 狀態",
+        "DropShipFlag": "DropShip Flag",
+        "BookingNo": "Booking 號碼",
+        "Facility": "倉別",
+        "BookingCount": "派送次數",
+        "ShipNotes": "Shipping 備註",
+        "InvoiceNumber":"發票號碼"
+      },
+      "NoData": "尚未匯入 DO"
+    },
+    "Alert":{
+      "CancelDo":"有DO已經被取消"
+    }
+  }
+}

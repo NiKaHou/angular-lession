@@ -1,0 +1,10 @@
+{
+  "FileDownload": {
+    "Header": "下載",
+    "FileCategory": "檔案種類",
+    "Button": {
+      "PDF": "下載 PDF",
+      "ZIP": "下載 ZIP"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "AdvisingAbnormal": {
+    "Header": "進貨異常",
+    "Form": {
+      "Field": {
+        "OrderType": "訂單類別",
+        "Facility": "倉別",
+        "VendorNumber": "供應商名稱",
+        "HawbNo": "小提單號碼",
+        "AdNo": "進貨單號",
+        "InvoiceNo": "發票號碼",
+        "Notified": "是否已通知",
+        "Replied": "是否已回覆",
+        "Creater": "申請人"
+      },
+
+      "RadioButton": {
+        "PersonalOrder": "個人訂單",
+        "IncludeDepartmentOrder": "包含部門訂單"
+      },
+
+      "Placeholder": {
+        "OptionHint": {
+          "SelectANotifyStatus": "請選擇一個通知狀態",
+          "SelectAReplyStatus": "請選擇一個回覆狀態",
+          "SelectOneOrMoreFacility": "請選擇一或多個倉別",
+          "SelectOneOrMoreVendorNumber": "請選擇一或多個供應商名稱"
+        }
+      },
+
+      "Warning": {
+        "NotifiedAndRepliedWarning": "注：當 '是否已通知' 和 '是否已回覆' 爲空時，不會搜尋出 '是否已通知' 和 '是否已回覆' 同時為 Y 的資料."
+      },
+
+      "Toast": {
+        "NoInputAnyRequiredField": "必須填寫下列其中一個欄位:\n供應商名稱\n小提單號碼\n進貨單號\n發票號碼"
+      }
+    },
+
+    "Table": {
+      "Header": {
+        "Header": "Header 表",
+
+        "ColumnHeader": {
+          "AdNo": "進貨單號",
+          "HawbNo": "小提單號碼",
+          "ImportDeclarationNo": "進口報關單號",
+          "WaitingReference": "等候原因",
+          "VendorNumber": "供應商名稱",
+          "DocStatus": "進貨狀態",
+          "Facility": "倉別",
+          "NotifyUser": "通知人員",
+          "NotifyDt": "通知日期",
+          "NotifyFlag": "是否已通知",
+          "ReplyUser": "回覆人員",
+          "ReplyDt": "回覆日期",
+          "ReplyFlag": "是否已回覆",
+          "CreateDt": "建單日期"
+        },
+
+        "Button": {
+          "Notify": "異常通知",
+          "Reply": "回覆通知"
+        },
+
+        "Confirm": {
+          "Notify": "是否確定通知異常進貨單？",
+          "Reply": "是否確定回覆異常進貨單通知？?",
+          "Save": "是否確定保存 Header 的資料更動?",
+          "Restore": "是否確定還原已更動的 Header 資料？",
+          "Exit": "是否確定退出 Header 的編輯模式?\n請記得保存已更動的資料."
+        },
+
+        "Toast": {
+          "Success": {
+            "NotifySuccess": "異常通知完成",
+            "ReplySuccess": "回覆通知完成",
+            "SaveSuccess": "Header 保存完成",
+            "RestoreSuccess": "Header 資料還原完成",
+            "EditingCancelSuccess": "退出 Header 編輯模式完成"
+          },
+
+          "Failure": {
+            "NotifyFail": "異常通知失敗, 錯誤代碼: ",
+            "ReplyFail": "回覆通知失敗, 錯誤代碼: ",
+            "GetDataFail": "獲取 Header 資料失敗, 錯誤代碼: ",
+            "SaveFail": "保存 Header 資料失敗, 錯誤代碼: "
+          },
+
+          "Warning": {
+            "HadNotified": "以下為已通知過進貨單:",
+            "HadReplied": "以下為已回覆過進貨單:",
+            "NotAbnormal": "以下為非異常進貨單:"
+          }
+        }
+      },
+
+      "Detail": {
+        "Header": "Detail 表",
+
+        "ColumnHeader": {
+          "ExternLineNo": "AD明細行",
+          "SKU": "商品料號",
+          "ExpectedQty": "預收數量",
+          "InvoiceNo": "發票號碼",
+          "ReceivedDate": "收貨完成時間",
+          "SeqNo": "SeqNo"
+        },
+
+        "Button": {
+          "Upload": "上傳"
+        },
+
+        "Toast": {
+          "Failure": {
+            "GetDataFail": "獲取 Detail 資料失敗, 錯誤代碼: "
+          }
+        }
+      },
+
+      "AbnormalItem": {
+        "Header": "異常項目表",
+
+        "ColumnHeader": {
+          "WaitingReference": "等候原因",
+          "WaitingReferenceDesc": "等候原因描述",
+          "AbnormalCaseCnt": "異常箱數",
+          "File": "文件",
+          "RelatedDetailSeqNo": "關聯明細",
+          "HandleMethod": "處理方式",
+          "Notes": "Notes",
+          "CreateUser": "建立人員"
+        },
+
+        "ColumnData": {
+          "ShowFile": "顯示文件",
+          "Upload": "上傳"
+        },
+
+        "Confirm": {
+          "Save": "是否確定保存 異常項目 的資料更動?",
+          "Delete": "是否確定刪除此 異常項目?",
+          "Restore": "是否確定還原已更動的 異常項目 資料？",
+          "Exit": "是否確定退出 異常項目 的編輯模式?\n請記得保存已更動的資料."
+        },
+
+        "Toast": {
+          "Success": {
+            "SaveSuccess": " 異常項目 保存完成",
+            "DeleteSuccess": " 異常項目 刪除完成",
+            "RestoreSuccess": " 異常項目 資料還原完成",
+            "EditingCancelSuccess": "退出 異常項目 編輯模式完成"
+          },
+          "Failure": {
+            "GetDataFail": "獲取 異常項目 資料失敗, 錯誤代碼: ",
+            "SaveFail": "保存 異常項目 資料失敗, 錯誤代碼: "
+          },
+          "Warning": {
+            "EmptyData": "請填寫所有所需的資料",
+            "WaitingReferenceRequired": "請填寫等候原因",
+            "NegativeAbnormalCaseCnt": "異常箱數不可為負數"
+          }
+        }
+      },
+
+      "Button": {
+        "SelectAll": "勾選全部",
+        "Restore": "還原"
+      },
+
+      "Placeholder": {
+        "OptionHint": {
+          "ChooseColumns": "請選擇欄位"
+        }
+      }
+    },
+
+    "Dialog": {
+      "NewAbnormalItem": {
+        "Header": "新增異常項目",
+        "Form": {
+          "Field": {
+            "AbnormalCaseCount": "異常箱數",
+            "WaitingReference": "等候原因",
+            "WaitingReferenceDesc": "等候原因描述"
+          }
+        },
+        "Table": {
+          "File": {
+            "Header": "文件表",
+
+            "ColumnHeader": {
+              "FileName": "文件名稱"
+            },
+
+            "Button": {
+              "ChooseFile": "選擇文件"
+            }
+          },
+
+          "RelatedDetail": {
+            "Header": "關聯明細表",
+            "ColumnHeader": {
+              "ExternLineNo": "AD明細行",
+              "SKU": "商品料號",
+              "ExpectedQty": "預收數量",
+              "InvoiceNo": "發票號碼",
+              "ReceivedDate": "收貨完成時間",
+              "SeqNo": "SeqNo"
+            }
+          }
+        },
+
+        "Confirm": {
+          "Upload": "是否確定要上傳新的異常項目?",
+          "Exit": "是否確定關閉 新異常項目 的視窗？\n請記得保存已更動的資料."
+        },
+
+        "Toast": {
+          "Success": {
+            "UploadSuccess": "新的異常項目上傳完成"
+          },
+
+          "Failure": {
+            "UploadFailure": "上傳新的異常項目失敗, 錯誤代碼: "
+          },
+
+          "Warning": {
+            "EmptyData": "請填寫所有所需的資料",
+            "WaitingReferenceRequired": "請填寫等候原因",
+            "NegativeAbnormalCaseCnt": "異常箱數不可為負數"
+          }
+        }
+      },
+
+      "AbnormalItemFile": {
+        "Header": "異常項目文件",
+
+        "Mode": {
+          "Edit": "編輯",
+          "Download": "下載"
+        },
+
+        "Confirm": {
+          "Exit": "是否確定關閉 異常項目文件 的視窗?\n請記得保存已更動的資料.",
+          "Save": "是否確定保存文件的更動？"
+        },
+
+        "Toast": {
+          "Success": {
+            "SaveSuccess": "異常項目文件 保存完成"
+          },
+
+          "Failure": {
+            "SaveFileFailure": "文件儲存失敗，錯誤代碼： "
+          }
+        }
+      }
+    },
+
+    "Confirm": {
+      "Header": "系統資訊"
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectAWaitingReference": "請選擇等候原因"
+      }
+    }
+  }
+}

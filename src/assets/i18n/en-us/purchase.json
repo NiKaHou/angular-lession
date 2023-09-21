@@ -1,0 +1,40 @@
+{
+  "Purchase":{
+    "Header":"Inbound Status Query",
+    "Search":{
+      "Vendor":"Vendor",
+      "Facility":"Facility",
+      "AdNo":"AdNo",
+      "ExpressBill":"HAWB",
+      "Forwarder":"Forwarder",
+      "ImportDeclarationNo":"ImportDeclaration No.",
+      "Priority":"Priority",
+      "Normal":"Normal",
+      "Urgent":"Urgent",
+      "InvoiceNo":"InvoiceNo",
+      "Status":"Status",
+      "CreateDt":"Create Date",
+      "PersonOrder":"Personal Order",
+      "All":"All",
+      "ADSearch": "AD Search",
+      "Creater": "Creater"
+    },
+    "MainTable":{
+      "Facility":"Facility",
+      "AdNo":"AdNo",
+      "BillOfLading":"HAWB",
+      "SalesName":"Sales Name",
+      "PcsrName":"Create User",
+      "Priority":"Priority",
+      "Vendor":"Vendor",
+      "DocStatus":"Status",
+      "CreateDt": "Create Date"
+    },
+    "Option":{
+      "Priority":{
+        "Urgent":"Urgent",
+        "Normal":"Normal"
+      }
+    }
+  }
+}

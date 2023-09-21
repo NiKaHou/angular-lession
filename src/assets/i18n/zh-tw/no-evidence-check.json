@@ -1,0 +1,77 @@
+{
+  "NoEvidenceCheck": {
+    "Header": "無憑證確認",
+    "Confirm": {
+      "Header": "系統資訊",
+      "Save": "確定要儲存嗎?",
+      "SaveOrNot": "您的變更尚未儲存，請問要儲存嗎?"
+    },
+    "Toast": {
+      "SaveSuccess": "儲存成功"
+    },
+    "Button": {
+      "EditOrView":"檢視/編輯"
+    },
+    "Form": {
+      "InoutType": "費用類別",
+      "NonGUIId": "請款流水號",
+      "OrgId": "付款公司",
+      "CarrierPaymentBy": "付款對象",
+      "Status": "狀態",
+      "GUIAmount": "憑證金額",
+      "GUINo": "憑證編碼",
+      "GUIDt": "憑證日期",
+      "SourceModel": "資料源模式"
+    },
+    "Table": {
+      "Columns": {
+        "NonGUIId": "請款流水號",
+        "OrgId": "付款公司",
+        "SetOfBooksId": "帳本",
+        "CarrierPaymentBy": "付款對象",
+        "Status": "狀態",
+        "GUIAmount": "憑證金額",
+        "GUINo": "憑證編碼",
+        "GUIDt": "憑證日期",
+        "GUICurrency": "憑證幣別",
+        "ShippingDescription": "船務備註",
+        "AmountDifferenceDescription": "金額允差備註",
+        "ERPCarrierPaymentSiteId": "VENDOR_SITE_ID",
+        "TermsId": "付款條件",
+        "PaymentMethod": "付款方式",
+        "GLDt": "GL DATE",
+        "SourceModel": "資料源模式",
+        "AmountDifferenceColorFlag": "金額允差",
+        "Amount": "確認金額"
+      }
+    },
+    "DetailTable": {
+      "Columns": {
+        "NonGUIId": "單據號碼",
+        "InvoiceType": "單據類型",
+        "AccountName": "費用別",
+        "EstimatedAmount": "預估金額",
+        "Amount": "確認金額",
+        "LinePayCurrency": "付款幣別",
+        "LinePayAmount": "幣別轉換金額",
+        "LinePayRate": "付款匯率",
+        "ExpressBill": "提單號碼/信用卡",
+        "ImportDeclarationNo": "報關請款單",
+        "Description": "摘要",
+        "SalerNo": "統一編號(憑證)",
+        "SalerName": "開立發票廠商",
+        "FormatType": "發票格式",
+        "TaxCode": "稅別",
+        "VatCode": "稅率",
+        "GuiTaxAmount": "稅額",
+        "LinePayRateAf": "付款稅率",
+        "GuiAmountWithoutTax": "未稅金額",
+        "LineDescription": "明細行摘要",
+        "LineBaseCurrency": "作帳幣別",
+        "LineBaseAmount": "作帳金額",
+        "PayBaseAmount": "PAY_BASE_AMOUNT",
+        "CutCode": "扣抵代號"
+      }
+    }
+  }
+}

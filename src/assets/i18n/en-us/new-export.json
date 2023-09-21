@@ -1,0 +1,32 @@
+{
+  "NewExport": {
+    "Header": "New Export Declaration Form",
+    "Form": {
+      "Forwarder": "Forwarder",
+      "PayeeType": "Payee Type",
+      "IdenNum": "Identificaiton Number",
+      "Payee": "Payee",
+      "DeliveryMode": "Delivery Mode",
+      "BillComp": "Bill Company",
+      "CustomerCode": "Customer Code",
+      "DeclarDate": "Declaration Date",
+      "DeclarType": "Declaration Type",
+      "CalculationMethod": "Calculation Method",
+      "Currency": "Currency",
+      "ExchangeRate": "Exchange Rate",
+      "DomesticForeign": "Domestic/Foreign Goods",
+      "ExportMethod": "Export Method",
+      "OriginCurrenAnt": "Original Currency Amount",
+      "AccountCurrenAnt": "Accounting Currency Amount",
+      "FCAFOBPrice": "FCA/FOB Price",
+      "FCAFOBPriceAccount": "FCA/FOB Price (Account Currency)",
+      "PromotionFeeAccount": "Promotion Fee (Account Currency)",
+      "MAWB": "MAWB",
+      "HAWB": "HAWB",
+      "FlightNum": "Flight Number",
+      "FlightDate": "Flight Date",
+      "Remarks": "Remarks",
+      "ChargeParty": "Charge Custom Declaration Party"
+    }
+  }
+}

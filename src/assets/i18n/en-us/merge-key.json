@@ -1,0 +1,59 @@
+{
+  "MergeKey":{
+    "Search":{
+      "Title":"Merge Key Search",
+      "MergeKey":"Merge Key",
+      "DoNo":"DoNo",
+      "ConsigneeKey":"Consignee Key",
+      "CreateUser":"Create User",
+      "CreateDt":"Create Date",
+      "OrderType":"Order Type",
+      "PersonalOrder":"Personal Order",
+      "All":"All",
+      "ConfirmStatus":"ConfirmStatus"
+    },
+    "MainTable":{
+      "MergeKey":"Merge Key",
+      "ConfirmStatus": "Confirm Status",
+      "BookingNo": "Booking No",
+      "CreateUser": "Create User",
+      "CreateDt": "Create Date",
+      "BookingType": "BookingType",
+      "ConfirmDt": "Confirm Date",
+      "ConfirmUser": "Confirm User",
+      "DOQty":"DO Qty"
+    },
+    "Dialog":{
+      "Header":"Merge Do Search",
+      "DoMergePreview":"Do Merge Preview"
+    },
+    "DetailTable":{
+      "Header":"Merge Key Detail",
+      "Delete":"Delete",
+      "DoNo":"DoNo",
+      "ConsigneeKey":"Consignee Key",
+      "ConsigneeCompany":"Consignee Company",
+      "CartonCnt":"Carton Count",
+      "DoStatus":"Do Status",
+      "MergeStatus":"MergeDo Detail Status"
+    },
+    "Confirm":{
+      "DeleteConfirmMessage":"Are you sure Delete this record ?",
+      "InstantBooking":"The latest ETD of MergeKey : {0} is today, carTrip is {1}",
+      "InstantBookingConfirm":"please confirm create booking or not?"
+    },
+    "Button":{
+      "RemoveMergeKey":"Remove Merge Key",
+      "Merge":"Merge",
+      "ConfirmWithdraw":"Withdraw",
+      "ConfirmCancel":"Cancel Confirmation",
+      "Confirm":"Confirm"
+    },
+    "Info":{
+      "Success":"Update Successful.",
+      "MergeRuleMsg":"MergeKey does not meet the merge rules :",
+      "BookingCreateSuccess":"Booking Create Successfully:",
+      "MergeKeyFailed":"MergeKey Booking Create Failed:"
+    }
+  }
+}

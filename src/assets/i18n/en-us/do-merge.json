@@ -1,0 +1,61 @@
+{
+  "DoMerge":{
+    "Search":{
+      "Title":"Merge Do Search",
+      "DoNo":"DoNo",
+      "LetterHeadOrgId":"LetterHead OrgId",
+      "ConsigneeKey":"ConsigneeKey",
+      "DoStatus":"Do Status",
+      "Facility":"Facility",
+      "DeliveryCategory":"Delivery Category",
+      "ShipTo":"Ship To",
+      "Creater":"Creater",
+      "Sales":"Sales",
+      "OrderType":"Order Type",
+      "PersonalOrder":"Personal Order",
+      "All":"All",
+      "DropType":"Drop"
+    },
+    "MainTable":{
+      "DoNo":"DoNo",
+      "LetterHeadOrgId":"LetterHead OrgId",
+      "ConsigneeKey":"ConsigneeKey",
+      "DoStatus":"Do Status",
+      "Facility":"Facility",
+      "InvoiceNo":"Invoice No.",
+      "IsDropRemark":"Drop",
+      "ETD":"ETD",
+      "DeliveryTo": "delivery To",
+      "DeliveryType": "Delivery Type",
+      "IncoTerm": "Icon Term",
+      "Creater": "Creater",
+      "Sales":"Sales",
+      "ShipTo": "ship To",
+      "taskCode": "MergeRemark",
+      "taskValue": "IndependentRemark"
+    },
+    "Options":{
+      "Drop":{
+        "Yes":"Yes",
+        "No":"No"
+      }
+    },
+    "Footer":{
+      "Merge":"Merge",
+      "Import": "Import"
+    },
+    "Toast":{
+      "SaveTaskCodeSuccess":"Save TaskCode Success",
+      "SaveTaskCodeFail":"Save TaskCode Fail",
+      "NotSaveTaskCode":"Please check the modified DoTaskCode first and Save it",
+      "EditModeError":"Unable to merge in edit mode, Please save the changes first",
+      "TaskValueIsEmpty":"Please Enter a description of the Changed DoTaskCode DO : "
+    },
+    "Confirm": {
+      "Header": "System Info",
+      "Save": "Are you sure to save?",
+      "ChangeSaveOrNot": "Your change didn't save. Do you want to save?",
+      "SaveOrNot": "Do you want to save?"
+    }
+  }
+}

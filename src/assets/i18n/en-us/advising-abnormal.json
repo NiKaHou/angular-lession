@@ -1,0 +1,269 @@
+{
+  "AdvisingAbnormal": {
+    "Header": "Advising Abnormal",
+    "Form": {
+      "Field": {
+        "OrderType": "Order Type",
+        "Facility": "Facility",
+        "VendorNumber": "Vendor Name",
+        "HawbNo": "Hawb No",
+        "AdNo": "Ad No",
+        "InvoiceNo": "Invoice No",
+        "Notified": "Notified",
+        "Replied": "Replied",
+        "Creater": "Creater"
+      },
+
+      "RadioButton": {
+        "PersonalOrder": "Personal Order",
+        "IncludeDepartmentOrder": "Include Department Order"
+      },
+
+      "Placeholder": {
+        "OptionHint": {
+          "SelectANotifyStatus": "Select a notify status",
+          "SelectAReplyStatus": "Select a reply status",
+          "SelectOneOrMoreFacility": "Select one or more Facility",
+          "SelectOneOrMoreVendorNumber": "Select one or more Vendor Name"
+        }
+      },
+
+      "Warning": {
+        "NotifiedAndRepliedWarning": "Note: When the 'Notified' and 'Replied' is empty, the result will be all the data in which both the 'Notified' and 'Replied' column is not Y at the same time."
+      },
+
+      "Toast": {
+        "NoInputAnyRequiredField": "Must input value to one of these field:\nVendorName\nHawb No\nAd No\nInvoice No"
+      }
+    },
+
+    "Table": {
+      "Header": {
+        "Header": "Header Table",
+
+        "ColumnHeader": {
+          "AdNo": "Ad No",
+          "HawbNo": "Hawb No",
+          "ImportDeclarationNo": "Import Declaration No",
+          "WaitingReference": "Waiting Reference",
+          "VendorNumber": "Vendor Name",
+          "DocStatus": "Doc Status",
+          "Facility": "Facility",
+          "NotifyUser": "Notify User",
+          "NotifyDt": "Notify Date",
+          "NotifyFlag": "Notified",
+          "ReplyUser": "Reply User",
+          "ReplyDt": "Reply Date",
+          "ReplyFlag": "Replied",
+          "CreateDt": "CreateDt"
+        },
+
+        "Button": {
+          "Notify": "Notify",
+          "Reply": "Reply"
+        },
+
+        "Confirm": {
+          "Notify": "Are you sure to notify about abnormal AD?",
+          "Reply": "Are you sure to reply about abnormal AD?",
+          "Save": "Are you sure to save your Header data changes?",
+          "Restore": "Are you sure to restore the changed Header data?",
+          "Exit": "Are you sure to exit Header edit mode? Remember to save your changes."
+        },
+
+        "Toast": {
+          "Success": {
+            "NotifySuccess": "Notification completed",
+            "ReplySuccess": "Reply completed",
+            "SaveSuccess": "Header save completed",
+            "RestoreSuccess": "Header data restore completed",
+            "EditingCancelSuccess": "Header editing cancel completed"
+          },
+
+          "Failure": {
+            "NotifyFail": "Notification failed, Error Code: ",
+            "ReplyFail": "Reply failed, Error Code: ",
+            "GetDataFail": "Find Header data failed, Error Code: ",
+            "SaveFail": "Save Header data failed, Error Code: "
+          },
+
+          "Warning": {
+            "HadNotified": "Below AD(s) had notified before:",
+            "HadReplied": "Below AD(s) had replied before:",
+            "NotAbnormal": "Below AD(s) is/are not abnormal:"
+          }
+        }
+      },
+
+      "Detail": {
+        "Header": "Detail Table",
+
+        "ColumnHeader": {
+          "ExternLineNo": "Extern Line No",
+          "SKU": "SKU",
+          "ExpectedQty": "Expected Qty",
+          "InvoiceNo": "Invoice No",
+          "ReceivedDate": "Received Date",
+          "SeqNo": "SeqNo"
+        },
+
+        "Button": {
+          "Upload": "Upload"
+        },
+
+        "Toast": {
+          "Failure": {
+            "GetDataFail": "Find Detail data failed, Error Code: "
+          }
+        }
+      },
+
+      "AbnormalItem": {
+        "Header": "Abnormal Item Table",
+
+        "ColumnHeader": {
+          "WaitingReference": "Waiting Reference",
+          "WaitingReferenceDesc": "Waiting Reference Description",
+          "AbnormalCaseCnt": "Abnormal Case Count",
+          "File": "File",
+          "RelatedDetailSeqNo": "Related Detail SeqNo",
+          "HandleMethod": "Handle Method",
+          "Notes": "Notes",
+          "CreateUser": "CreateUser"
+        },
+
+        "ColumnData": {
+          "ShowFile": "Show File",
+          "Upload": "Upload"
+        },
+
+        "Confirm": {
+          "Save": "Are you sure to save your Abnormal Item data changes?",
+          "Delete": "Are you sure to delete this Abnormal Item?",
+          "Restore": "Are you sure to restore the changed Abnormal Item data?",
+          "Exit": "Are you sure to exit Abnormal Item edit mode? Remember to save your changes."
+        },
+
+        "Toast": {
+          "Success": {
+            "SaveSuccess": "Abnormal Item save completed",
+            "DeleteSuccess": "Abnormal Item delete completed",
+            "RestoreSuccess": "Abnormal Item data restore completed",
+            "EditingCancelSuccess": "Abnormal Item editing cancel completed"
+          },
+          "Failure": {
+            "GetDataFail": "Find Abnormal Item data failed, Error Code: ",
+            "SaveFail": "Save Abnormal Item failed, Error Code: "
+          },
+          "Warning": {
+            "EmptyData": "Please fill the required data",
+            "WaitingReferenceRequired": "Waiting Reference is required",
+            "NegativeAbnormalCaseCnt": "Abnormal Case Count can't be negative"
+          }
+        }
+      },
+
+      "Button": {
+        "SelectAll": "Select All",
+        "Restore": "Restore"
+      },
+
+      "Placeholder": {
+        "OptionHint": {
+          "ChooseColumns": "Choose columns"
+        }
+      }
+    },
+
+    "Dialog": {
+      "NewAbnormalItem": {
+        "Header": "New Abnormal Item",
+        "Form": {
+          "Field": {
+            "AbnormalCaseCount": "Abnormal Case Count",
+            "WaitingReference": "Waiting Reference",
+            "WaitingReferenceDesc": "Waiting Reference Description"
+          }
+        },
+        "Table": {
+          "File": {
+            "Header": "File",
+
+            "ColumnHeader": {
+              "FileName": "File Name"
+            },
+
+            "Button": {
+              "ChooseFile": "Choose File"
+            }
+          },
+
+          "RelatedDetail": {
+            "Header": "Related Detail",
+            "ColumnHeader": {
+              "ExternLineNo": "Extern Line No",
+              "SKU": "SKU",
+              "ExpectedQty": "Expected Qty",
+              "InvoiceNo": "Invoice No",
+              "ReceivedDate": "Received Date",
+              "SeqNo": "SeqNo"
+            }
+          }
+        },
+
+        "Confirm": {
+          "Upload": "Are you sure to upload new Abnormal Item?",
+          "Exit": "Are you sure to exit this dialog? Remember to save your changes."
+        },
+
+        "Toast": {
+          "Success": {
+            "UploadSuccess": "New Abnormal Item upload completed"
+          },
+
+          "Failure": {
+            "UploadFailure": "Upload New Abnormal Item failed, Error Code: "
+          },
+
+          "Warning": {
+            "EmptyData": "Please fill the required data",
+            "WaitingReferenceRequired": "Waiting Reference is required",
+            "NegativeAbnormalCaseCnt": "Abnormal Case Count can't be negative"
+          }
+        }
+      },
+
+      "AbnormalItemFile": {
+        "Header": "Abnormal Item File",
+        "Mode": {
+          "Edit": "Edit",
+          "Download": "Download"
+        },
+        "Confirm": {
+          "Exit": "Are you sure to exit this dialog? Remember to save your changes.",
+          "Save": "Are you sure to save your file data changes?"
+        },
+
+        "Toast": {
+          "Success": {
+            "SaveSuccess": "Abnormal Item File save completed"
+          },
+
+          "Failure": {
+            "SaveFailure": "Saving File failed, Error Code: "
+          }
+        }
+      }
+    },
+
+    "Confirm": {
+      "Header": "System Info"
+    },
+
+    "Placeholder": {
+      "OptionHint": {
+        "SelectAWaitingReference": "Select a waiting reference"
+      }
+    }
+  }
+}

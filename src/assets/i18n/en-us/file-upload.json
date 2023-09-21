@@ -1,0 +1,10 @@
+{
+  "FileUpload": {
+    "Header":"Upload",
+    "File":"File",
+    "MutlipleFile":"Mutliple File",
+    "OneFileWarn":"A referenceKey can only upload a file",
+    "ChooseFileWarn":"Please choose referenceKey!!",
+    "DeleteMsg":"Are you sure to delete?"
+  }
+}

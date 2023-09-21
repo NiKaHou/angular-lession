@@ -4,6 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "types": [
+      // ... your other types
+      "node"
+    ],
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -15,6 +19,6 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
   }
 }

@@ -1,0 +1,19 @@
+{
+  "ImportExportLicenceInfo": {
+    "Title" : "Import Export Licence Info",
+    "ApplyArea": "Apply Area",
+    "ApplyItemCode" : "Apply Item",
+    "Description": "Description",
+    "IsNecessary": "Is Necessary",
+    "IsSpecificallyRequested": "Is Specifically Requested",
+    "OfficalInfo": "Offical Info",
+    "DocumentName": "Document",
+    "ApplyForm" : "Apply Form",
+    "Toast" :{
+      "SelectApplyArea": "Please Select Apply Area",
+      "SelectApplyItemCode": "Please Select Apply Item",
+      "NoFile" : "No File",
+      "ApplicationProgressHK" : "If need to apply progress of import & export license, pls find out the application receipt number on “Import & Export License Application”, and then turn to “Trade & Industry Dept” inquiries location input \"find out actual progress\""
+    }
+  }
+}

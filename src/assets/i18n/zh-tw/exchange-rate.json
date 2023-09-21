@@ -1,0 +1,53 @@
+{
+  "ExchangeRate": {
+    "Search": {
+      "ExchangeType": "匯率類型",
+      "OriginCurrency": "來源幣別",
+      "ConversionCurrency": "轉換幣別",
+      "Effective": "有效"
+    },
+    "Button": {
+      "New": "新增",
+      "Import": "匯入",
+      "Export": "匯出"
+    },
+    "MainTable": {
+      "ExchangeType": "匯率類型",
+      "Date": "日期",
+      "OriginExchangeRate": "來源匯率",
+      "ConversionRate": "轉換匯率",
+      "ExchangeRate": "匯率",
+      "ExchangeRateRange": "匯率區間",
+      "IsValid": "是否有效",
+      "Creator": "建立者",
+      "CreationTime": "建立時間",
+      "UpdateBy": "更新者",
+      "UpdateTime": "更新時間"
+    }
+  },
+  "ExchangeRateNew": {
+    "New": "新增",
+    "ExchangeType": "匯率類型",
+    "ExchangeDate": "換匯日期",
+    "OriginExchangeRate": "來源匯率",
+    "ConversionRate": "轉換匯率",
+    "ExchangeRate": "匯率",
+    "ExchangeRateRange": "匯率區間",
+    "IsValid": "是否有效"
+  },
+  "ExchangeRateImport": {
+    "ImportExchangeRateSetting": "匯率設定匯入",
+    "ExchangeType": "匯率類型",
+    "File": "檔案",
+    "Select": "選擇",
+    "Import": "匯入",
+    "Cancel": "取消",
+    "TemplateDownload": "範本下載",
+    "Upload": "上傳",
+    "Date": "日期",
+    "ExchangeRateRange": "匯率區間",
+    "OriginCurrency": "來源幣別",
+    "ConversionCurrency": "轉換幣別",
+    "ExchangeRate": "匯率"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "InboundProgress": {
+    "Header": "進貨進度",
+    "MainTable":{
+      "Column":{
+        "OrgId":"公司別",
+        "AdNo":"進貨單號",
+        "BillOfLading":"提單號",
+        "InvoiceNo":"發票號碼",
+        "Sku":"商品料號",
+        "ExpectedQty":"預計收貨數量"
+      }
+    }
+  }
+}
